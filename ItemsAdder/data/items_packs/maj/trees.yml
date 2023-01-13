@@ -1,0 +1,158 @@
+info:
+  namespace: maj
+items:
+  dirt_leaves:
+    display_name: display-name-maj-dirt_leaves
+    permission: maj.dirt_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/dirt/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+  dirt_log:
+    display_name: display-name-maj-dirt_log
+    permission: maj.dirt_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/dirt/log_top.png
+      - block/dirt/log.png
+      - block/dirt/log.png
+      - block/dirt/log.png
+      - block/dirt/log_top.png
+      - block/dirt/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+
+  stone_leaves:
+    display_name: display-name-maj-stone_leaves
+    permission: maj.stone_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/stone/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+  stone_log:
+    display_name: display-name-maj-stone_log
+    permission: maj.stone_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/stone/log_top.png
+      - block/stone/log.png
+      - block/stone/log.png
+      - block/stone/log.png
+      - block/stone/log_top.png
+      - block/stone/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+
+loots:
+  blocks:
+    dirt_log:
+      enabled: true
+      type: dirt_log
+      items:
+        dirt_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    dirt_log2:
+      enabled: true
+      type: dirt_log
+      items:
+        dirt_resin:
+          item: dirt_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    dirt_leaves:
+      enabled: true
+      type: dirt_leaves
+      items:
+        dirt_acorn:
+          item: dirt_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    dirt_leaves2:
+      enabled: true
+      type: dirt_leaves
+      items:
+        dirt_sapling:
+          item: dirt_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+
+    stone_log:
+      enabled: true
+      type: stone_log
+      items:
+        stone_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    stone_log2:
+      enabled: true
+      type: stone_log
+      items:
+        stone_resin:
+          item: stone_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    stone_leaves:
+      enabled: true
+      type: stone_leaves
+      items:
+        stone_acorn:
+          item: stone_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    stone_leaves2:
+      enabled: true
+      type: stone_leaves
+      items:
+        stone_sapling:
+          item: stone_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10

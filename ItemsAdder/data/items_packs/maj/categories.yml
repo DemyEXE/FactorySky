@@ -1,0 +1,19 @@
+info:
+  namespace: maj
+categories:
+  maj:
+    enabled: true
+    icon: "maj:dirt_leaves"
+    name: display-category-maj
+    permission: 'ia.menu.maj'
+    items:
+      - "maj:dirt_leaves"
+      - "maj:dirt_log"
+      - "maj:dirt_sapling"
+      - "maj:dirt_resin"
+      - "maj:dirt_acorn"
+      - "maj:stone_leaves"
+      - "maj:stone_log"
+      - "maj:stone_sapling"
+      - "maj:stone_resin"
+      - "maj:stone_acorn"
