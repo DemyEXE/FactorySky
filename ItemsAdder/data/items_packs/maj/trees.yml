@@ -1,0 +1,668 @@
+info:
+  namespace: maj
+items:
+  dirt_leaves:
+    display_name: display-name-maj-dirt_leaves
+    permission: maj.dirt_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/dirt/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+        sound:
+          break:
+            name: block.grass.break
+  dirt_log:
+    display_name: display-name-maj-dirt_log
+    permission: maj.dirt_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/dirt/log_top.png
+      - block/dirt/log.png
+      - block/dirt/log.png
+      - block/dirt/log.png
+      - block/dirt/log_top.png
+      - block/dirt/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+        sound:
+          break:
+            name: block.wood.break
+
+  stone_leaves:
+    display_name: display-name-maj-stone_leaves
+    permission: maj.stone_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/stone/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+        sound:
+          break:
+            name: block.grass.break
+  stone_log:
+    display_name: display-name-maj-stone_log
+    permission: maj.stone_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/stone/log_top.png
+      - block/stone/log.png
+      - block/stone/log.png
+      - block/stone/log.png
+      - block/stone/log_top.png
+      - block/stone/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+        sound:
+          break:
+            name: block.wood.break
+
+  iron_leaves:
+    display_name: display-name-maj-iron_leaves
+    permission: maj.iron_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/iron/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+        sound:
+          break:
+            name: block.grass.break
+  iron_log:
+    display_name: display-name-maj-iron_log
+    permission: maj.iron_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/iron/log_top.png
+      - block/iron/log.png
+      - block/iron/log.png
+      - block/iron/log.png
+      - block/iron/log_top.png
+      - block/iron/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+        sound:
+          break:
+            name: block.wood.break
+
+  redstone_leaves:
+    display_name: display-name-maj-redstone_leaves
+    permission: maj.redstone_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/redstone/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+        sound:
+          break:
+            name: block.grass.break
+  redstone_log:
+    display_name: display-name-maj-redstone_log
+    permission: maj.redstone_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/redstone/log_top.png
+      - block/redstone/log.png
+      - block/redstone/log.png
+      - block/redstone/log.png
+      - block/redstone/log_top.png
+      - block/redstone/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+        sound:
+          break:
+            name: block.wood.break
+
+  lapis_leaves:
+    display_name: display-name-maj-lapis_leaves
+    permission: maj.lapis_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/lapis/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+        sound:
+          break:
+            name: block.grass.break
+  lapis_log:
+    display_name: display-name-maj-lapis_log
+    permission: maj.lapis_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/lapis/log_top.png
+      - block/lapis/log.png
+      - block/lapis/log.png
+      - block/lapis/log.png
+      - block/lapis/log_top.png
+      - block/lapis/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+        sound:
+          break:
+            name: block.wood.break
+
+  gold_leaves:
+    display_name: display-name-maj-gold_leaves
+    permission: maj.gold_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/gold/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+        sound:
+          break:
+            name: block.grass.break
+  gold_log:
+    display_name: display-name-maj-gold_log
+    permission: maj.gold_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/gold/log_top.png
+      - block/gold/log.png
+      - block/gold/log.png
+      - block/gold/log.png
+      - block/gold/log_top.png
+      - block/gold/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+        sound:
+          break:
+            name: block.wood.break
+
+  diamond_leaves:
+    display_name: display-name-maj-diamond_leaves
+    permission: maj.diamond_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/diamond/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+        sound:
+          break:
+            name: block.grass.break
+  diamond_log:
+    display_name: display-name-maj-diamond_log
+    permission: maj.diamond_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/diamond/log_top.png
+      - block/diamond/log.png
+      - block/diamond/log.png
+      - block/diamond/log.png
+      - block/diamond/log_top.png
+      - block/diamond/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+        sound:
+          break:
+            name: block.wood.break
+
+  emerald_leaves:
+    display_name: display-name-maj-emerald_leaves
+    permission: maj.emerald_leaves
+    resource:
+      material: OAK_LEAVES
+      generate: true
+      textures:
+      - block/emerald/leaves.png
+    specific_properties:
+      block:
+        hardness: 0.2
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+        sound:
+          break:
+            name: block.grass.break
+  emerald_log:
+    display_name: display-name-maj-emerald_log
+    permission: maj.emerald_log
+    resource:
+      material: SPRUCE_LOG
+      generate: true
+      textures:
+      - block/emerald/log_top.png
+      - block/emerald/log.png
+      - block/emerald/log.png
+      - block/emerald/log.png
+      - block/emerald/log_top.png
+      - block/emerald/log.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _AXE
+        - _axe
+        - HAND
+        sound:
+          break:
+            name: block.wood.break
+
+loots:
+  blocks:
+    dirt_log:
+      enabled: true
+      type: dirt_log
+      items:
+        dirt_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    dirt_log2:
+      enabled: true
+      type: dirt_log
+      items:
+        dirt_resin:
+          item: dirt_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    dirt_leaves:
+      enabled: true
+      type: dirt_leaves
+      items:
+        dirt_acorn:
+          item: dirt_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    dirt_leaves2:
+      enabled: true
+      type: dirt_leaves
+      items:
+        dirt_sapling:
+          item: dirt_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+
+    stone_log:
+      enabled: true
+      type: stone_log
+      items:
+        stone_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    stone_log2:
+      enabled: true
+      type: stone_log
+      items:
+        stone_resin:
+          item: stone_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    stone_leaves:
+      enabled: true
+      type: stone_leaves
+      items:
+        stone_acorn:
+          item: stone_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    stone_leaves2:
+      enabled: true
+      type: stone_leaves
+      items:
+        stone_sapling:
+          item: stone_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+
+    iron_log:
+      enabled: true
+      type: iron_log
+      items:
+        iron_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    iron_log2:
+      enabled: true
+      type: iron_log
+      items:
+        iron_resin:
+          item: iron_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    iron_leaves:
+      enabled: true
+      type: iron_leaves
+      items:
+        iron_acorn:
+          item: iron_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    iron_leaves2:
+      enabled: true
+      type: iron_leaves
+      items:
+        iron_sapling:
+          item: iron_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+
+    redstone_log:
+      enabled: true
+      type: redstone_log
+      items:
+        redstone_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    redstone_log2:
+      enabled: true
+      type: redstone_log
+      items:
+        redstone_resin:
+          item: redstone_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    redstone_leaves:
+      enabled: true
+      type: redstone_leaves
+      items:
+        redstone_acorn:
+          item: redstone_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    redstone_leaves2:
+      enabled: true
+      type: redstone_leaves
+      items:
+        redstone_sapling:
+          item: redstone_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+
+    lapis_log:
+      enabled: true
+      type: lapis_log
+      items:
+        lapis_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    lapis_log2:
+      enabled: true
+      type: lapis_log
+      items:
+        lapis_resin:
+          item: lapis_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    lapis_leaves:
+      enabled: true
+      type: lapis_leaves
+      items:
+        lapis_acorn:
+          item: lapis_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    lapis_leaves2:
+      enabled: true
+      type: lapis_leaves
+      items:
+        lapis_sapling:
+          item: lapis_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+
+    gold_log:
+      enabled: true
+      type: gold_log
+      items:
+        gold_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    gold_log2:
+      enabled: true
+      type: gold_log
+      items:
+        gold_resin:
+          item: gold_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    gold_leaves:
+      enabled: true
+      type: gold_leaves
+      items:
+        gold_acorn:
+          item: gold_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    gold_leaves2:
+      enabled: true
+      type: gold_leaves
+      items:
+        gold_sapling:
+          item: gold_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+
+    diamond_log:
+      enabled: true
+      type: diamond_log
+      items:
+        diamond_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    diamond_log2:
+      enabled: true
+      type: diamond_log
+      items:
+        diamond_resin:
+          item: diamond_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    diamond_leaves:
+      enabled: true
+      type: diamond_leaves
+      items:
+        diamond_acorn:
+          item: diamond_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    diamond_leaves2:
+      enabled: true
+      type: diamond_leaves
+      items:
+        diamond_sapling:
+          item: diamond_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+
+    emerald_log:
+      enabled: true
+      type: emerald_log
+      items:
+        emerald_oak_log:
+          item: oak_log
+          min_amount: 1
+          max_amount: 1
+          chance: 100 
+    emerald_log2:
+      enabled: true
+      type: emerald_log
+      items:
+        emerald_resin:
+          item: emerald_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    emerald_leaves:
+      enabled: true
+      type: emerald_leaves
+      items:
+        emerald_acorn:
+          item: emerald_acorn
+          min_amount: 1
+          max_amount: 2
+          chance: 12.5
+    emerald_leaves2:
+      enabled: true
+      type: emerald_leaves
+      items:
+        emerald_sapling:
+          item: emerald_sapling
+          min_amount: 1
+          max_amount: 1
+          chance: 10

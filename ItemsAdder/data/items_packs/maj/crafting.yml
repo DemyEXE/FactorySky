@@ -1,0 +1,182 @@
+info:
+  namespace: maj
+recipes:
+  crafting_table:
+    dirt_mud_craft:
+      permission: maj.dirt_mud_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: dirt_resin
+        B: dirt_acorn
+      result:
+        item: maj:dirt_mud
+        amount: 1
+    stone_mud_craft:
+      permission: maj.stone_mud_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: stone_resin
+        B: stone_acorn
+      result:
+        item: maj:stone_mud
+        amount: 1
+    iron_mud_craft:
+      permission: maj.iron_mud_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: iron_resin
+        B: iron_acorn
+      result:
+        item: maj:iron_mud
+        amount: 1
+    redstone_mud_craft:
+      permission: maj.redstone_mud_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: redstone_resin
+        B: redstone_acorn
+      result:
+        item: maj:redstone_mud
+        amount: 1
+    lapis_mud_craft:
+      permission: maj.lapis_mud_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: lapis_resin
+        B: lapis_acorn
+      result:
+        item: maj:lapis_mud
+        amount: 1
+    gold_mud_craft:
+      permission: maj.gold_mud_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: gold_hardened_resin
+        B: gold_hardened_resin
+      result:
+        item: maj:gold_mud
+        amount: 1
+    diamond_mud_craft:
+      permission: maj.diamond_mud_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: diamond_hardened_resin
+        B: diamond_hardened_acorn
+      result:
+        item: maj:diamond_mud
+        amount: 1
+    emerald_mud_craft:
+      permission: maj.emerald_mud_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: emerald_hardened_resin
+        B: emerald_hardened_acorn
+      result:
+        item: maj:emerald_mud
+        amount: 1
+
+    gold_hardened_resin_craft:
+      permission: maj.gold_hardened_resin_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: gold_resin
+      result:
+        item: maj:gold_hardened_resin
+        amount: 1
+    gold_hardened_acorn_craft:
+      permission: maj.gold_hardened_acorn_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: gold_acorn
+      result:
+        item: maj:gold_hardened_acorn
+        amount: 1
+    diamond_hardened_resin_craft:
+      permission: maj.diamond_hardened_resin_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: diamond_resin
+      result:
+        item: maj:diamond_hardened_resin
+        amount: 1
+    diamond_hardened_acorn_craft:
+      permission: maj.diamond_hardened_acorn_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: diamond_acorn
+      result:
+        item: maj:diamond_hardened_acorn
+        amount: 1
+    emerald_hardened_resin_craft:
+      permission: maj.emerald_hardened_resin_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: emerald_resin
+      result:
+        item: maj:emerald_hardened_resin
+        amount: 1
+    emerald_hardened_acorn_craft:
+      permission: maj.emerald_hardened_acorn_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: emerald_acorn
+      result:
+        item: maj:emerald_hardened_acorn
+        amount: 1
+    

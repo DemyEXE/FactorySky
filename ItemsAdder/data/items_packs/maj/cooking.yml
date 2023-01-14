@@ -1,0 +1,64 @@
+info:
+  namespace: maj
+recipes:
+  cooking:
+    cobblestone:
+      permission: maj.cobblestone
+      ingredient:
+        item: maj:stone_mud
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: COBBLESTONE
+        amount: 1
+    iron:
+      permission: maj.iron
+      ingredient:
+        item: maj:iron_mud
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: IRON_INGOT
+        amount: 1
+    gold:
+      permission: maj.gold
+      ingredient:
+        item: maj:gold_mud
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: GOLD_INGOT
+        amount: 1
+    diamond:
+      permission: maj.diamond
+      ingredient:
+        item: maj:diamond_mud
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: DIAMOND
+        amount: 1
+    emerald:
+      permission: maj.emerald
+      ingredient:
+        item: maj:emerald_mud
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: EMERALD
+        amount: 1

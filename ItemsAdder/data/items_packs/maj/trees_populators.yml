@@ -1,0 +1,122 @@
+info:
+  namespace: maj
+trees_populators:
+  dirt_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:dirt_log
+    leaves: maj:dirt_leaves
+
+  stone_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:stone_log
+    leaves: maj:stone_leaves
+
+  iron_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:iron_log
+    leaves: maj:iron_leaves
+
+  redstone_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:redstone_log
+    leaves: maj:redstone_leaves
+
+  lapis_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:lapis_log
+    leaves: maj:lapis_leaves
+
+  gold_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:gold_log
+    leaves: maj:gold_leaves
+
+  diamond_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:diamond_log
+    leaves: maj:diamond_leaves
+
+  emerald_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:emerald_log
+    leaves: maj:emerald_leaves

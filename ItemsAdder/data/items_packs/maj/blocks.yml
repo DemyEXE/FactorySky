@@ -1,0 +1,187 @@
+info:
+  namespace: maj
+items:
+  dirt_mud:
+    display_name: display-name-maj-dirt_mud
+    permission: maj.dirt_mud
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/dirt/mud.png
+    specific_properties:
+      block:
+        hardness: 0.5
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _SHOVEL
+        - _shovel
+        sound:
+          place:
+            name: block.mud.place
+          break:
+            name: block.mud.break
+      
+
+  stone_mud:
+    display_name: display-name-maj-stone_mud
+    permission: maj.stone_mud
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/stone/mud.png
+    specific_properties:
+      block:
+        hardness: 0.5
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _SHOVEL
+        - _shovel
+        sound:
+          place:
+            name: block.mud.place
+          break:
+            name: block.mud.break
+
+  iron_mud:
+    display_name: display-name-maj-iron_mud
+    permission: maj.iron_mud
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/iron/mud.png
+    specific_properties:
+      block:
+        hardness: 0.5
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _SHOVEL
+        - _shovel
+        sound:
+          place:
+            name: block.mud.place
+          break:
+            name: block.mud.break
+
+  redstone_mud:
+    display_name: display-name-maj-redstone_mud
+    permission: maj.redstone_mud
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/redstone/mud.png
+    specific_properties:
+      block:
+        hardness: 0.5
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _SHOVEL
+        - _shovel
+        sound:
+          place:
+            name: block.mud.place
+          break:
+            name: block.mud.break
+
+  lapis_mud:
+    display_name: display-name-maj-lapis_mud
+    permission: maj.lapis_mud
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/lapis/mud.png
+    specific_properties:
+      block:
+        hardness: 0.5
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _SHOVEL
+        - _shovel
+        sound:
+          place:
+            name: block.mud.place
+          break:
+            name: block.mud.break
+
+  gold_mud:
+    display_name: display-name-maj-gold_mud
+    permission: maj.gold_mud
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/gold/mud.png
+    specific_properties:
+      block:
+        hardness: 0.5
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _SHOVEL
+        - _shovel
+        sound:
+          place:
+            name: block.mud.place
+          break:
+            name: block.mud.break
+
+  diamond_mud:
+    display_name: display-name-maj-diamond_mud
+    permission: maj.diamond_mud
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/diamond/mud.png
+    specific_properties:
+      block:
+        hardness: 0.5
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _SHOVEL
+        - _shovel
+        sound:
+          place:
+            name: block.mud.place
+          break:
+            name: block.mud.break
+
+  emerald_mud:
+    display_name: display-name-maj-emerald_mud
+    permission: maj.emerald_mud
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/emerald/mud.png
+    specific_properties:
+      block:
+        hardness: 0.5
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _SHOVEL
+        - _shovel
+        sound:
+          place:
+            name: block.mud.place
+          break:
+            name: block.mud.break

@@ -1,0 +1,354 @@
+info:
+  namespace: maj
+items:
+  dirt_sapling:
+    display_name: display-name-maj-dirt_sapling
+    permission: maj.dirt_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/dirt/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: dirt_tree
+  dirt_resin:
+    display_name: display-name-maj-dirt_resin
+    permission: maj.dirt_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/dirt/resin.png
+  dirt_acorn:
+    display_name: display-name-maj-dirt_acorn
+    permission: maj.dirt_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/dirt/acorn.png
+  dirt_hardened_acorn:
+    display_name: display-name-maj-dirt_hardened_acorn
+    permission: maj.dirt_hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/dirt/hardened_acorn.png
+  dirt_hardened_resin:
+    display_name: display-name-maj-dirt_hardened_resin
+    permission: maj.dirt_hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/dirt/hardened_resin.png
+
+  stone_sapling:
+    display_name: display-name-maj-stone_sapling
+    permission: maj.stone_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/stone/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: stone_tree
+  stone_resin:
+    display_name: display-name-maj-stone_resin
+    permission: maj.stone_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/stone/resin.png
+  stone_acorn:
+    display_name: display-name-maj-stone_acorn
+    permission: maj.stone_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/stone/acorn.png
+  stone_hardened_acorn:
+    display_name: display-name-maj-stone_hardened_acorn
+    permission: maj.stone_hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/stone/hardened_acorn.png
+  stone_hardened_resin:
+    display_name: display-name-maj-stone_resin
+    permission: maj.stone_hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/stone/hardened_resin.png
+
+  iron_sapling:
+    display_name: display-name-maj-iron_sapling
+    permission: maj.iron_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/iron/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: iron_tree
+  iron_resin:
+    display_name: display-name-maj-iron_resin
+    permission: maj.iron_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/iron/resin.png
+  iron_acorn:
+    display_name: display-name-maj-iron_acorn
+    permission: maj.iron_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/iron/acorn.png
+  iron_hardened_acorn:
+    display_name: display-name-maj-iron_hardened_acorn
+    permission: maj.iron_hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/iron/hardened_acorn.png
+  iron_hardened_resin:
+    display_name: display-name-maj-iron_hardened_resin
+    permission: maj.iron_hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/iron/hardened_resin.png
+
+  redstone_sapling:
+    display_name: display-name-maj-redstone_sapling
+    permission: maj.redstone_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/redstone/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: redstone_tree
+  redstone_resin:
+    display_name: display-name-maj-redstone_resin
+    permission: maj.redstone_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/redstone/resin.png
+  redstone_acorn:
+    display_name: display-name-maj-redstone_acorn
+    permission: maj.redstone_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/redstone/acorn.png
+  redstone_hardened_acorn:
+    display_name: display-name-maj-redstone_hardened_acorn
+    permission: maj.redstone_hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/redstone/hardened_acorn.png
+  redstone_hardened_resin:
+    display_name: display-name-maj-redstone_hardened_resin
+    permission: maj.redstone_hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/redstone/hardened_resin.png
+
+  lapis_sapling:
+    display_name: display-name-maj-lapis_sapling
+    permission: maj.lapis_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/lapis/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: lapis_tree
+  lapis_resin:
+    display_name: display-name-maj-lapis_resin
+    permission: maj.lapis_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/lapis/resin.png
+  lapis_acorn:
+    display_name: display-name-maj-lapis_acorn
+    permission: maj.lapis_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/lapis/acorn.png
+  lapis_hardened_acorn:
+    display_name: display-name-maj-lapis_hardened_acorn
+    permission: maj.lapis_hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/lapis/hardened_acorn.png
+  lapis_hardened_resin:
+    display_name: display-name-maj-lapis_hardened_resin
+    permission: maj.lapis_hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/lapis/hardened_resin.png
+
+  gold_sapling:
+    display_name: display-name-maj-gold_sapling
+    permission: maj.gold_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/gold/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: gold_tree
+  gold_resin:
+    display_name: display-name-maj-gold_resin
+    permission: maj.gold_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/gold/resin.png
+  gold_acorn:
+    display_name: display-name-maj-gold_acorn
+    permission: maj.gold_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/gold/acorn.png
+  gold_hardened_acorn:
+    display_name: display-name-maj-gold_hardened_acorn
+    permission: maj.gold_hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/gold/hardened_acorn.png
+  gold_hardened_resin:
+    display_name: display-name-maj-gold_hardened_resin
+    permission: maj.gold_hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/gold/hardened_resin.png
+
+  diamond_sapling:
+    display_name: display-name-maj-diamond_sapling
+    permission: maj.diamond_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/diamond/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: diamond_tree
+  diamond_resin:
+    display_name: display-name-maj-diamond_resin
+    permission: maj.diamond_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/diamond/resin.png
+  diamond_acorn:
+    display_name: display-name-maj-diamond_acorn
+    permission: maj.diamond_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/diamond/acorn.png
+  diamond_hardened_acorn:
+    display_name: display-name-maj-diamond_hardened_acorn
+    permission: maj.diamond_hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/diamond/hardened_acorn.png
+  diamond_hardened_resin:
+    display_name: display-name-maj-diamond_hardened_resin
+    permission: maj.diamond_hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/diamond/hardened_resin.png
+
+  emerald_sapling:
+    display_name: display-name-maj-emerald_sapling
+    permission: maj.emerald_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/emerald/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: emerald_tree
+  emerald_resin:
+    display_name: display-name-maj-emerald_resin
+    permission: maj.emerald_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/emerald/resin.png
+  emerald_acorn:
+    display_name: display-name-maj-emerald_acorn
+    permission: maj.emerald_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/emerald/acorn.png
+  emerald_hardened_acorn:
+    display_name: display-name-maj-emerald_hardened_acorn
+    permission: maj.emerald_hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/emerald/hardened_acorn.png
+  emerald_hardened_resin:
+    display_name: display-name-maj-emerald_hardened_resin
+    permission: maj.emerald_hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/emerald/hardened_resin.png
