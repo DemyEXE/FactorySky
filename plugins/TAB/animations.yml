@@ -1,0 +1,122 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+  - '&d-&6--------------'
+  - '&6-&d-&6-------------'
+  - '&6--&d-&6------------'
+  - '&6---&d-&6-----------'
+  - '&6----&d-&6----------'
+  - '&6-----&d-&6---------'
+  - '&6------&d-&6--------'
+  - '&6-------&d-&6-------'
+  - '&6--------&d-&6------'
+  - '&6---------&d-&6-----'
+  - '&6----------&d-&6----'
+  - '&6-----------&d-&6---'
+  - '&6------------&d-&6--'
+  - '&6-------------&d-&6-'
+  - '&6--------------&d-'
+  - '&6-------------&d-&6-'
+  - '&6------------&d-&6--'
+  - '&6-----------&d-&6---'
+  - '&6----------&d-&6----'
+  - '&6---------&d-&6-----'
+  - '&6--------&d-&6------'
+  - '&6-------&d-&6-------'
+  - '&6------&d-&6--------'
+  - '&6-----&d-&6---------'
+  - '&6----&d-&6----------'
+  - '&6---&d-&6-----------'
+  - '&6--&d-&6------------'
+  - '&6-&d-&6-------------'
+  - '&d-&6--------------'
+FactorySky:
+  change-interval: 300
+  texts:
+  - '&c&lFactorySky'
+  - '&c&n&lFactorySky'
+  - '&b&lFactorySky'
+  - '&b&l&nFactorySky'
+  - '&e&lFactorySky'
+  - '&e&n&lFactorySky'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&6w&eww.frenchsky.net'
+  - '&ew&6w&ew.frenchsky.net'
+  - '&eww&6w&e.frenchsky.net'
+  - '&ewww&6.&efrenchsky.net'
+  - '&ewww.&6f&erenchsky.net'
+  - '&ewww.f&6r&enchsky.net'
+  - '&ewww.fr&6e&enchsky.net'
+  - '&ewww.fre&6n&echsky.net'
+  - '&ewww.fren&6c&ehsky.net'
+  - '&ewww.frenc&6h&esky.net'
+  - '&ewww.french&6s&eky.net'
+  - '&ewww.frenchs&6k&ey.net'
+  - '&ewww.frenchsk&6y&e.net'
+  - '&ewww.frenchsky&6.&enet'
+  - '&ewww.frenchsky.&6n&et'
+  - '&ewww.frenchsky.n&6e&et'
+  - '&ewww.frenchsky.ne&6t'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+  - '&ewww.frenchsky.net'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.frenchsky.net'
+  - '&a&nvote.frenchsky.net'
+  - '&5vote.frenchsky.net'
+  - '&5&nvote.frenchsky.net'
+Bienvenue:
+  change-interval: 400
+  texts:
+  - '&7&lB_'
+  - '&7&lB_'
+  - '&7&lBi_'
+  - '&7&lBie_'
+  - '&7&lBien_'
+  - '&7&lBienv_'
+  - '&7&lBienve_'
+  - '&7&lBienven_'
+  - '&7&lBienvenu_'
+  - '&7&lBienvenue_'
+  - '&7&lBienvenue_'
+  - '&7&lBienvenue_'
+  - '&7&lBienvenue_'
+  - '&7&lBienvenu_'
+  - '&7&lBienven_'
+  - '&7&lBienve_'
+  - '&7&lBienv_'
+  - '&7&lBien_'
+  - '&7&lBie_'
+  - '&7&lBi_'
+  - '&7&lB_'
+time:
+  change-interval: 900
+  texts:
+  - '&7Heure &b%time%'
+  - '&7> Heure &b%time% &7<'
+  - '&7>> Heure &b%time% &7<<'
+  - '&7>>> Heure &b%time% &7<<<'
+  - '&7Date &b%date%'
+  - '&7> Date &b%date% &7<'
+  - '&7>> Date &b%date% &7<<'
+  - '&7>>> Date &b%date% &7<<<'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

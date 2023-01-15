@@ -1,0 +1,476 @@
+ShopName: aidefish3
+DisplayName: '            &8&lAide &b&lPÊCHE'
+Command: aidefish3
+signs:
+  text: '[Menu]'
+  NeedPermissionToCreateSign: true
+shop:
+
+#######################################################
+#######################################################
+#######################################################
+#--------------------Infos--------------------#
+#######################################################
+#######################################################
+#######################################################
+
+  Info3:
+    MenuItem:
+    - name:§c§lNETHER &8&l| &f&l% d'avoir chaque poisson
+    - lore2:§fCes poissons ne sont §apêchables que
+    - lore3:§adans le Nether !
+    - amount:1
+    - type:NETHERRACK
+    - enchantment:knockback#1
+    - hideflags:all
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  Info4:
+    MenuItem:
+    - name:§5§lEND &8&l| &f&l% d'avoir chaque poisson
+    - lore2:§fCes poissons ne sont §apêchables que
+    - lore3:§adans l'End !
+    - amount:1
+    - type:END_STONE
+    - enchantment:knockback#1
+    - hideflags:all
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  Info5:
+    MenuItem:
+    - name:§6&lPARTOUT &8&l| &f&l% d'avoir chaque loot
+    - lore2:§fCes loots sont §apêchables partout !
+    - amount:1
+    - type:LIGHT_GRAY_CONCRETE
+    - enchantment:knockback#1
+    - hideflags:all
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+
+############################################################
+############################################################
+############################################################
+#--------------------% FISH--------------------#
+############################################################
+############################################################
+############################################################
+
+  Fish4:
+    MenuItem:
+    - name:§9§lMorues cuites
+    - 'lore2:§e» §fMonde: Nether'
+    - 'lore3:§e» Chance: 50%'
+    - amount:1
+    - type:COOKED_COD
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  Fish5:
+    MenuItem:
+    - name:§9§lSaumons cuits
+    - 'lore2:§e» §fMonde: Nether'
+    - 'lore3:§e» Chance: 50%'
+    - amount:1
+    - type:COOKED_SALMON
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+
+  Fish6:
+    MenuItem:
+    - name:§9§lPoches d'encre
+    - 'lore2:§e» §fMonde: End'
+    - 'lore3:§e» Chance: 50%'
+    - amount:1
+    - type:ink_sac
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+  Fish7:
+    MenuItem:
+    - name:§9§lPoches d'encre lumineuse
+    - 'lore2:§e» §fMonde: End'
+    - 'lore3:§e» Chance: 50%'
+    - amount:1
+    - type:glow_ink_sac
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+
+  Fish9:
+    MenuItem:
+    - name:§9§lClés Pêcheur
+    - 'lore2:§e» §fMonde: Partout'
+    - 'lore3:§e» Chance: 0.5%'
+    - amount:1
+    - type:TRIPWIRE_HOOK
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  Fish10:
+    MenuItem:
+    - name:§9§lBoosts FARM/VENTE
+    - 'lore2:§e» §fMonde: Partout'
+    - 'lore3:§e» Chance: 0.25%'
+    - amount:1
+    - type:GLOWSTONE_DUST
+    PriceType: nothing
+    RewardType: nothing
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+
+############################################################
+############################################################
+############################################################
+#--------------------Vitres décoratives--------------------#
+############################################################
+############################################################
+############################################################
+
+  1:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 46
+    Message: ''
+    RewardType: NOTHING
+  2:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 47
+    Message: ''
+    RewardType: NOTHING
+  3:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 48
+    Message: ''
+    RewardType: NOTHING
+  4:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:BLACK_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 49
+    Message: ''
+    RewardType: NOTHING
+  A5:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:BLACK_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 50
+    Message: ''
+    RewardType: NOTHING
+  5:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:BLACK_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 51
+    Message: ''
+    RewardType: NOTHING
+  7:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 53
+    Message: ''
+    RewardType: NOTHING
+  8:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 1
+    Message: ''
+    RewardType: NOTHING
+  9:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 2
+    Message: ''
+    RewardType: NOTHING
+  10:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 3
+    Message: ''
+    RewardType: NOTHING
+  11:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:BLACK_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 4
+    Message: ''
+    RewardType: NOTHING
+  12:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:BLACK_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 5
+    Message: ''
+    RewardType: NOTHING
+  13:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:BLACK_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 6
+    Message: ''
+    RewardType: NOTHING
+  14:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 7
+    Message: ''
+    RewardType: NOTHING
+  15:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 8
+    Message: ''
+    RewardType: NOTHING
+  16:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:GRAY_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 9
+    Message: ''
+    RewardType: NOTHING
+  17:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 11
+    Message: ''
+    RewardType: NOTHING
+  18:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 20
+    Message: ''
+    RewardType: NOTHING
+  19:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 29
+    Message: ''
+    RewardType: NOTHING
+  A19:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 38
+    Message: ''
+    RewardType: NOTHING
+  20:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 13
+    Message: ''
+    RewardType: NOTHING
+  21:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 22
+    Message: ''
+    RewardType: NOTHING
+  22:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 31
+    Message: ''
+    RewardType: NOTHING
+  23:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 40
+    Message: ''
+    RewardType: NOTHING
+  24:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 49
+    Message: ''
+    RewardType: NOTHING
+  25:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 15
+    Message: ''
+    RewardType: NOTHING
+  26:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 24
+    Message: ''
+    RewardType: NOTHING
+  27:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 33
+    Message: ''
+    RewardType: NOTHING
+  28:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 42
+    Message: ''
+    RewardType: NOTHING
+  29:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 17
+    Message: ''
+    RewardType: NOTHING
+  30:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 26
+    Message: ''
+    RewardType: NOTHING
+  31:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 35
+    Message: ''
+    RewardType: NOTHING
+  32:
+    ExtraPermission: ''
+    MenuItem:
+    - name:§e
+    - id:RED_STAINED_GLASS_PANE
+    - amount:1
+    InventoryLocation: 44
+    Message: ''
+    RewardType: NOTHING
+
+########################################################
+########################################################
+########################################################
+#--------------------Fermer le menu--------------------#
+########################################################
+########################################################
+########################################################
+
+  Page précédente:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&e&lPage précédente
+    - id:paper
+    - amount:1
+    InventoryLocation: 52
+    Message: ''
+    RewardType: shop
+    Reward: aidefish2
+
+  Retour:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&f&l✦ &c&lRetour &f&l✦
+    - id:BARRIER
+    - amount:1
+    InventoryLocation: 54
+    Message: ''
+    RewardType: shop
+    Reward: helpfarm

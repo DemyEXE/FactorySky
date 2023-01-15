@@ -1,0 +1,179 @@
+ShopName: helpspecialsarmors
+DisplayName: ' &8&lAide &f&lARMURES AMÉLIORÉES'
+signs:
+  text: '[helpspecialstools]'
+  NeedPermissionToCreateSign: true
+shop:
+  YELLOW 10:
+    MenuItem:
+    - name:&7&lRien
+    - amount:1
+    - type:YELLOW_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  YELLOW 11:
+    MenuItem:
+    - name:&7&lRien
+    - amount:1
+    - type:YELLOW_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+
+  EPIC ARMOR 13:
+    MenuItem:
+    - 'name:&7&nAide&r &6&LARMURES ÉPIQUES'
+    - 'lore:#&e» &eCliquez &7pour afficher la #&7catégorie d''aide des &6armures épiques&7.'
+    - amount:1
+    - type:diamond_helmet
+    - hideflags:all 
+    RewardType: SHOP
+    Reward: helparmorepiclist
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  LEGENDARY ARMOR 15:
+    MenuItem:
+    - 'name:&7&nAide&r &c&lARMURES LÉGENDAIRES'
+    - 'lore:#&e» &eCliquez &7pour afficher la #&7catégorie d''aide des &carmures légendaires&7.'
+    - amount:1
+    - type:netherite_helmet
+    - hideflags:all 
+    RewardType: SHOP
+    Reward: helparmorleg
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+
+  YELLOW 17:
+    MenuItem:
+    - name:&7&lRien
+    - amount:1
+    - type:YELLOW_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  YELLOW 18:
+    MenuItem:
+    - name:&7&lRien
+    - amount:1
+    - type:YELLOW_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+
+  GREY 28:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&0
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 28
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  GREY 29:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&1
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 29
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  BLACK 30:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&2
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 30
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  BLACK 31:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&3
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 31
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  PAPER 32:
+    ExtraPermission: ''
+    MenuItem:
+    - 'name:&e&l&nInformation'
+    - 'lore:#&e» &7Dans cette catégorie, retrouvez les #&7aides concernant les armures améliorées.'
+    - id:netherite_helmet
+    - amount:1
+    - hideflags:all 
+    InventoryLocation: 32
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  BLACK 33:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&5
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 33
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  BLACK 34:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&6
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 34
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  GREY 35:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&7
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 35
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  Retour 36:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&f&l✦ &c&lRetour &f&l✦
+    - id:barrier
+    - amount:1
+    InventoryLocation: 36
+    Message: ''
+    PriceType: nothing
+    RewardType: shop
+    Reward: helpspecialitem
+
+

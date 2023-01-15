@@ -1,0 +1,690 @@
+categories:
+  emoji:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aUtilisation des emojis :'
+    - ''
+    - ' &8- &r%img_sob% &8: &7Utilisation &e:&fsob&e:'  
+    - ' &8- &r%img_angry% &8: &7Utilisation &e:&fangry&e:'
+    - ' &8- &r%img_sad% &8: &7Utilisation &e:&fsad&e:'
+    - ' &8- &r%img_neutral_face% &8: &7Utilisation &e:&fneutral_face&e:'
+    - ' &8- &r%img_cry% &8: &7Utilisation &e:&fcry&e:'
+    - ' &8- &r%img_joy% &8: &7Utilisation &e:&fjoy&e:'
+    - ' &8- &r%img_grin% &8: &7Utilisation &e:&fgrin&e:'
+    - ' &8- &r%img_smiling% &8: &7Utilisation &e:&fsmiling&e:'
+    - ' &8- &r%img_pull_tongue% &8: &7Utilisation &e:&fpull_tongue&e:'
+    - ' &8- &r%img_wink% &8: &7Utilisation &e:&fwink&e:'
+    - ' &8- &r%img_heart% &8: &7Utilisation &e:&fheart&e:'
+    - ' &8- &r%img_broken_heart% &8: &7Utilisation &e:&fbroken_heart&e:'
+    - ' &8- &r%img_purple_heart% &8: &7Utilisation &e:&fpurple_heart&e:'
+    - ' &8- &r%img_green_heart% &8: &7Utilisation &e:&fgreen_heart&e:'
+    - ' &8- &r%img_blue_heart% &8: &7Utilisation &e:&fblue_heart&e:'
+    - ' &8- &r%img_fascinated% &8: &7Utilisation &e:&ffascinated&e:'
+    - ' &8- &r%img_candy_cane% &8: &7Utilisation &e:&fcandy_cane&e:'
+    - ' &8- &r%img_stocking% &8: &7Utilisation &e:&fstocking&e:'
+    - ' &8- &r%img_gift% &8: &7Utilisation &e:&fgift&e:'
+    - ' &8- &r%img_elf% &8: &7Utilisation &e:&felf&e:'
+    - ' &8- &r%img_gingerbread% &8: &7Utilisation &e:&fgingerbread&e:'
+    - ' &8- &r%img_santa% &8: &7Utilisation &e:&fsanta&e:'
+    
+  links:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aLiens utiles :'
+    - ''
+    - ' &eRèglement &6: &7https://tiny.one/yvkrhkrv'  
+    - ' &eWiki &6: &7https://tiny.one/j77582w5'
+    - ' &eSite &6: &7https://www.frenchsky.net/'
+    - ' &eBoutique &6: &7http://store.frenchsky.net'
+    - ' &eVoter &6: &7https://www.frenchsky.net/vote'
+    - ' &eTeamspeak &6: &7ts.frenchsky.net'
+    - ' &eDiscord &6: &7https://discordapp.com/invite/YxgDvvQ'
+    - ' &eTwitter &6: &7https://twitter.com/MCFrenchSky'
+
+  worldedit:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aPrix des cuts :'
+    - ''
+    - '&8- &7Petit (&e0 - 10000 blocs&7) &8= &b50 tokens'
+    - '&8- &7Moyen (&e10000 - 50000 blocs&7) &8= &b150 tokens'
+    - '&8- &7Gros (&e50000 - 100000 blocs&7) &8= &b300 tokens'
+    - '&8- &7Très gros (&e100000 - 200000 blocs&7) &8= &b450 tokens'
+    - '&8- &7Énorme (&e200 000 - 300 000 blocs blocs&7) &8= &b900 tokens'
+    - '&8- &7Gigantesque (&e300 000 - 400 000 blocs&7) &8= &b1200 tokens'
+    - '&8- &7Immense (&e400 000 - 500 000 blocs&7) &8= &b1600 tokens'
+    - '&8- &7Colossal (&e+500 000 blocs&7) &8= &b2000 tokens'
+    - ''
+    - '&6➟ &aPrix des déplacements :'
+    - ''
+    - '&8- &7Petit (&e0 - 10000 blocs&7) &8= &b100 tokens'
+    - '&8- &7Moyen (&e10000 - 50000 blocs&7) &8= &b300 tokens'
+    - '&8- &7Gros (&e50000 - 100000 blocs&7) &8= &b600 tokens'
+    - '&8- &7Très gros (&e100000 - 200000 blocs&7) &8= &b900 tokens'
+    - '&8- &7Énorme (&e200 000 - 300 000 blocs&7) &8= &b1600 tokens'
+    - '&8- &7Gigantesque (&e300 000 à 400 000 blocs&7) &8= &b2400 tokens'
+    - '&8- &7Immense (&e400 000 à 500 000 blocs&7) &8= &b3200 tokens'
+    - '&8- &7Colossal (&e+ de 500 000 blocs&7) &8= &b4000 tokens'
+    - ''
+    - ' &7Si vous souhaitez effectuer un cut ou un déplacement, vous devez faire un ticket sur le &9Discord &7(/discord).'
+
+  pets:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aCommandes des pets :'
+    - ''
+    - '&8- &7Les &6pets &7sont des animaux de compagnie uniquement &ecosmétiques&7.' 
+    - '&8- &7Vous pouvez les obtenir durant les &eévénements&7, dans les &ecoffres à clés &7ou bien les acheter sur la &eboutique &7ou au &a/bs ecoins&7.'
+    - ''
+    - ' &e/bs pets &7(Permet d''afficher l''interface de séléction des pets)'
+    - ' &e/mpet setname &7(Permet de définir le nom de votre pet)'
+    - ' &e/mpet call &7(Permet de téléporter votre pet à vous)'
+    - ' &e/mpet sit &7(Permet d''asseoir votre pet)'
+    - ' &e/mpet ride &7(Permet de monter sur votre pet)'
+    - ' &e/mpet remove &7(Permet de retirer votre pet)'
+
+  cosmetics:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Cosmétiques :'
+    - ''
+    - '&8- &7Pour vous démarquer des autres joueurs, divers &6cosmétiques &7sont disponibles.'
+    - '&8- &7Vous pouvez obtenir des &6cosmétiques &7dans les coffres du &a/warp coffre&7.'
+    - '&8- &7Il existe plusieurs sortes de cosmétiques : &eBallons, Emotes, Statuts, Particules, Bannières&7.'
+    - ''
+    - ' &e/cosmetics &7(Ouvrir le menu de gestion des cosmétiques)'
+
+  divers:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aCommandes diverses :'
+    - ''
+    - ' &e/menu ou /bs &7(Permet d’ouvrir le menu principal)'
+    - ' &e/xpbottle <montant/all> &7(Permet de transformer son XP en bouteille)'
+    - ' &e/exp &7(Permet de voir votre expérience actuelle)'
+    - ' &e/trash &7(Permet d''ouvrir une poubelle pour y jeter vos items)'
+    - ' &e/fb toggle &7(Permet de désactiver ou activer le scoreboard)'
+    - ' &e/suicide &7(Permet de vous tuer)'
+
+  dreward:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Récompenses journalières :'
+    - ''
+    - '&8- &7Chaque &ejour&7, vous pouvez récupérer une &erécompense&7.'
+    - '&8- &7Plus les jours avancent, plus les récompenses seront &eintéressantes&7.'
+    - '&8- &7Si vous ne récupérez pas votre récompense pendant un jour, vous repartirez au &ejour 1 &7le lendemain.'
+    - ''
+    - ' &e/dreward &7(Menu de récompenses quotidiennes)'
+    - ' &e/dreward claim &7(Récupérer sa récompense quotidienne)'
+
+  hoppers:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Entonnoirs spéciaux :'
+    - ''
+    - '&8- &7Les &6entonnoirs spéciaux &7vous permettent de faire des entonnoirs &eaméliorés &7avec de nouvelles &efonctionnalités&7.'
+    - '&8- &7Vous pouvez acheter ces entonnoirs au &a/shop &7ou les gagner dans les &ecoffres à clés&7, puis les améliorer contre des &eFrenchCoins&7.'
+
+  hopperlinks:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Entonnoirs spéciaux (Liaisons) :'
+    - ''
+    - '&8- &7Vous pouvez &elier &7un &6entonnoir spécial &7à un ou plusieurs conteneurs (bloc pouvant contenir des items).'
+    - '&8- &7Si votre &eentonnoir &7est lié à un conteneur, alors il enverra &eautomatiquement &7son contenu dans le conteneur.'
+    - '&8- &7Si votre entonnoir est lié à plusieurs entonnoirs, il &edivisera &7automatiquement son contenu en &eparts égales&7.'
+    - '&8- &7Pour lier l''entonnoir à un coffre, faites &eclic gauche &7sur cet item, puis sur le conteneur à lier.'
+    - '&8- &7Pour retirer une liaison à l''entonnoir, faites &eclic droit &7sur cet item, puis cliquez sur le conteneur à retirer.'
+    - '&8- &7Vous pouvez augmenter le nombre et la distance de liaison en &eaméliorant&7 votre entonnoir.'
+
+  hoppermanagelinks:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Entonnoirs spéciaux (Gestion des liaisons) :'
+    - ''
+    - '&8- &7Vous pouvez gérer vos différentes &6liaisons &7en &ecliquant &7sur cet item. Cela va vous ouvrir une nouvelle interface où sont listées l''ensemble des &eliaisons&7.'
+    - '&8- &7Pour &erenommer &7une liaison, appuyez sur votre touche &eshift &7et faites clic &egauche &7sur la liaison. Ensuite entrez le nouveau nom dans le &echat&7.'
+    - '&8- &7Pour &esupprimer &7une liaison, appuyez sur votre touche &eshift &7et faites clic &edroit &7sur la liaison.'
+    - '&8- &7Vous pouvez définir des &efiltres &7en &fWhitelist &7(&nseulement&7 l''item whitelist sera &naccepté&7) ou en &8Blacklist &7(&nl''ensemble&7 des items sauf celui blacklist seront &nacceptés&7)'
+    - '&8- &7Pour définir un &efiltre &7cliquez sur une liaison puis sur l''item dans votre &ninventaire&7 que vous souhaitez filtrer.'
+  
+  hopperaspiration:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Entonnoirs spéciaux (Aspiration) :'
+    - ''
+    - '&8- &7Les &6entonnoirs spéciaux &7peuvent &easpirer &7les items au sol.'
+    - '&8- &7Vous pouvez &cdésactiver &7ou &aactiver &7cette option en &ecliquant &7sur l''item.'
+    - '&8- &7Vous pouvez &eaugmenter&7 le rayon d''apsiration en &aaméliorant&7 votre entonnoir.'
+
+
+  infinitychests:
+    default: true
+    '1':
+    - ''  
+    - '&6➟ &aAide Coffres Infinis :'
+    - ''
+    - '&8- &7Les &6coffres infinis &7permettent de &estocker &7de manière &einfinie &7un type d''item.'
+    - '&8- &7Vous pouvez acheter ces coffres au &a/shop &7contre des &eFrenchCoins&7.'
+    - '&8- &7Vous pouvez les remplir &emanuellement &7en cliquant sur l''item à stocker dans votre inventaire, puis en utilisant les vitres vertes. Vous pouvez également le remplir avec un &eentonnoir&7.'
+    - '&8- &7Vous pouvez le &evider &7en utilisant les vitres rouges ou en le cassant.'
+    - '&8- &7Les &eSelling Rods &7fonctionnent sur les coffres infinis.' 
+    - '&8- &7Les &l&x&F&F&8&9&6&C&lF&x&F&F&9&B&8&2&lV&x&F&F&B&5&A&3&lI&x&F&F&C&F&C&3&lP &7ont la possibilité de stocker le contenu d''un &6coffre infini &7dans leur &a/ms&7.'
+    -
+
+  sellingrod:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Selling Rod :'
+    - ''
+    - '&8- &7Le &6Selling Rod &7permet de &evendre &7le contenu d''un coffre.'
+    - '&8- &7Pour l''utiliser, il suffit de faire un &eclic droit &7sur le coffre à vendre.'
+    - '&8- &7Le contenu du coffre sera vendu à vos prix du &a/sell&7.'
+    - '&8- &7Les &6Selling Rods ont un nombre d''utilisation limité visible dans leur lore.'
+    - '&8- &7Vous pouvez fusionner la capacité de deux &6Selling Rods &7via le &e/fitem fusion&7.'
+    - '&8- &7Les &6Selling Rods sont obtenables dans les &ecoffres à clés&7.' 
+    - ''
+    - ' &e/fitem fusion &7(Permet de fusionner deux Selling Rod)'
+
+  isteam:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Skyblock (Team) :'
+    - ''
+    - '&8- &7Durant votre aventure, vous pouvez décider de jouer &eseul &7ou à &eplusieurs&7.'
+    - '&8- &7Chaque île est limitée à &e15 &7joueurs.'
+    - '&8- &7Mis à part votre équipe, vous pouvez également donner les accès à votre île en les définissant comme &ecoop&7.'
+    - '&8- &7Les joueurs &ecoop &7perdent leur statut à votre &edéconnexion.'
+    - ''
+    - ' &e/is team setowner <pseudo> &7(Transférer la propriété de l''île)'
+    - ' &e/is team &7(Afficher les membres de votre île)'
+    - ' &e/is team invite <pseudo> &7(Inviter un joueur à rejoindre votre île)'
+    - ' &e/is team kick <pseudo> &7(Supprimer un joueur de votre île)'
+    - ' &e/is team <accept/reject> &7(Accepter/Refuser l''invitation d''un joueur à rejoindre son île)'
+    - ' &e/is team leave &7(Quitter l''île d''un joueur)'
+    - ' &e/is team coop <pseudo> &7(Donner un accès temporaire à un joueur sur votre île)'
+    - ' &e/is team uncoop <pseudo> &7(Retirer l''accès temporaire à un joueur sur votre île)'
+    - ' &e/is team promote &7(Promouvoir un membre de votre île au rang Officier)'
+    - ' &e/is team demote &7(Rétrograder un membre de votre île du rang Officier)'
+
+  isvisitorwarp:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Skyblock (Visiteurs et Warp) :'
+    - ''
+    - '&8- &7Afin de faire &edécouvrir &7votre île aux autres joueurs du serveur, vous avez la possibilité de créer une zone de &etéléportation &7sur votre île.'
+    - '&8- &7Pour créer un &6Warp&7, écrivez &e[warp] &7sur la première ligne et le &enom &7sur la seconde ligne d''un panneau. Vous êtes limité à un Warp par personne.'
+    - '&8- &c&lATTENTION! &7Créer un warp coûte &e50k Fc&7.'
+    - '&8- &7Il est possible d''attribuer une note entre &e1-5 &7à chaque warp.'
+    - '&8- &7Vous pouvez mettre votre warp en avant en achetant une sponsorisation de &e24h &7pour &e1m Fc&7.'
+    - ''
+    - ' &e/is expel <pseudo> &7(Forcer un joueur à quitter l''île)'
+    - ' &e/is ban <pseudo> &7(Bannir un joueur de l''île)'
+    - ' &e/is banlist &7(Afficher la liste des bannis de votre île)'
+    - ' &e/pwarp &7(Afficher tous les warps disponibles)'
+    - ' &e/pwarp <pseudo> &7(Se téléporter au warp d''un joueur)'
+
+  islevel:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Skyblock (Niveau d''île) :'
+    - ''
+    - '&8- &7Chaque &ebloc &7posé sur votre île possède une valeur en point. Il faut avoir &e100 points &7pour avoir &e1 &7niveau d''île.'
+    - '&8- &7Si votre niveau d''île est élevé, vous avez une chance de figurer dans le &a/is top&7.'
+    - ''
+    - ' &e/is level &7(Calculer le niveau de votre île)'
+    - ' &e/is top &7(Afficher le top 10 des îles du serveur)'
+    - ' &e/is value &7(Afficher la valeur (niveau) du bloc dans votre main)'
+    - ''
+    - '&6➟ &eConsulter l''is value de tous les blocs :&7 https://docs.google.com/spreadsheets/d/1jTlhy1BYEXdYAFzPHU00w1jIEsesZWBjXwtnfjk4uvE/edit#gid=0'
+
+  ismain:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Skyblock (Principale) :'
+    - ''
+    - ' &e/is cp &7(Ouvrir l''interface d''administration)'
+    - ' &e/is upgrade &7(Voir les améliorations d''île)'
+    - ' &e/is biomes &7(Ouvrir le menu de changement de biome)'
+    - ' &e/is lang <#> &7(Sélectionner le langage de votre île)'
+    - ' &e/is setname <nom> &7(Changer le nom de votre île)'
+
+
+  chat:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Chat :'
+    - ''
+    - ' &e/aide <message> &7(Permet de poser une question au staff)'
+    - ' &e/pub <message> &7(Permet de mettre en avant vos annonces)'
+    - ' &e/e pub <message> &7(Permet de mettre en avant vos annonces d''entreprise)'
+    - ' &e/msg ou /m <pseudo> &7(Permet d''envoyer un message privé)'
+    - ' &e/r &7(Permet de répondre au dernier message privé reçu sans passer par le &e/msg &7ou &e/m&7)'
+    - ' &e/ischat &7(Entrer/sortir du chat d''île)'
+    - ' &e/echat &7(Entrer/sortir du chat d''entreprise)'
+    - ' &e/g &7(Retourner dans le chat général)'
+    - ' &e/mail send &7(Envoyer un mail)'
+    - ' &e/mail read &7(Lire vos mails)'
+    - ' &e/mail clear &7(Supprimer vos mails)'
+
+  tp:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Téléportations :'
+    - ''
+    - ' &e/sky list &7(Interface pour changer de serveur &2Skyblock&7)'
+    - ' &e/lobby ou /hub &7(Permet d''aller sur le serveur &6Lobby&7)'
+    - ' &e/spawn &7(Se téléporter au spawn du serveur)'
+    - ' &e/tpa <pseudo> &7(Permet de se téléporter à un joueur)'
+    - ' &e/tpahere <pseudo> &7(Permet de téléporter un joueur à soi)'
+    - ' &e/warps &7(Afficher les différents warps du serveur)'
+    - ' &e/warp <nom> &7(Se téléporter au warp voulu)'
+    - ' &e/mining &7(Se téléporter au monde minage)'
+    - ' &e/dungeon &7(Se téléporter au donjon)'
+
+  defis:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Défis :'
+    - ''
+    - '&8- &7Les &6défis &7sont la source principale d''argent sur le serveur.'
+    - '&8- &7L''objectif du serveur est de monter &eses grades&7. À chaque nouveau grade, vous aurez de &enouvelles ressources &7à vendre et farm ainsi qu''une augmentation des récompenses de farm.'
+    - '&8- &7Chaque type d''item possède une &elimite de vente hebdomadaire&7. Lorsque vous atteignez cette limite, vous ne pourez plus vendre avant la semaine suivante.' 
+    - '&8- &7Votre &estockage &7est également limité ! Vous pouvez l''améliorer avec votre &eentreprise&7.'
+    - ''
+    - ' &e/sell &7(Permet d’ouvrir le menu des défis)'
+    - ' &e/rankup &7(Permet de passer au rang supérieur)'
+    - ' &e/sellall &7(Permet de vendre l''ensemble de votre inventaire au prix du &e/sell&7.'
+
+  skills:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Compétences :'
+    - ''
+    - '&8- &7Le système de &6compétence &7vous permet d''augmenter votre chance de double drop en cassant une ressource.'
+    - '&8- &7Vous pouvez augmenter cette chance en passant les &epaliers &7de chaque compétence.'
+    - '&8- &7Le taux de chance s''applique sur les items pouvant être utilisés pour augmenter la compétence en question.'
+    - ''
+    - ' &e/skill &7(Ouvrir l''interface des compétences)'
+
+  stats:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Statistiques de farm :'
+    - ''
+    - '&8- &7Afin de faire des &6statistiques &7sur votre farm et de savoir combien d''argent vous êtes capable de faire par &eheure&7, vous pouvez utiliser le &6startfarm&7.'
+    - '&8- &7À partir du moment où la commande est &eactivée&7, vous avez &e15min &7ou &e5min &7pour farm le maximum d''items d''un &cseul &7type de ressource.'
+    - '&8- &7Une fois fini&7, vos données sont collectées et multipliées pour vous donner vos statistiques.'
+    - '&8- &7Il est possible de choisir entre &e5min &7ou &e15min&7.'
+    - ''
+    - ' &e/startfarm <5/15> &7(Permet de démarrer une session de farm)'
+    - ' &e/stopfarm &7(Permet de finir une session de farm)'
+
+
+  votes:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Votes :'
+    - ''
+    - '&8- &7Vous pouvez voter sur &e8 sites &7différents ayant une durée de rafraîchissement variable (Entre &e1h30 &7à &e24h&7).'
+    - '&8- &7Chaque vote donne une &eclé de vote &7récupérable via la commande &a/vote keys &7et &e10min &7de vol (&7jusqu''à 5 min avant de pouvoir récupérer vos récompenses.)'
+    - '&7- Des &epaliers de vote &7sont disponibles. Chaque palier donne des &etokens&7.'
+    - '&8- &7Vos votes sont &créinitialisés &7tous les mois.'
+    - '&8- &7Les clés sont utilisables au &a/warp coffre&7.'
+    - ''
+    - ' &ehttps://www.frenchsky.net/vote/pseudo &7(Site pour effectuer les votes)'
+    - ' &e/vote keys &7(Permet de récupérer vos clés de vote)'
+    - ' &e/vote &7(Ouvrir le menu de vote en jeu)'
+
+  voteparty:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Vote Party :'
+    - ''
+    - '&8- &7Le &6vote party &7est un &egiveall &7régulier. Tous les &e500 &7votes effectués pour le serveur, l''ensemble des &ejoueurs &7reçoivent une &eclé commune&7.' 
+    - '&8- &7L''avancement du vote party est visible dans le &escoreboard&7. Une fois les &e500 votes atteints&7, le vote party se lance.'
+    - '&8- &cAttention ! &7Si votre inventaire est plein, les clés tomberont au sol.'
+
+#  marry:
+#    default: true
+#    '1':
+#    - ''
+#    - '&6➟ &aAide mariages :'
+#    - ''
+#    - '&7Pour faire une demande de mariage il faut aller sur le forum.'
+#    - ''
+#    - ' &e/marry gender &7(Permet de spécifier votre genre)'
+#    - ' &e/marry gift &7(Offre l''item que vous avez en main à votre partenaire)'
+#    - ' &e/marry seen &7(Voir la dernière connexion de votre partenaire)'
+#    - ' &e/marry chat &7(Active le chat entre partenaires)'
+#    - ' &e/marry tp &7(Vous téléporte à votre partenaire)'
+
+  limits:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Limitations :'
+    - ''
+    - ' &e/is limits &7(Afficher le nombre de blocs limités posés)'
+    - ' &e/is limits recount &7(Recalculer vos limites d''île)'
+    - ''
+    - ' &eDistributeurs &6: &7200 par île'
+    - ' &ePistons &6: &73,500 par île'
+    - ' &ePistons collants&6: &73,500 par île'
+    - ' &eSpawners &6: &7256 par île'
+    - ' &eJukebox &6: &740 par île'
+    - ' &eBeacons &6: &7100 par île'
+    - ' &eEnclumes neuve &6: &730 par île'
+    - ' &eEnclumes abimé &6: &75 par île'
+    - ' &eEnclumes très abimé &6: &75 par île'
+    - ' &eEntonnoirs &6: &7400 par île'
+    - ' &eBlocs de Slime &6: &71000 par île'
+    - ' &eBlocs de Miel &6: &71000 par île'
+    - ' &eObserveurs &6: &7200 par île'
+    - ' &eTêtes de joueur &6: &730 par île'
+    - ' &eTêtes de mobs &6: &710 par mobs et par île'
+    - ' &eTête de wither squelette &6: &730 par île'
+    - ' &eVillageois &6: &715 par monde'
+    - ' &eAbeilles &6: &715 par monde'
+    - ' &eRenards &6: &715 par monde'
+    - ' &eEnderchests &6: &710 par île'
+
+  frenchcoins:
+    default: true
+    '1':
+    - '&6➟ &aAide FrenchCoins :'
+    - ''
+    - '&8- &7Les &6FrenchCoins &7sont la monnaie principale du serveur, ils peuvent vous servir à acheter des améliorations ou des items au &a/shop&7, mais aussi à monter vos grades au &a/sell&7.'
+    - '&8- &7Vous pouvez obtenir des &6FrenchCoins &7en vendant vos ressources au &a/sell &7mais également en effectuant des &eéchanges &7avec les joueurs, en les gagnant dans les &ecoffres à clés &7ou durant les &eévénements&7.'
+    - ''
+    - ' &e/money &7(Afficher les FrenchCoins que vous avez sur vous)'
+    - ' &e/pay <pseudo> <montant> &7(Envoyer des FrenchCoins) (L''argent est envoyé dans la banque)'
+  ecoins:
+    default: true
+    '1':
+    - '&6➟ &aAide Ecoins :'
+    - ''
+    - '&8- &7Les &6Ecoins &7sont la monnaie d''event du serveur, ils servent à acheter les items du &a/bs ecoins. &7Ils peuvent également être vendus aux &ejoueurs&7.'
+    - '&8- &7Vous pouvez en obtenir durant les &eévénements &7mais également en les &eachetant &7aux joueurs ou dans les &ecoffres à clés&7.'
+    - ''
+    - ' &e/ecoins &7(Afficher les Ecoins que vous avez sur vous)'
+    - ' &e/ecoins pay <pseudo> <montant> &7(Envoyer des Ecoins)'
+    - ' &e/bs ecoins &7(Afficher le menu d''achat)'
+  tokens:
+    default: true
+    '1':
+    - '&6➟ &aAide Tokens :'
+    - ''
+    - '&8- &7Les &6Tokens &7sont achetables sur la &eboutique &7ou obtenables en &evotant &7via le &a/vote &7et sont utilisables dans le &a/bs token&7.'
+    - '&8- &7La vente de &6tokens &7entre joueurs est &c&lINTERDITE&7. Vous pouvez faire une demande de transfert de tokens à partir de &e50 &7tokens, pour cela, faites un ticket sur le &9Discord &7(/discord).'
+    - ''
+    - ' &e/token &7(Afficher les Tokens que vous possédez)'
+    - ' &e/bs token &7(Afficher le menu d''achat)'
+    - ' &e/store &7(Afficher le lien vers la boutique)'
+  lottery:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Loterie :'
+    - ''
+    - '&7La &6loterie &7est un &ejeu d''argent &7relancé chaque jour à &e19h&7. Plus vous miserez d''argent, plus vous aurez de &echance &7de remporter la loterie.'
+    - ''
+    - ' &e/lottery &7(Afficher les informations concernant la loterie actuelle)'
+    - ' &e/lottery bet <montant> &7(Parier une somme à la loterie)'
+
+  bm:
+    default: true
+    '1':
+    - '' 
+    - '&6➟ &aAide BustaMine :'
+    - ''
+    - '&7Le &6BustaMine &7est un &ejeu d''argent &7qui se joue uniquement au &a/spawn &7ou au &a/warp casino&7. Pour jouer, il faut &emiser &7une certaine somme,' 
+    - '&7puis attendre que le &emultiplicateur &7augmente, et retirer l''argent avant que celui-ci ne s''arrête.' 
+    - '&7Si vous réussissez, votre mise sera &emultipliée &7par le multiplicateur auquel vous vous êtes arrêté.'
+    - ''
+    - ' &e/bm &7(Ouvrir l''interface du BustaMine)'
+  alcool:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Alcool :'
+    - ''
+    - '&7L''&6alcool &7est un &ejeu d''argent &7basé sur la chance. Pour jouer, il faut acheter un alcool puis le &eboire&7, vous avez un certain &epourcentage &7de chance de multiplier votre mise.'
+    - '&7Chaque alcool possède des &estatistiques &7différentes.'
+    - '&8- &cAttention ! &7Les &erécompenses &7vont à l''acheteur de l''&6alcool&7.'
+    - ''
+    - ' &e/bs alcooldoux &7(Ouvrir l''interface d''achat des alcools doux)'
+    - ' &e/bs alcoolfort &7(Ouvrir l''interface d''achat des alcools forts)'
+
+  market:
+    default: true
+    '1':
+    - '&6➟ &aAide Marché public :'
+    - ''
+    - '&8- &7Le &6marché public &7est un endroit clé de &el''économie &7du serveur ! Ici, vous pouvez &evendre &7et &eacheter &7des items aux joueurs.'
+    - '&8- &7Avec le &a/stockall&7, le marché peut également servir de &estockage de masse&7.'
+    - '&8- &7L''argent de vos ventes reste dans votre marché. Faites &a/ms &7pour la récupérer.'
+    - ''
+    - ' &e/market &7(Accéder au marché public)'
+    - ' &e/market <pseudo> &7(Accéder au marché d''un joueur en particulier)'
+    - ' &e/ms &7(Accéder à l''interface de gestion de votre marché)'
+    - ' &e/mp <prix unitaire> &7(Mettre en vente l''item en main)'
+    - ' &e/mpall <prix unitaire> &7(Mettre en vente l''intégralité de la même ressource en main)'
+    - ' &e/stockall &7(Stocker de manière infinie un type d''item)'
+#    - ' &e/market search <mot-clé,id,enchantement...> &7(Pour chercher un item dans le market)'
+
+  mvip:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide &x&8&A&F&1&F&F&lM&x&A&6&F&4&F&F&lV&x&B&C&F&7&F&F&lI&x&C&D&F&9&F&F&lP&a :' 
+    - ''
+    - '&8- &7Clés en plus dans le &a/dreward &7ou &a/dr&7.'
+    - '&8- &7Le droit à 5 homes &a/sethome&7.'
+    - ''
+    - ' &e/fly &7(Permet de voler)'
+
+  vip:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide &x&8&B&D&1&F&F&lV&x&A&E&D&F&F&F&lI&x&C&B&E&A&F&F&lP&a :'
+    - ''
+    - '&8- &7Clés en plus dans le &a/dreward &7ou &a/dr&7.'
+    - '&8- &7Le droit à 10 homes &a/sethome&7.'
+    - '&8- &7Giveaway exclusif sur le &a/discord&7.'
+    - ''
+    - ' &e/fly &7(Permet de voler)'
+    - ' &e/ec &7(Permet d''ouvrir votre enderchest depuis n''importe où)'
+    - ' &e/craft &7(Permet d''ouvrir une table de craft depuis n''importe où)'
+    - ' &e/ptime <day/night> &7(Permet de changer l''heure en jeu [changement personnel])'
+    - ' &e/hat &7(Permet de mettre sur votre tête un objet ou un item)'
+    - ' &e/feed &7(Permet de remplir votre barre de nourriture [toutes les &e5 &7min])'
+  vip+:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide &x&7&5&E&A&9&8&lV&x&9&0&E&8&A&A&lI&x&A&9&E&6&B&B&lP&x&B&D&E&A&C&A&l+&a :'
+    - ''
+    - '&8- &7L''ensemble des commandes &x&8&B&D&1&F&F&lV&x&A&E&D&F&F&F&lI&x&C&B&E&A&F&F&lP&a&7.'
+    - '&8- &7Clés en plus dans le &a/dreward &7ou &a/dr&7.'
+    - '&8- &7Le droit à 20 homes &a/sethome&7.'
+    - '&8- &7Giveaway exclusif sur le &a/discord&7.'
+    - ''
+    - ' &e/back &7(Permet de retourner à votre dernier point de téléportation)'
+    - ' &e/speed <1-10> &7(Changer votre vitesse de déplacement)'
+    - ' &e/nightvision &7(Permet d''obtenir un effet de vision nocturne)'
+    - ' &e/pweather &7(Modifier de façon personelle la météo)'
+    - ' &e/anvil &7(Ouvrir une interface d''enclume)'
+    - ' &e/stonecutter &7(Ouvrir une interface de tailleur de pierre)'
+    - ' &e/grindstone &7(Ouvrir un interface de meule)'
+    - ' &e/feed &7(Remplir votre barre de nourriture [sans limite de temps])'
+    - ' &e/repair &7(Réparer un item [toutes les &e3 &7minutes])'
+  fvip:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide &l&x&F&F&8&9&6&C&lF&x&F&F&9&B&8&2&lV&x&F&F&B&5&A&3&lI&x&F&F&C&F&C&3&lP&a :'
+    - ''
+    - '&8- &7L''ensemble des commandes &x&7&5&E&A&9&8&lV&x&9&0&E&8&A&A&lI&x&A&9&E&6&B&B&lP&x&B&D&E&A&C&A&l+&a&7.'
+    - '&8- &7Clés en plus dans le &a/dreward &7ou &a/dr&7.'
+    - '&8- &7Le droit à &e32 &7homes &a/sethome&7.'
+    - '&8- &7Possibilité de tranfert coffre infini/stockage. '
+    - '&8- &7Giveaway exclusif sur le &a/discord&7.'
+    - ''
+    - ' &e/fe &7(Permet de rendre les cadres invisibles)'
+    - ' &e/condense &7(Permet de transformer vos items en bloc)'
+    - ' &e/repair all &7(Réparer votre inventaire [Toutes les &e30 &7minutes])'
+    - ' &e/heal &7(Remplir votre barre de vie [toutes les &e10 &7minutes])'
+    - ' &e/trash &7(Ouvrir une interface de poubelle pour supprimer vos items)'
+  guide:
+    default: false
+    '1':
+    - ''
+    - '&6➟ &aAide Guide&a :'
+    - ''
+    - ' &e/sc &7(Entrer dans le StaffChat)'
+    - ' &e/sc <message> &7(Envoyer votre message dans le StaffChat)'
+    - ' &e/bc <message> &7(Envoyer un message en annonce)'
+    - ' &e/history <pseudo> <nombre> &7(Afficher le nombre de sanctions d''un joueur)'
+    - ' &e/warn <pseudo> <raison> &7(Avertir le joueur pour la raison donnée)'
+    - ' &e/kick <pseudo> <raison> &7(Expulser le joueur pour la raison donnée)'
+    - ' &e/unwarn <pseudo> &7(Retirer le précédent warn d''un joueur)'
+    - ' &e/tempmute <pseudo> <durée (1s/m/h/d - 7d Max.)> <raison> &7(Rendre le joueur muet pour le temps et la raison donnée)'
+    - ' &e/unmute <pseudo> &7(Rendre le droit de parole au joueur)'
+    - ' &e/tempban <pseudo> <durée (1s/m/h/d - 1d Max.)> <raison> &7(Bannir le joueur pour le temps et la raison donnée)'
+    - ' &e/unban <pseudo> &7(Rendre le droit de se connecter au joueur)'
+    - ' &e/seen <pseudo> &7(Afficher les informations de connexion d''un joueur)'
+    - ' &e/quest seeplayer &7(Afficher l''avancement des quêtes tuto du joueur)'
+  modo:
+    default: false
+    '1':
+    - ''
+    - '&6➟ &aAide Modo&a (1/2) :'
+    - ''
+    - ' &e/seen <pseudo> &7(Afficher les informations de connexion et l''IP d’un joueur)'
+    - ' &e/dupeip <pseudo> &7(Afficher les comptes déjà connectés sur l''IP du joueur)'
+    - ' &e/tempmute <pseudo> <durée (1s/m/h/d - 31d Max.)> <raison> &7(Rendre le joueur muet pour le temps et la raison donnée)'
+    - ' &e/unmute <pseudo> &7(Rendre le droit de parole au joueur)'
+    - ' &e/tempban <pseudo> <durée (1s/m/h/d - 31d Max.)> <raison> &7(Bannir le joueur pour le temps et la raison donnée)'
+    - ' &e/unban <pseudo> &7(Rendre le droit de se connecter au joueur)'
+    - ' &e/vanish ou /v &7(Devenir invisible pour les joueurs)'
+    - ' &e/tp <pseudo> &7(Se téléporter à un joueur)'
+    - ' &e/invsee <pseudo> &7(Ouvrir l''inventaire du joueur)'
+    - ' &e/sadmin tp <pseudo> &7(Se téléporter sur l''île Overworld d''un joueur)'
+    - ''
+    - '&7Page suivante: &c/help modo2'
+  modo2:
+    default: false
+    '1':
+    - ''
+    - '&6➟ &aAide Modo&a (2/2) :'
+    - ''
+    - ' &e/sadmin tpend <pseudo> &7(Se téléporter sur l''île End d''un joueur)'
+    - ' &e/sadmin tpnether <pseudo> &7(Se téléporter sur l''île Nether d''un joueur)'
+    - ' &e/sadmin info <pseudo> &7(Afficher les informations de l''île d’un joueur)'
+    - ' &e//drain <rayon> &7(Faire disparaître l''eau dans le rayon donné)'
+    - ' &e/rcd start <ticks> &7(Lancer une analyse des actions redstone pour le temps donné [20ticks = 1sec])'
+    - ' &e/rcd tp <1,2,...> &7(Se téléporter à la zone du /rcd list donnée)'
+    - ' &e/rcd list &7(Afficher la liste des zones les plus actives en redstone)'
+    - ' &e/fb reload &7(Recharger le scoreboard [Ne pas utiliser à plus de 35 joueurs connectés])'
+    - ' &eco i &7(Afficher les logs d''un bloc [Clic gauche/clic droit])'
+    - ' &eco l [1, 2, 3, ...] &7(Afficher les pages suivantes des logs)'
+
+  bank:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Banque :'
+    - ''
+    - '&8- &7Le système de &6banque&7 permet de faire &efructifier &7votre argent.'
+    - '&8- &7Pour cela, il suffit de mettre de &el''argent &7sur votre compte en banque. Chaque jour, vous obtiendrez &e2% &7d''intérêt sur la somme initialement placée.'
+    - '&8- &7Vous pouvez &eretirer &7votre argent placé sur votre livret à tout moment !'
+    - '&8- &7Vous pouvez placer jusqu''à &e10m Fc &7sur votre livret.'
+    - ''
+    - ' &e/bank &7(Ouvrir l''interface de la banque)'
+    - ' &e/bank deposit <montant> &7(Déposer de l''argent sur votre compte)'
+    - ' &e/bank interest &7(Retirer vos intérêts)'
+    - ' &e/bank withdraw &7(Retirer l''argent placé sur votre livret)'
+    - ' &e/bank due &7(Retirer l''argent placé sur votre compte chèque)'
+    - ' &e/pay <pseudo> <montant> &7(Envoyer de l''argent sur le compte du joueur mentionné)'
+
+  entreprise:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Entreprise :'
+    - ''
+    - '&8- &7Les &6entreprises &7sont l''un des endroits principaux de FrenchSky !'
+    - '&8- &7Les entreprises vous permettent d''augmenter vos prix de revente.'
+    - ''
+    - ' §e/echat <message> §7(Chat interne à l''entreprise)'
+    - ' §e/e create <nom> §7(Créer une entreprise)'
+    - ' §e/e delete §7(Supprimer votre entreprise)'
+    - ' §e/e rename <nom> §7(Renommer l''entreprise)'
+    - ' §e/e description <ligne(1-5)> <description> §7(Définir la description pour votre entreprise)'
+    - ' §e/e §7(Ouvrir l''interface d''entreprise)'
+    - ' §e/e accept <name> §7(Accepter l''invitation pour rejoindre une entreprise)'
+    - ' §e/e claim §7(Récupérer une entreprise si le PDG est absent depuis plus de 3 mois et uniquement si vous êtes Manager)'
+    - ' §e/e investment §7(Ouvrir l''interface d''investissement)'
+    - ' §e/e invite <pseudo> §7(Inviter un joueur dans votre entreprise)'
+    - ' §e/e kick <pseudo> §7(Expulser un joueur de votre entreprise)'
+    - ' §e/e leave §7(Quitter votre entreprise)'
+    - ' §e/e makeleader <pseudo> §7(Définir le joueur sélectionné comme nouveau PDG)'
+    - ' §e/e member §7(Afficher un GUI avec la liste des membres)'
+    - ' §e/e rank <pseudo> <grade> §7(Définir le rang du joueur sélectionné (Manager ou Member))'
+    - ' §e/e refuse <pseudo> §7(Refuser une invitation)'
+    - ' §e/e stats §7(Ouvrir l''interface des statistiques)'
+    - ' §e/e top §7(Afficher le CAC40 Frenchsky)'
+
+  legendaire:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Outils légendaires :'
+    - ''
+    - '&8- &7Les outils légendaires sont les items les plus efficaces du serveur.'
+    - '&8- &7Vous pouvez les obtenir dans les &ecoffres à clés &7ou en les &eachetant &7aux joueurs.'
+    - '&8- &7Les outils légendaires vous donnent une chance de double drop à chaque action effectuée avec. Le taux de chance de double drop augmente en fonction du niveau de l''outil.'
+    - '&8- &7Le niveau de l''outil augmente en fonction de l''action effectuée avec. Les outils récupèrent plus ou moins d''xp en fonction de leur tier.'
+    - '&8- &7Pour augmenter le tier d''un outil, il faut en fusionner deux du même type via &a/fitem fusion&7 (l''xp est conservé et se cumule).'
+    - '&8- &7Les items légendaires sont améliorables avec des enchantements spéciaux, comme &eMagnétisme&7.'
+    - ''
+    - ' &e/fitem fusion &7(Permet de fusionner deux items légendaires)'
+    - ' &e/fitem upgrade &7(Ouvrir le menu d''amélioration)'
+
+  armurelegendaire:
+    default: true
+    '1':
+    - ''
+    - '&6➟ &aAide Armures légendaires :'
+    - ''
+    - '&8- &7Les armures légendaires sont les plus efficaces du serveur pour combattre les mobs et les différents boss du /donjon.'
+    - '&8- &7Vous pouvez les obtenir en échangeant &edes fragments &7ou en les &eachetant &7aux joueurs.'
+    - '&8- &7Pour augmenter le tier d''une pièce d''armure, il faut en fusionner deux du même tier via la commande &a/fitem fusion&7.'
+    - ''
+    - ' &e/fitem fusion &7(Permet de fusionner deux pièces d''armures légendaires)'

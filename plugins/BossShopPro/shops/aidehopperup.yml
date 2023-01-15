@@ -1,0 +1,206 @@
+ShopName: helphopperup
+DisplayName: '     &8&lAide &b&lAMÉLIORATIONS'
+signs:
+  text: '[helphopperup]'
+  NeedPermissionToCreateSign: true
+shop:
+  YELLOW 10:
+    MenuItem:
+    - name:&7&lRien
+    - amount:1
+    - type:YELLOW_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  YELLOW 11:
+    MenuItem:
+    - name:&7&lRien
+    - amount:1
+    - type:YELLOW_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+
+  LINKSUP 12:
+    MenuItem:
+    - 'name:&7&nAmélioration&r &6&lNOMBRE DE LIAISON'
+    - 'lore:#&8N°1 : &e1 Liaison &8--> &c0 Fc#&8N°2 : &e3 Liaisons &8--> &c300k Fc#&8N°3 : &e5 Liaisons &8--> &c500k Fc#&8N°4 : &e10 Liaisons &8--> &c1m Fc#&8N°5 : &e20 Liaisons &8--> &c2m Fc'
+    - 'lore:&8N°6 : &e30 Liaisons &8--> &c3m Fc#&8N°7 : &e40 Liaisons &8--> &c4m Fc#&8N°8 : &e50 Liaisons &8--> &c5m Fc#&8N°9 : &e75 Liaisons &8--> &c7,5m Fc#&8N°10 : &e100 Liaisons &8--> &c10m Fc##&e» &7TOTAL : &c33,3m Fc'
+    - amount:1
+    - type:CHEST
+    RewardType: NOTHING 
+    Reward: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+
+  TRANSFERTUP 13:
+    MenuItem:
+    - 'name:&7&nAmélioration&r &6&lTRANSFERT'
+    - 'lore1:#&8N°1 : &e16 Items &8--> &c0 Fc#&8N°2 : &e32 Items &8--> &c100k Fc#&8N°3 : &e64 Items &8--> &c250k Fc#&8N°4 : &e128 Items &8--> &c500k Fc#&8N°5 : &e192 Items &8--> &c750k Fc'
+    - 'lore2:&8N°6 : &e256 Items &8--> &c1m Fc#&8N°7 : &e320 Items &8--> &c2m Fc##&e» &7TOTAL : &c4,6m Fc'
+    - amount:1
+    - type:HOPPER
+    RewardType: NOTHING
+    Reward: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  ASPIRATIONRADIUS 15:
+    MenuItem:
+    - 'name:&7&nAmélioration&r &6&lRAYON D''ASPIRATION'
+    - 'lore:#&8N°1 : &e5 Blocs &8--> &c0 Fc#&8N°2 : &e10 Blocs &8--> &c500k Fc#&8N°3 : &e25 Blocs &8--> &c1,25m Fc#&8N°4 : &e50 Blocs &8--> &c2,5m Fc#&8N°5 : &e75 Blocs &8--> &c3,75m Fc#&8N°6 : &e100 Blocs &8--> &c5m Fc'
+    - 'lore:&8N°7 : &e125 Blocs &8--> &c6,25m Fc#&8N°8 : &e150 Blocs &8--> &c7,5m Fc#&8N°9 : &e175 Blocs &8--> &c8,75m Fc#&8N°10 : &e200 Blocs &8--> &c10m Fc##&e» &7TOTAL : &cX Fc'
+    - amount:1
+    - type:BEACON
+    RewardType: NOTHING
+    Reward: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+
+  LINKSDISTANCE 16:
+    MenuItem:
+    - 'name:&7&nAmélioration&r &6&lDISTANCE DE LIAISON'
+    - 'lore:#&8N°1 : &e25 Blocs &8--> &c0 Fc#&8N°2 : &e50 Blocs &8--> &c125k Fc#&8N°3 : &e100 Blocs &8--> &c250k Fc#&8N°4 : &e150 Blocs &8--> &c500k Fc#&8N°5 : &e200 Blocs &8--> &c1m Fc##&e» &7TOTAL : &c1,875m Fc'
+    - amount:1
+    - type:COMPASS
+    RewardType: NOTHING
+    Reward: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  YELLOW 17:
+    MenuItem:
+    - name:&7&lRien
+    - amount:1
+    - type:YELLOW_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  YELLOW 18:
+    MenuItem:
+    - name:&7&lRien
+    - amount:1
+    - type:YELLOW_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+
+  GREY 28:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&0
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 28
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  GREY 29:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&1
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 29
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  BLACK 30:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&2
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 30
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  BLACK 31:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&3
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 31
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  PAPER 32:
+    ExtraPermission: ''
+    MenuItem:
+    - 'name:&e&l&nInformation'
+    - 'lore:#&e» &7Dans cette catégorie retrouvez la #&7liste des améliorations des entonnoirs #&7ainsi que leur prix respectif.'
+    - id:diamond
+    - enchantment:SHARPNESS#5
+    - hideflags:all  
+    - amount:1
+    InventoryLocation: 32
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  BLACK 33:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&5
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 33
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  BLACK 34:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&6
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 34
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  GREY 35:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&lRien&1&7
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 35
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  Retour 36:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&f&l✦ &c&lRetour &f&l✦
+    - id:barrier
+    - amount:1
+    InventoryLocation: 36
+    Message: ''
+    PriceType: nothing
+    RewardType: shop
+    Reward: helphopper
+
+

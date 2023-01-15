@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1673745721861
+  login: 1673743484003
+money: '0'
+logoutlocation:
+  world: 3222bc4e-addc-4a76-8110-f66872aec3dd
+  world-name: Superflat
+  x: 146.52431308971586
+  y: -48.597811009762566
+  z: 68.40221462740779
+  yaw: -93.7498779296875
+  pitch: 18.749975204467773
+last-account-name: _Jas0n__
