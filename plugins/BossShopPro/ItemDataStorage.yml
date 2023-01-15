@@ -240,3 +240,10 @@ Demy___:
     - durability:0
     - name:&fHardened Ore Resin
     - CustomModelData:10057
+  2023 15-01 at 05:29:45 PM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fDirt Resin
+    - CustomModelData:10011

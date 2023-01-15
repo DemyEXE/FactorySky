@@ -1,0 +1,26 @@
+#MiniMessage Format
+#https://docs.adventure.kyori.net/minimessage/format.html
+messages:
+  prefix: '<gradient:#ff206c:#fdee55>[CustomCrops] </gradient>'
+  reload: '<white>Reloaded! Took <green>{time}ms'
+  no-perm: '<red>No Permission!'
+  lack-args: '<white>Arguments are insufficient!'
+  wrong-args: '<white>Wrong arguments!'
+  none-args: '<white>None arguments!'
+  invalid-args: '<white>Invalid arguments!'
+  spring: 'Spring'
+  summer: 'Summer'
+  autumn: 'Autumn'
+  winter: 'Winter'
+  limitation-tripwire: '<white>Tripwires in this chunk have reached limitation {max}'
+  limitation-itemframe: '<white>Item frames in this chunk have reached limitation {max}'
+  grow-simulation: '<white>Growing simulation has started'
+  set-season: '<white>Successfully set {world}''s season to {season}!'
+  before-plant: '<white>This fertilizer must be used before planting!'
+  wrong-season: '<white>Current season is not suitable for planting this seed. Current season: {season} Suitable seasons: {suitable}'
+
+  no-season: 'No season'
+  season-disabled: 'Season is disabled'
+  auto-season-disabled: 'Failed to count'
+  world-not-exist: 'World {world} does not exist'
+  season-not-exist: 'Season {season} does not exist'

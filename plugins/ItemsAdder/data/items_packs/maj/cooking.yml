@@ -2,6 +2,18 @@ info:
   namespace: maj
 recipes:
   cooking:
+    dirt:
+      permission: maj.dirt
+      ingredient:
+        item: maj:dirt_mud
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: DIRT
+        amount: 1
     cobblestone:
       permission: maj.cobblestone
       ingredient:
@@ -25,6 +37,30 @@ recipes:
       cook_time: 200
       result:
         item: IRON_INGOT
+        amount: 1
+    redstone:
+      permission: maj.redstone
+      ingredient:
+        item: maj:redstone_mud
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: REDSTONE
+        amount: 1
+    lapis:
+      permission: maj.lapis
+      ingredient:
+        item: maj:lapis_mud
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: LAPIS_LAZULI
         amount: 1
     gold:
       permission: maj.gold

@@ -106,3 +106,5 @@ factorysky:passionfruit_stripped_log: 360
 factorysky:peach_stripped_log: 361
 factorysky:plum_stripped_log: 362
 factorysky:prune_stripped_log: 363
+customcrops:pot: 364
+customcrops:watered_pot: 365

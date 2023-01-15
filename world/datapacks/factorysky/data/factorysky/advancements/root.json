@@ -2,7 +2,7 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "L'ère de la boue",
+            "text": "FactorySky",
             "color": "gold",
             "bold": true,
             "italic": false,
@@ -11,7 +11,7 @@
             "obfuscated": false
         },
         "description": {
-            "text": "Vous avez crafté de la boue !",
+            "text": "Bienvenue sur FactorySky !",
             "color": "white",
             "italic": true,
             "bold": false

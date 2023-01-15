@@ -24,7 +24,6 @@ items:
           break:
             name: block.mud.break
       
-
   stone_mud:
     display_name: display-name-maj-stone_mud
     permission: maj.stone_mud
@@ -185,3 +184,5 @@ items:
             name: block.mud.place
           break:
             name: block.mud.break
+
+  

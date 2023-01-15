@@ -1,10 +1,10 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
+godmode: true
 muted: false
 jailed: false
 ip-address: 127.0.0.1
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1673764338578
-  login: 1673764323692
+  logout: 1673819195775
+  login: 1673817539476
 money: '0'
 logoutlocation:
   world: 3222bc4e-addc-4a76-8110-f66872aec3dd
   world-name: Superflat
-  x: 21.1919415477877
-  y: -48.169329906924546
-  z: -80.0123865106301
-  yaw: 105.30013275146484
-  pitch: 20.249948501586914
+  x: -31.457385296800656
+  y: -53.092553367964285
+  z: 38.107059970802915
+  yaw: 116.40064239501953
+  pitch: 26.250165939331055
 last-account-name: Demy___

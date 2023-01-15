@@ -20,6 +20,25 @@ items:
       generate: true
       textures:
       - item/dirt/resin.png
+    furniture:
+      entity: item_frame # you can also use item_frame (works better on 1.16+)
+      small: true
+      gravity: true
+      fixed_rotation: false
+      light_level: 7  
+      solid: false
+      opposite_direction: false #makes the model rotate 180 when placed
+      hitbox:
+        length: 2
+        width: 2.3
+        height: 1
+        length_offset: 0.5
+        width_offset: 0.5
+        height_offset: 0.5
+      placeable_on:
+        walls: false
+        ceiling: false
+        floor: true
   dirt_acorn:
     display_name: display-name-maj-dirt_acorn
     permission: maj.dirt_acorn
