@@ -71,4 +71,13 @@ categories:
       - "maj:emerald_acorn"
       - "maj:emerald_hardened_acorn"
       - "maj:emerald_hardened_resin"
+      - "maj:resin"
+      - "maj:acorn"
+      - "maj:hardened_resin"
+      - "maj:hardened_acorn"
+      - "maj:down_arrow"
+      - "maj:up_arrow"
+      - "maj:left_arrow"
+      - "maj:right_arrow"
+      - "maj:cancel"
       

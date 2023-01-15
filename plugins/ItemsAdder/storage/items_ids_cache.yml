@@ -49,6 +49,15 @@ PAPER:
   maj:emerald_acorn: 10047
   maj:emerald_hardened_acorn: 10048
   maj:emerald_hardened_resin: 10049
+  maj:resin: 10050
+  maj:acorn: 10051
+  maj:down_arrow: 10052
+  maj:up_arrow: 10053
+  maj:left_arrow: 10054
+  maj:right_arrow: 10055
+  maj:cancel: 10056
+  maj:hardened_resin: 10057
+  maj:hardened_acorn: 10058
 PLAYER_HEAD:
   __manually_handled:iainternal__player_hat_slot: 10000
   __manually_handled:iainternal__player_left_arm_slot: 10001

@@ -352,3 +352,77 @@ items:
       generate: true
       textures:
       - item/emerald/hardened_resin.png
+
+  resin:
+    display_name: display-name-maj-resin
+    permission: maj.resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/base/ore_resin.png
+  acorn:
+    display_name: display-name-maj-acorn
+    permission: maj.acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/base/ore_acorn.png
+  hardened_resin:
+    display_name: display-name-maj-hardened_resin
+    permission: maj.hardened_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/base/hardened_resin.png
+  hardened_acorn:
+    display_name: display-name-maj-hardened_acorn
+    permission: maj.hardened_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/base/hardened_acorn.png
+      
+  down_arrow:
+    display_name: display-name-maj-down_arrow
+    permission: maj.down_arrow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/sign/down_arrow.png
+  up_arrow:
+    display_name: display-name-maj-up_arrow
+    permission: maj.up_arrow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/sign/up_arrow.png
+  left_arrow:
+    display_name: display-name-maj-left_arrow
+    permission: maj.left_arrow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/sign/left_arrow.png
+  right_arrow:
+    display_name: display-name-maj-right_arrow
+    permission: maj.right_arrow
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/sign/right_arrow.png
+  cancel:
+    display_name: display-name-maj-cancel
+    permission: maj.cancel
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/sign/cancel.png

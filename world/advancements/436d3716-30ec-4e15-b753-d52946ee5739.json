@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-01-15 03:02:51 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2023-01-12 08:23:50 +0100"
@@ -643,6 +649,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2023-01-15 03:17:09 +0100",
       "minecraft:zombie": "2023-01-13 08:34:06 +0100"
     },
     "done": false

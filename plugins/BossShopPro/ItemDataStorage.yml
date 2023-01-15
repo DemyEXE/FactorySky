@@ -111,3 +111,132 @@ Demy___:
     - durability:0
     - name:&fStone Mud
     - CustomModelData:10001
+  2023 15-01 at 03:17:15 AM (dim:
+    ):
+    - type:DIAMOND_SWORD
+    - amount:1
+    - durability:0
+    - name:&bBlazefury
+    - lore1:&7A devine sword.
+    - lore2:&7This sword is many millennium old...
+    - enchantment:knockback#8
+    - enchantment:sharpness#5
+    - enchantment:smite#5
+    - enchantment:fire_aspect#3
+    - itemflag:HIDE_ENCHANTS
+    - itemflag:HIDE_ATTRIBUTES
+    - itemflag:HIDE_UNBREAKABLE
+    - itemflag:HIDE_DESTROYS
+    - itemflag:HIDE_PLACED_ON
+    - itemflag:HIDE_POTION_EFFECTS
+    - itemflag:HIDE_DYE
+    - unbreakable:true
+    - nbttag:OBJ#ItemJoin Slot#0.0
+  2023 15-01 at 05:58:06 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fNext >
+    - CustomModelData:10006
+  2023 15-01 at 05:59:20 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fCancel
+    - CustomModelData:10003
+  2023 15-01 at 05:59:59 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fCancel
+    - CustomModelData:10003
+  2023 15-01 at 06:00:09 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fCancel
+    - CustomModelData:10003
+  2023 15-01 at 06:12:00 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fRetour
+    - CustomModelData:10056
+  2023 15-01 at 06:12:19 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fRight Arrow
+    - CustomModelData:10055
+  2023 15-01 at 06:14:01 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fCancel
+    - CustomModelData:10003
+  2023 15-01 at 06:51:27 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fHardened Ore Resin
+    - CustomModelData:10057
+  2023 15-01 at 07:10:52 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fLeft Arrow
+    - CustomModelData:10054
+  2023 15-01 at 07:12:42 AM (dim:
+    ):
+    - type:FILLED_MAP
+    - amount:1
+    - durability:0
+    - name:&eMagical Cloth
+    - lore1:&7Server promotions
+    - lore2:&7Directions or custom maps.
+    - itemflag:HIDE_ENCHANTS
+    - itemflag:HIDE_ATTRIBUTES
+    - itemflag:HIDE_UNBREAKABLE
+    - itemflag:HIDE_DESTROYS
+    - itemflag:HIDE_PLACED_ON
+    - itemflag:HIDE_POTION_EFFECTS
+    - itemflag:HIDE_DYE
+    - unbreakable:true
+    - nbttag:OBJ#ItemJoin Slot#2.0
+  2023 15-01 at 07:12:51 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fHardened Ore Acorn
+    - CustomModelData:10058
+  2023 15-01 at 07:16:30 AM (dim:
+    ):
+    - type:END_STONE
+    - amount:1
+    - durability:0
+    - name:&fGold Mud
+    - CustomModelData:10005
+  2023 15-01 at 07:19:28 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fHardened Ore Acorn
+    - CustomModelData:10058
+  2023 15-01 at 07:19:41 AM (dim:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fHardened Ore Resin
+    - CustomModelData:10057
