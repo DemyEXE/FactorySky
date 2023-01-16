@@ -475,7 +475,7 @@ shop:
   47:
     ExtraPermission: ''
     MenuItem:
-    - name:&e&lPage précédente
+    - name:&e&lPage précédente (Page 1)
     - id:PAPER
     - CustomModelData:10054
     - amount:1
@@ -537,7 +537,7 @@ shop:
   53:
     ExtraPermission: ''
     MenuItem:
-    - name:&e&lPage suivante
+    - name:&e&lPage suivante (Page 3)
     - id:PAPER
     - CustomModelData:10055
     - amount:1

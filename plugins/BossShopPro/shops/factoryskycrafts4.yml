@@ -475,7 +475,7 @@ shop:
   47:
     ExtraPermission: ''
     MenuItem:
-    - name:&e&lPage précédente
+    - name:&e&lPage précédente (Page 3)
     - id:PAPER
     - CustomModelData:10054
     - amount:1
@@ -537,13 +537,15 @@ shop:
   53:
     ExtraPermission: ''
     MenuItem:
-    - name:&7&l&1&1
-    - id:gray_stained_glass_pane
+    - name:&e&lPage suivante (Page 5)
+    - id:PAPER
+    - CustomModelData:10055
     - amount:1
     InventoryLocation: 53
     Message: ''
     PriceType: nothing
-    RewardType: unknown 
+    RewardType: shop
+    Reward: factoryskycrafts5
 
   Retour:
     ExtraPermission: ''

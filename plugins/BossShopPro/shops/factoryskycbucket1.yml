@@ -1,14 +1,15 @@
-ShopName: factoryskycrafts
+ShopName: factoryskycbucket1
 DisplayName: '      &f&lCrafts FACTORYSKY'
 signs:
-  text: '[factoryskycrafts]'
+  text: '[factoryskycbucket1]'
   NeedPermissionToCreateSign: true
 shop:
   Craft_ITEM:
     MenuItem:
-    - name:&fBoue &7(&aTerre, Pierre, Fer, Lapis, Redstone&7)
+    - name:&fOre Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow&7)
     - amount:1
-    - type:MUD
+    - type:BUCKET
+    - CustomModelData:BUCKET
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -28,37 +29,24 @@ shop:
   
   Craft_SLOT_1:
     MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOre
+    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
     - amount:1
-    - type:PAPER
-    - CustomModelData:10050
+    - type:NETHERRACK
+    - CustomModelData:JSP
     RewardType: NOTHING
     Reward:
     - NOTHING
     PriceType: NOTHING
     ExtraPermission: ''
     InventoryLocation: 22
-  Craft_SLOT_2:
-    MenuItem:
-    - name:&fOre Acorn
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
-    - amount:1
-    - type:PAPER
-    - CustomModelData:10051
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 23
   Craft_SLOT_3:
     MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOre
+    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
     - amount:1
-    - type:PAPER
-    - CustomModelData:10050
+    - type:NETHERRACK
+    - CustomModelData:JSP
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -67,11 +55,11 @@ shop:
     InventoryLocation: 24
   Craft_SLOT_4:
     MenuItem:
-    - name:&fOre Acorn
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOre
+    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
     - amount:1
-    - type:PAPER
-    - CustomModelData:10051
+    - type:NETHERRACK
+    - CustomModelData:JSP
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -80,11 +68,9 @@ shop:
     InventoryLocation: 31
   Craft_SLOT_5:
     MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fBUCKET
     - amount:1
-    - type:PAPER
-    - CustomModelData:10050
+    - type:BUCKET
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -93,56 +79,17 @@ shop:
     InventoryLocation: 32
   Craft_SLOT_6:
     MenuItem:
-    - name:&fOre Acorn
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOre
+    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
     - amount:1
-    - type:PAPER
-    - CustomModelData:10051
+    - type:NETHERRACK
+    - CustomModelData:JSP
     RewardType: NOTHING
     Reward:
     - NOTHING
     PriceType: NOTHING
     ExtraPermission: ''
     InventoryLocation: 33
-  Craft_SLOT_7:
-    MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
-    - amount:1
-    - type:PAPER
-    - CustomModelData:10050
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 40
-  Craft_SLOT_8:
-    MenuItem:
-    - name:&fOre Acorn
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
-    - amount:1
-    - type:PAPER
-    - CustomModelData:10051
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 41
-  Craft_SLOT_9:
-    MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
-    - amount:1
-    - type:PAPER
-    - CustomModelData:10050
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 42
 
   1:
     MenuItem:
@@ -542,7 +489,7 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: factoryskycrafts2
+    Reward: factoryskycbucket2
 
   Retour:
     ExtraPermission: ''

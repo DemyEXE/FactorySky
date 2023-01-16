@@ -1,14 +1,14 @@
-ShopName: factoryskycrafts
+ShopName: factoryskycpousse1
 DisplayName: '      &f&lCrafts FACTORYSKY'
 signs:
-  text: '[factoryskycrafts]'
+  text: '[factoryskycpousse1]'
   NeedPermissionToCreateSign: true
 shop:
   Craft_ITEM:
     MenuItem:
-    - name:&fBoue &7(&aTerre, Pierre, Fer, Lapis, Redstone&7)
+    - name:&fOak Sapling
     - amount:1
-    - type:MUD
+    - type:OAK_SAPLING
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -28,11 +28,9 @@ shop:
   
   Craft_SLOT_1:
     MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOak Log
     - amount:1
-    - type:PAPER
-    - CustomModelData:10050
+    - type:OAK_LOG
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -41,11 +39,9 @@ shop:
     InventoryLocation: 22
   Craft_SLOT_2:
     MenuItem:
-    - name:&fOre Acorn
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOak Log
     - amount:1
-    - type:PAPER
-    - CustomModelData:10051
+    - type:OAK_LOG
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -54,11 +50,9 @@ shop:
     InventoryLocation: 23
   Craft_SLOT_3:
     MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOak Log
     - amount:1
-    - type:PAPER
-    - CustomModelData:10050
+    - type:OAK_LOG
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -67,11 +61,9 @@ shop:
     InventoryLocation: 24
   Craft_SLOT_4:
     MenuItem:
-    - name:&fOre Acorn
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOak Log
     - amount:1
-    - type:PAPER
-    - CustomModelData:10051
+    - type:OAK_LOG
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -80,11 +72,10 @@ shop:
     InventoryLocation: 31
   Craft_SLOT_5:
     MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fDirt Sapling
     - amount:1
     - type:PAPER
-    - CustomModelData:10050
+    - CustomModelData:10007
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -93,11 +84,9 @@ shop:
     InventoryLocation: 32
   Craft_SLOT_6:
     MenuItem:
-    - name:&fOre Acorn
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOak Log
     - amount:1
-    - type:PAPER
-    - CustomModelData:10051
+    - type:OAK_LOG
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -106,11 +95,9 @@ shop:
     InventoryLocation: 33
   Craft_SLOT_7:
     MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOak Log
     - amount:1
-    - type:PAPER
-    - CustomModelData:10050
+    - type:OAK_LOG
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -119,11 +106,9 @@ shop:
     InventoryLocation: 40
   Craft_SLOT_8:
     MenuItem:
-    - name:&fOre Acorn
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOak Log
     - amount:1
-    - type:PAPER
-    - CustomModelData:10051
+    - type:OAK_LOG
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -132,11 +117,9 @@ shop:
     InventoryLocation: 41
   Craft_SLOT_9:
     MenuItem:
-    - name:&fOre Resin
-    - 'lore:#&e» &7&l&nMinerais:&a Terre, Pierre, Fer, Lapis, #   &aRedstone'
+    - name:&fOak Log
     - amount:1
-    - type:PAPER
-    - CustomModelData:10050
+    - type:OAK_LOG
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -474,7 +457,7 @@ shop:
   47:
     ExtraPermission: ''
     MenuItem:
-    - name:&7&l&1&1
+    - name:&7&l&1&0
     - id:gray_stained_glass_pane
     - amount:1
     InventoryLocation: 47
@@ -542,7 +525,7 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: factoryskycrafts2
+    Reward: factoryskycpousse2
 
   Retour:
     ExtraPermission: ''
