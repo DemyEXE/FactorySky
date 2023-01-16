@@ -1,0 +1,219 @@
+Craft des pousses :
+dirt sapling + 8 bûches de chêne = oak sapling
+oak sapling + 8 mud dirt = stone sapling
+oak sapling + 4 hardened cobblestone + 4 dirt = iron sapling
+9 cobblestone = 1 hardened cobblestone
+oak sapling + 4 iron block + 4 hardened cobblestone = lapis sapling
+9 stone = 1 hardened stone
+oak sapling + 4 iron block + 4 hardened stone = redstone sapling
+iron sapling + 4 lapis block + 4 redstone block = gold sapling
+gold sapling + 1 seau de lapis liquide + 1 seau de redstone liquide + 1 seau de fer liquide = diamond sapling
+diamond sapling + 1 bloc d'or + 1 bloc de fer + 1 bloc de lapis + 1 bloc de redstone = emerald sapling
+oak sapling + 4 cobblestone + 2 iron + 2 lapis = bone sapling 
+
+x5 bone resin + x4 bone acorn = 3 blocs d'os
+
+seau vide + 4 minerais = <minerais> bucket
+<minerais bucket> + cuisson = <minerais> liquide bucket
+
+3 catégories d'achievement :
+
+1) Dans la première catégorie, le déblocage de tous les arbres à minerais, la possibilité de faire des seaux de lave et des seaux d'eau.
+seau + boue en terre = seau de boue + cuisson = seau d'eau
+seau + boue en terre + colorant rouge = seau de boue rouge + cuisson = seau de lave 
+BIG TOUTOU_ — Hier à 17:59
+La possibilité d'automatiser les récoltes d'arbres via une machine.
+machine core + 4 iron ingot + 2 redstone + 2 gold ingot = machine tree
+machine tree + <ore> = machine tree <ore>
+1 bloc de fer + 2 lingots d'or + 2 seaux de redstone fondu + 4 cobble = machine core
+
+2) Dans la deuxième catégorie, le joueur va être initié à l'amélioration de son usine à cobble et à la création d'autres arbres.
+Créer un "mineral upgrader".
+x4 machine core + x1 diamant + x4 blocs de fer = mineral upgrader
+Ce "mineral upgrader" va ouvrir un menu permettant d'upgrade son générateur à cobble afin d'avoir certains minerais.
+Deux sous-menus, un pour voir son générateur, un pour l'upgrade, pour l'upgrade ça file une perm contre un certain item.
+Ces minerais seront obtenables à hauteur d'un certain % une fois débloqué.
+Pour les obtenir, le joueur devra créer des "minerals upgrade".
+
+Crafts :
+x1 machine core + x2 <minerals upgrade> + x2 émeraudes = <minerals> upgrade
+
+x4 renforced glass + x4 stone bricks + x1 bloc de fer = x1 minerals iron upgrade
+x4 renforced glass + x4 stone bricks + x1 bloc de lapis = x1 minerals lapis upgrade
+x4 renforced glass + x4 stone bricks + x1 bloc de redstone = x1 minerals redstone upgrade
+x4 renforced glass + x4 stone bricks + x1 bloc d'or = x1 minerals gold upgrade
+x4 renforced glass + x4 stone bricks + x1 bloc de diamant = x1 minerals diamond upgrade 
+BIG TOUTOU_ — Hier à 18:08
+x4 glass + x4 stone bricks + x1 bloc de d'émeraude = x1 minerals generator emerald upgrade
+
+x8 renforced iron block + x1 seau de fer liquide = x1 minerals generator mithril upgrade
+x8 renforced lapis block + x1 seau de lapis liquide = x1 minerals generator sapphire upgrade
+x8 renforced redstone block + x1 seau de redstone liquide = x1 minerals generator ruby upgrade
+x8 renforced gold block + x1 seau d'or liquide = x1 minerals generator topaz upgrade
+
+9 glass = 2 renforced glass
+
+oak sapling + 8 seaux d'or liquide = 1 sand sapling
+oak sapling + 8 seaux de redstone liquide = 1 dimension sapling
+
+x4 dimension acorn + x5 dimension resin = x1 blazerod fragment
+x4 dimension resin + x5 dimension acorn = x1 enderpearl fragment
+
+x1 seau de topaz liquide + 1 seau de mithril liquide + 1 seau d'émeraude liquide + 1 seau de rubis liquide + 1 seau de fer liquide + 1 seau de saphir liquide + 1 seau d'or liquide + x1 seau de lapis liquide + 1 seau de redstone liquide = x1 liquid rainbow
+
+oak sapling + 2 dimensions sapling + 3 netherrack + 3 endstone = 1 no colored rainbow sapling
+x1 no colored rainbow sapling + x1 liquid rainbow = 1 rainbow sapling
+
+x5 rainbow resins + x4 rainbow acorns = x1 rainbow ingot
+x9 rainbow ingots = x1 rainbow blocks
+x3 rainbow blocks + x3 enderpearl + x2 mithrils + x1 rubis = x1 rainbow star
+
+Loots des nouveaux arbres :
+Arbre de sable = comme les autres
+Arbre dimensionnel = fragment de blazerod + fragment d'enderpearl
+Arbre arc-en-ciel = comme les autres 
+
+Moi_ˢᵈᶜ 🌵 — Hier à 19:14
+Dirt sapling (arbre, pousse)
+Stone sapling (arbre, pousse)
+Bone sapling (arbre, pousse)
+Iron sapling (arbre, pousse)
+Lapis sapling (arbre, pousse)
+Redstone sapling (arbre, pousse)
+Gold sapling (arbre, pousse)
+Diamond sapling (arbre, pousse)
+Emerald sapling (arbre, pousse)
+Sand sapling (arbre, pousse)
+Dimension sapling (arbre, pousse)
+No colored rainbow sapling (item)
+Rainbow sapling (arbre, pousse)
+
+Dirt acorn (item)
+Stone acorn (item)
+Bone acorn (item)
+Iron acorn (item)
+Lapis acorn (item)
+Redstone acorn (item)
+Gold acorn (item)
+Diamond acorn (item)
+Emerald acorn (item)
+Sand acorn (item)
+Dimension acorn (item)
+Rainbow acorn (item)
+
+Dirt resin (item)
+Stone resin (item)
+Bone resin (item)
+Iron resin (item)
+Lapis resin (item)
+Redstone resin (item)
+Gold resin (item)
+Diamond resin (item)
+Emerald resin (item)
+Sand resin (item)
+Dimension resin (item)
+Rainbow resin (item)
+
+Mithril log (block)
+Sapphire log (block)
+Ruby log (block)
+Topaz log (block)
+Sand log (block)
+Dimension log (block)
+
+Mithril leaves (block)
+Sapphire leaves (block)
+Ruby leaves (block)
+Topaz leaves (block)
+Sand leaves (block)
+Dimension leaves (block)
+
+Dirt mud (block)
+Stone mud (block)
+Iron mud (block)
+Lapis mud (block)
+Redstone mud (block)
+Gold mud (block)
+Diamond mud (block)
+Emerald mud (block)
+Sand mud (block)
+
+Blazerod fragment (item)
+Enderpearl fragment (item)
+
+Mud bucket (item)
+Red mud bucket (item)
+Liquid iron bucket (item)
+Liquid lapis bucket (item)
+Liquid redstone bucket (item)
+Liquid gold bucket (item)
+Liquid diamond bucket (item)
+Liquid emerald bucket (item)
+Liquid mithril bucket (item)
+Liquid topaz bucket (item) 
+Liquid sapphire bucket (item)
+Liquid rainbow bucket (item)
+
+Machine core (item)
+Superior machine core (item)
+
+Tree machine dirt (machine, block)
+Tree machine stone (machine, block)
+Tree machine iron (machine, block)
+Tree machine lapis (machine, block)
+Tree machine redstone (machine, block)
+Tree machine gold (machine, block)
+Tree machine diamond (machine, block)
+Tree machine emerald (machine, block)
+
+Minerals upgrader (machine, block)
+Iron minerals upgrade (upgrade pour new item, item)
+Lapis minerals upgrade (upgrade pour new item, item)
+Redstone minerals upgrade (upgrade pour new item, item)
+Gold minerals upgrade (upgrade pour new item, item)
+Diamond minerals upgrade (upgrade pour new item, item)
+Emerald minerals upgrade (upgrade pour new item, item)
+Mithril minerals upgrade (upgrade pour new item, item)
+Sapphire minerals upgrade (upgrade pour new item, item)
+Ruby minerals upgrade (upgrade pour new item, item)
+Topaz minerals upgrade (upgrade pour new item, item)
+
+Rainbow ingot (item)
+Rainbow block (item)
+Rainbow star (item)
+
+Mithril ingot (item)
+Sapphire ingot (item)
+Ruby ingot (item)
+Topaz ingot (item)
+
+Renforced glass (block)
+
+Renforced iron block (block)
+Renforced lapis block (block)
+Renforced redstone block (block)
+Renforced gold block (block)
+
+Hardened cobblestone
+Hardened stone
+Hardened dirt mud
+
+Wooden shears
+Stone shears
+Gold shears
+Diamond shears
+Emerald shears
+Emerald pickaxe
+Mithril pickaxe
+Mithril axe
+Mithril shears
+Sapphire pickaxe
+Sapphire axe
+Sapphire shears
+Ruby pickaxe
+Ruby axe
+Ruby shears
+Topaz pickaxe
+Topaz axe
+Topaz shears 
+
