@@ -8,8 +8,8 @@ shop:
     MenuItem:
     - name:&fOre Tree Machine
     - amount:1
-    - type:ANCIENT_DEBRIS
-    - CustomModelData:INCONNU2
+    - type:IRON_BLOCK
+    - CustomModelData:10003
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -31,7 +31,7 @@ shop:
     MenuItem:
     - name:&fOre &7(&aDirt, Stone, Iron, Lapis, Redstone, Gold, Diamond, Emerald&7)
     - amount:1
-    - type:GOLD_INGOT
+    - type:IRON_INGOT
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -43,6 +43,7 @@ shop:
     - name:&fTree Machine
     - amount:1
     - type:IRON_BLOCK
+    - CustomModelData:10000
     RewardType: NOTHING
     Reward:
     - NOTHING

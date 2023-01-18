@@ -32,7 +32,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10057
+    - CustomModelData:10167
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -45,7 +45,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10058
+    - CustomModelData:10168
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -58,7 +58,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10057
+    - CustomModelData:10167
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -71,7 +71,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10058
+    - CustomModelData:10168
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -84,7 +84,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10057
+    - CustomModelData:10167
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -97,7 +97,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10058
+    - CustomModelData:10168
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -110,7 +110,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10057
+    - CustomModelData:10167
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -123,7 +123,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10058
+    - CustomModelData:10168
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -136,7 +136,7 @@ shop:
     - 'lore:#&e» &7&l&nMinerais:&a Or, Diamant, Émeraude'
     - amount:1
     - type:PAPER
-    - CustomModelData:10057
+    - CustomModelData:10167
     RewardType: NOTHING
     Reward:
     - NOTHING

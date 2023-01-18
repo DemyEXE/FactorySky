@@ -9,7 +9,7 @@ shop:
     - name:&fRed Mud Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:BUCKET
+    - CustomModelData:10001
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''

@@ -8,8 +8,8 @@ shop:
     MenuItem:
     - name:&fTree Machine
     - amount:1
-    - type:PURPUR_PILLAR
-    - CustomModelData:INCONNU2
+    - type:IRON_BLOCK
+    - CustomModelData:10000
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''

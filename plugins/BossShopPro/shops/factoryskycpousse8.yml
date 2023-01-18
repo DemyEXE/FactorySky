@@ -32,7 +32,7 @@ shop:
     - name:&fMolten Lapis Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:69
+    - CustomModelData:10013
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -44,7 +44,7 @@ shop:
     - name:&fMolten Redstone Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:70
+    - CustomModelData:10014
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -68,7 +68,7 @@ shop:
     - name:&fMolten Iron Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:71
+    - CustomModelData:10012
     RewardType: NOTHING
     Reward:
     - NOTHING

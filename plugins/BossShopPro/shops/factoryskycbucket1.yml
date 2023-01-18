@@ -6,7 +6,7 @@ signs:
 shop:
   Craft_ITEM:
     MenuItem:
-    - name:&fOre Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow&7)
+    - name:&fOre Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow&7)
     - amount:1
     - type:BUCKET
     - CustomModelData:BUCKET
@@ -30,10 +30,9 @@ shop:
   Craft_SLOT_1:
     MenuItem:
     - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
+    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
     - amount:1
-    - type:NETHERRACK
-    - CustomModelData:JSP
+    - type:IRON_INGOT
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -43,10 +42,9 @@ shop:
   Craft_SLOT_3:
     MenuItem:
     - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
+    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
     - amount:1
-    - type:NETHERRACK
-    - CustomModelData:JSP
+    - type:IRON_INGOT
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -56,10 +54,9 @@ shop:
   Craft_SLOT_4:
     MenuItem:
     - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
+    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
     - amount:1
-    - type:NETHERRACK
-    - CustomModelData:JSP
+    - type:IRON_INGOT
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -80,10 +77,9 @@ shop:
   Craft_SLOT_6:
     MenuItem:
     - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
+    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
     - amount:1
-    - type:NETHERRACK
-    - CustomModelData:JSP
+    - type:IRON_INGOT
     RewardType: NOTHING
     Reward:
     - NOTHING

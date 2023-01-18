@@ -9,7 +9,7 @@ shop:
     - name:&fMineral Upgrader
     - amount:1
     - type:NETHER_WART_BLOCK
-    - CustomModelData:INCONNU2
+    - CustomModelData:10000
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -32,7 +32,7 @@ shop:
     - name:&fMachine Core
     - amount:1
     - type:QUARTZ
-    - CustomModelData:INCONNU
+    - CustomModelData:10000
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -55,7 +55,7 @@ shop:
     - name:&fMachine Core
     - amount:1
     - type:QUARTZ
-    - CustomModelData:INCONNU
+    - CustomModelData:10000
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -100,7 +100,7 @@ shop:
     - name:&fMachine Core
     - amount:1
     - type:QUARTZ
-    - CustomModelData:INCONNU
+    - CustomModelData:10000
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -123,7 +123,7 @@ shop:
     - name:&fMachine Core
     - amount:1
     - type:QUARTZ
-    - CustomModelData:INCONNU
+    - CustomModelData:10000
     RewardType: NOTHING
     Reward:
     - NOTHING

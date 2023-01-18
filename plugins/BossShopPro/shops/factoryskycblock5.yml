@@ -8,7 +8,7 @@ shop:
     MenuItem:
     - name:&fHardened Stone
     - type:NETHER_BRICKS
-    - CustomModelData:INCONNU
+    - CustomModelData:10000
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''

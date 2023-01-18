@@ -42,8 +42,8 @@ shop:
     MenuItem:
     - name:&fHardened Cobblestone
     - amount:1
-    - type:BLOCK
-    - CustomModelData:INCONNU2
+    - type:NETHER_BRICKS
+    - CustomModelData:10001
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -65,8 +65,8 @@ shop:
     MenuItem:
     - name:&fHardened Cobblestone
     - amount:1
-    - type:BLOCK
-    - CustomModelData:INCONNU2
+    - type:NETHER_BRICKS
+    - CustomModelData:10001
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -88,8 +88,8 @@ shop:
     MenuItem:
     - name:&fHardened Cobblestone
     - amount:1
-    - type:BLOCK
-    - CustomModelData:INCONNU2
+    - type:NETHER_BRICKS
+    - CustomModelData:10001
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -111,8 +111,8 @@ shop:
     MenuItem:
     - name:&fHardened Cobblestone
     - amount:1
-    - type:BLOCK
-    - CustomModelData:INCONNU2
+    - type:NETHER_BRICKS
+    - CustomModelData:10001
     RewardType: NOTHING
     Reward:
     - NOTHING

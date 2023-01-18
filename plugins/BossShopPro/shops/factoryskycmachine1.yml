@@ -9,7 +9,7 @@ shop:
     - name:&fMachine Core
     - amount:1
     - type:QUARTZ
-    - CustomModelData:INCONNU2
+    - CustomModelData:10000
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -65,7 +65,7 @@ shop:
     - name:&fMolten Redstone Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:INCONNU
+    - CustomModelData:10014
     RewardType: NOTHING
     Reward:
     - NOTHING
@@ -88,7 +88,7 @@ shop:
     - name:&fMolten Redstone Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:INCONNU
+    - CustomModelData:10014
     RewardType: NOTHING
     Reward:
     - NOTHING

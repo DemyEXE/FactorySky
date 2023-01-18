@@ -41,7 +41,7 @@ shop:
     - name:&fMud Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:1
+    - CustomModelData:10000
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''

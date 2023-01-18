@@ -6,10 +6,10 @@ signs:
 shop:
   Craft_ITEM:
     MenuItem:
-    - name:&fMolten Ore Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow&7)
+    - name:&fMolten Ore Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow&7)
     - amount:1
     - type:BUCKET
-    - CustomModelData:BUCKET
+    - CustomModelData:10012
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -39,10 +39,10 @@ shop:
 
   ITEM_CUISSON:
     MenuItem:
-    - name:&fOre Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow&7)
+    - name:&fOre Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow&7)
     - amount:1
     - type:BUCKET
-    - CustomModelData:1
+    - CustomModelData:10002
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -61,10 +61,10 @@ shop:
     InventoryLocation: 41
   RESULTAT_CUISSON:
     MenuItem:
-    - name:&f&lMolten Ore Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow&7)
+    - name:&f&lMolten Ore Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow&7)
     - amount:1
     - type:BUCKET
-    - CustomModelData:1
+    - CustomModelData:10012
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''

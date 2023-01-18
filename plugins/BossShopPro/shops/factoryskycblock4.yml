@@ -8,7 +8,7 @@ shop:
     MenuItem:
     - name:&fHardened Cobblestone
     - type:NETHER_BRICKS
-    - CustomModelData:INCONNU
+    - CustomModelData:10001
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
