@@ -165,6 +165,19 @@ PAPER:
   customcrops:hop_stage_3: 10163
   customcrops:hop_stage_4: 10164
   customcrops:hop_seeds: 10165
+  maj:bone_sapling: 10166
+  maj:bone_resin: 10167
+  maj:bone_acorn: 10168
+  maj:sand_sapling: 10169
+  maj:sand_resin: 10170
+  maj:sand_acorn: 10171
+  maj:dimension_sapling: 10172
+  maj:dimension_resin: 10173
+  maj:dimension_acorn: 10174
+  maj:no_colored_sapling: 10175
+  maj:rainbow_sapling: 10176
+  maj:rainbow_resin: 10177
+  maj:rainbow_acorn: 10178
 PLAYER_HEAD:
   __manually_handled:iainternal__player_hat_slot: 10000
   __manually_handled:iainternal__player_left_arm_slot: 10001
@@ -230,6 +243,14 @@ SPRUCE_LOG:
   maj:gold_log: 10007
   maj:diamond_log: 10008
   maj:emerald_log: 10009
+  maj:sand_log: 10010
+  maj:bone_log: 10011
+  maj:dimension_log: 10012
+  maj:rainbow_log: 10013
+  maj:mithril_log: 10014
+  maj:sapphire_log: 10015
+  maj:ruby_log: 10016
+  maj:topaz_log: 10017
 BLUE_WOOL:
   newtrees:end_tree_leaves: 10000
 PINK_WOOL:
@@ -258,8 +279,19 @@ DIAMOND_SWORD:
   nibrock:emerald_sword: 10000
 DIAMOND_PICKAXE:
   nibrock:emerald_pickaxe: 10000
+  maj:emerald_pickaxe: 10001
+  maj:mithril_pickaxe: 10002
+  maj:sapphire_pickaxe: 10003
+  maj:ruby_pickaxe: 10004
+  maj:topaz_pickaxe: 10005
 DIAMOND_AXE:
   nibrock:emerald_axe: 10000
+  maj:diamond_axe: 10001
+  maj:emerald_axe: 10002
+  maj:mithril_axe: 10003
+  maj:sapphire_axe: 10004
+  maj:ruby_axe: 10005
+  maj:topaz_axe: 10006
 DIAMOND_SHOVEL:
   nibrock:emerald_shovel: 10000
 DIAMOND_HOE:
@@ -313,6 +345,14 @@ OAK_LEAVES:
   maj:gold_leaves: 10041
   maj:diamond_leaves: 10042
   maj:emerald_leaves: 10043
+  maj:sand_leaves: 10044
+  maj:bone_leaves: 10045
+  maj:dimension_leaves: 10046
+  maj:rainbow_leaves: 10047
+  maj:mithril_leaves: 10048
+  maj:sapphire_leaves: 10049
+  maj:ruby_leaves: 10050
+  maj:topaz_leaves: 10051
 OAK_LOG:
   forestry:avocado_tree_log: 10000
   forestry:avocado_stripped_log: 10001
@@ -529,3 +569,90 @@ GOLDEN_HORSE_ARMOR:
   customcrops:watering_can_2: 10001
   customcrops:watering_can_3: 10002
   customcrops:watering_can_4: 10003
+IRON_BLOCK:
+  maj:tree_machine: 10000
+  maj:dirt_tree_machine: 10001
+  maj:stone_tree_machine: 10002
+  maj:iron_tree_machine: 10003
+  maj:lapis_tree_machine: 10004
+  maj:redstone_tree_machine: 10005
+  maj:gold_tree_machine: 10006
+  maj:diamond_tree_machine: 10007
+  maj:emerald_tree_machine: 10008
+  maj:reinforced_iron: 10009
+NETHER_WART_BLOCK:
+  maj:mineral_upgrader: 10000
+GLASS:
+  maj:reinforced_glass: 10000
+LAPIS_BLOCK:
+  maj:reinforced_lapis: 10000
+REDSTONE_BLOCK:
+  maj:reinforced_redstone: 10000
+GOLD_BLOCK:
+  maj:reinforced_gold: 10000
+NETHER_BRICKS:
+  maj:hardened_stone: 10000
+  maj:hardened_cobblestone: 10001
+SHEARS:
+  maj:wooden_shears: 10000
+  maj:stone_shears: 10001
+  maj:gold_shears: 10002
+  maj:diamond_shears: 10003
+  maj:emerald_shears: 10004
+  maj:mithril_shears: 10005
+  maj:sapphire_shears: 10006
+  maj:ruby_shears: 10007
+  maj:topaz_shears: 10008
+WOODEN_AXE:
+  maj:wooden_axe: 10000
+STONE_AXE:
+  maj:stone_axe: 10000
+BUCKET:
+  maj:mud_bucket: 10000
+  maj:red_mud_bucket: 10001
+  maj:iron_bucket: 10002
+  maj:lapis_bucket: 10003
+  maj:redstone_bucket: 10004
+  maj:gold_bucket: 10005
+  maj:diamond_bucket: 10006
+  maj:emerald_bucket: 10007
+  maj:mithril_bucket: 10008
+  maj:topaz_bucket: 10009
+  maj:sapphire_bucket: 10010
+  maj:rainbow_bucket: 10011
+  maj:iron_molten_bucket: 10012
+  maj:lapis_molten_bucket: 10013
+  maj:redstone_molten_bucket: 10014
+  maj:gold_molten_bucket: 10015
+  maj:diamond_molten_bucket: 10016
+  maj:emerald_molten_bucket: 10017
+  maj:mithril_molten_bucket: 10018
+  maj:topaz_molten_bucket: 10019
+  maj:sapphire_molten_bucket: 10020
+  maj:rainbow_molten_bucket: 10021
+QUARTZ:
+  maj:machine_core: 10000
+  maj:superior_machine_core: 10001
+PRISMARINE_SHARD:
+  maj:blaze_rod_fragment: 10000
+  maj:ender_pearl_fragment: 10001
+AMETHYST_SHARD:
+  maj:mineral_iron_upgrade: 10000
+  maj:mineral_lapis_upgrade: 10001
+  maj:mineral_redstone_upgrade: 10002
+  maj:mineral_gold_upgrade: 10003
+  maj:mineral_diamond_upgrade: 10004
+  maj:mineral_emerald_upgrade: 10005
+  maj:mineral_mithril_upgrade: 10006
+  maj:mineral_sapphire_upgrade: 10007
+  maj:mineral_ruby_upgrade: 10008
+  maj:mineral_topaz_upgrade: 10009
+NETHERITE_SCRAP:
+  maj:rainbow_ingot: 10000
+  maj:rainbow_block: 10001
+  maj:mithril_ingot: 10002
+  maj:sapphire_ingot: 10003
+  maj:ruby_ingot: 10004
+  maj:topaz_ingot: 10005
+NETHER_STAR:
+  maj:rainbow_star: 10000

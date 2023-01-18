@@ -465,3 +465,35 @@
 2023 15-01 at 07:02:20 AM (dim:
   ): Two Shops with the same Name (factoryskycrafts) are loaded. When opening a Shop
     via Name, only one of this Shops will be opened!
+2023 17-01 at 10:34:59 p:
+   m:
+    ' (mar)': 'Mistake in Config: ''INCONNU'' is not a valid ''custommodeldata''.
+      It needs to be a number like ''1'', ''12'' or ''64''.'
+2023 17-01 at 10:35:00 p:
+   m:
+    ' (mar)': 'Mistake in Config: ''INCONNU2'' is not a valid ''custommodeldata''.
+      It needs to be a number like ''1'', ''12'' or ''64''.'
+2023 17-01 at 10:35:01 p:
+   m:
+    ' (mar)': 'Mistake in Config: ''INCONNU'' is not a valid ''custommodeldata''.
+      It needs to be a number like ''1'', ''12'' or ''64''.'
+2023 17-01 at 10:35:11 p:
+   m:
+    ' (mar)': 'Mistake in Config: ''INCONNU2'' is not a valid ''custommodeldata''.
+      It needs to be a number like ''1'', ''12'' or ''64''.'
+2023 17-01 at 10:37:05 p:
+   m:
+    ' (mar)': 'Mistake in Config: ''ITEM'' is not a valid ''type''. Unable to find
+      a fitting material.'
+2023 17-01 at 10:37:06 p:
+   m:
+    ' (mar)': 'Mistake in Config: ''INCONNU2'' is not a valid ''custommodeldata''.
+      It needs to be a number like ''1'', ''12'' or ''64''.'
+2023 17-01 at 10:37:41 p:
+   m:
+    ' (mar)': 'Mistake in Config: ''BUCKET'' is not a valid ''custommodeldata''. It
+      needs to be a number like ''1'', ''12'' or ''64''.'
+2023 17-01 at 10:37:42 p:
+   m:
+    ' (mar)': 'Mistake in Config: ''INCONNU2'' is not a valid ''custommodeldata''.
+      It needs to be a number like ''1'', ''12'' or ''64''.'

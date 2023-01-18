@@ -35,71 +35,41 @@ shop:
     PriceType: NOTHING
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 14
-  
-  Craft_SLOT_1:
+    InventoryLocation: 23
+
+  ITEM_CUISSON:
     MenuItem:
-    - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
-    - amount:1
-    - type:NETHERRACK
-    - CustomModelData:JSP
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 22
-  Craft_SLOT_3:
-    MenuItem:
-    - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
-    - amount:1
-    - type:NETHERRACK
-    - CustomModelData:JSP
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 24
-  Craft_SLOT_4:
-    MenuItem:
-    - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
-    - amount:1
-    - type:NETHERRACK
-    - CustomModelData:JSP
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 31
-  Craft_SLOT_5:
-    MenuItem:
-    - name:&fBUCKET
+    - name:&fOre Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow&7)
     - amount:1
     - type:BUCKET
+    - CustomModelData:1
     RewardType: NOTHING
-    Reward:
-    - NOTHING
     PriceType: NOTHING
+    Message: ''
     ExtraPermission: ''
-    InventoryLocation: 32
-  Craft_SLOT_6:
+    InventoryLocation: 40
+  ARROW_FURNACE:
     MenuItem:
-    - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow'
+    - name:&f&l
     - amount:1
-    - type:NETHERRACK
-    - CustomModelData:JSP
+    - type:PAPER
+    - CustomModelData:10055
     RewardType: NOTHING
-    Reward:
-    - NOTHING
     PriceType: NOTHING
+    Message: ''
     ExtraPermission: ''
-    InventoryLocation: 33
+    InventoryLocation: 41
+  RESULTAT_CUISSON:
+    MenuItem:
+    - name:&f&lMolten Ore Bucket &7(&aIron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Topaz, Sapphire, Rainbow&7)
+    - amount:1
+    - type:BUCKET
+    - CustomModelData:1
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 42
 
   1:
     MenuItem:
@@ -233,6 +203,30 @@ shop:
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 12
+  13:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  15:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
 
   16:
     MenuItem:
@@ -295,6 +289,55 @@ shop:
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 20
+  21:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  22:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+  
+  24:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 24
+  25:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
 
   26:
     MenuItem:
@@ -344,7 +387,66 @@ shop:
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 29
-
+  30:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  31:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  32:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+  33:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+  34:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
   35:
     MenuItem:
     - name:&7&l
@@ -393,6 +495,31 @@ shop:
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 38
+  39:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 39
+
+  43:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
   44:
     MenuItem:
     - name:&7&l
@@ -493,13 +620,15 @@ shop:
   53:
     ExtraPermission: ''
     MenuItem:
-    - name:&7&l&1&0
-    - id:gray_stained_glass_pane
+    - name:&e&lPage suivante (Page 3)
+    - id:PAPER
+    - CustomModelData:10055
     - amount:1
     InventoryLocation: 53
     Message: ''
     PriceType: nothing
-    RewardType: unknown
+    RewardType: shop
+    Reward: factoryskycbucket3
 
   Retour:
     ExtraPermission: ''

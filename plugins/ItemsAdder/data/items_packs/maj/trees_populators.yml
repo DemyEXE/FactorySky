@@ -120,3 +120,63 @@ trees_populators:
     iterations: 2
     log: maj:emerald_log
     leaves: maj:emerald_leaves
+
+  sand_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:sand_log
+    leaves: maj:sand_leaves
+
+  bone_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:bone_log
+    leaves: maj:bone_leaves
+
+  dimension_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:dimension_log
+    leaves: maj:dimension_leaves
+
+  rainbow_tree:
+    worlds:
+    - world
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - PODZOL
+    chance: 5.0
+    max_height: 100
+    min_height: 50
+    amount: 3
+    iterations: 2
+    log: maj:rainbow_log
+    leaves: maj:rainbow_leaves

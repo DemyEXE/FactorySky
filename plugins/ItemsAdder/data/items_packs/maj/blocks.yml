@@ -185,4 +185,144 @@ items:
           break:
             name: block.mud.break
 
+  tree_machine:
+    display_name: display-name-maj-tree_machine
+    permission: maj.tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/tree_machine.png
+  dirt_tree_machine:
+    display_name: display-name-maj-dirt_tree_machine
+    permission: maj.dirt_tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/dirt_tree_machine.png
+  stone_tree_machine:
+    display_name: display-name-maj-stone_tree_machine
+    permission: maj.stone_tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/stone_tree_machine.png
+  iron_tree_machine:
+    display_name: display-name-maj-iron_tree_machine
+    permission: maj.iron_tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/iron_tree_machine.png
+  lapis_tree_machine:
+    display_name: display-name-maj-lapis_tree_machine
+    permission: maj.lapis_tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/lapis_tree_machine.png
+  redstone_tree_machine:
+    display_name: display-name-maj-redstone_tree_machine
+    permission: maj.redstone_tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/redstone_tree_machine.png
+  gold_tree_machine:
+    display_name: display-name-maj-gold_tree_machine
+    permission: maj.gold_tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/gold_tree_machine.png
+  diamond_tree_machine:
+    display_name: display-name-maj-diamond_tree_machine
+    permission: maj.diamond_tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/diamond_tree_machine.png
+  emerald_tree_machine:
+    display_name: display-name-maj-emerald_tree_machine
+    permission: maj.emerald_tree_machine
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/machine/emerald_tree_machine.png
+
+  mineral_upgrader:
+    display_name: display-name-maj-mineral_upgrader
+    permission: maj.mineral_upgrader
+    resource:
+      material: NETHER_WART_BLOCK
+      generate: true
+      textures:
+      - block/machine/mineral_upgrader.png
+
+  reinforced_glass:
+    display_name: display-name-maj-reinforced_glass
+    permission: maj.reinforced_glass
+    resource:
+      material: GLASS
+      generate: true
+      textures:
+      - block/reinforced/glass.png
+  reinforced_iron:
+    display_name: display-name-maj-reinforced_iron
+    permission: maj.reinforced_iron
+    resource:
+      material: IRON_BLOCK
+      generate: true
+      textures:
+      - block/reinforced/iron.png
+  reinforced_lapis:
+    display_name: display-name-maj-reinforced_lapis
+    permission: maj.reinforced_lapis
+    resource:
+      material: LAPIS_BLOCK
+      generate: true
+      textures:
+      - block/reinforced/lapis.png
+  reinforced_redstone:
+    display_name: display-name-maj-reinforced_redstone
+    permission: maj.reinforced_redstone
+    resource:
+      material: REDSTONE_BLOCK
+      generate: true
+      textures:
+      - block/reinforced/redstone.png
+  reinforced_gold:
+    display_name: display-name-maj-reinforced_gold
+    permission: maj.reinforced_gold
+    resource:
+      material: GOLD_BLOCK
+      generate: true
+      textures:
+      - block/reinforced/gold.png
+
+  hardened_stone:
+    display_name: display-name-maj-hardened_stone
+    permission: maj.hardened_stone
+    resource:
+      material: NETHER_BRICKS
+      generate: true
+      textures:
+      - block/hardened/stone.png
+  hardened_cobblestone:
+    display_name: display-name-maj-hardened_cobblestone
+    permission: maj.hardened_cobblestone
+    resource:
+      material: NETHER_BRICKS
+      generate: true
+      textures:
+      - block/hardened/cobblestone.png
+
   

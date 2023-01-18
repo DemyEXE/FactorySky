@@ -1,0 +1,348 @@
+info:
+  namespace: maj
+items:
+  wooden_shears:
+    display_name: display-name-maj-wooden_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/wooden_shears.png
+    durability:
+      custom_durability: 200
+    blocked_enchants:
+    - SILK_TOUCH
+  wooden_axe:
+    display_name: display-name-maj-wooden_axe
+    resource:
+      generate: true
+      material: WOODEN_AXE
+      textures:
+      - item/tools/wooden_shears.png
+    blocked_enchants:
+    - SILK_TOUCH
+
+  stone_shears:
+    display_name: display-name-maj-stone_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/stone_shears.png
+    durability:
+      custom_durability: 500
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: gray
+  stone_axe:
+    display_name: display-name-maj-stone_axe
+    resource:
+      generate: true
+      material: STONE_AXE
+      textures:
+      - item/tools/stone_axe.png
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: gray
+
+  gold_shears:
+    display_name: display-name-maj-gold_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/gold_shears.png
+    enchants:
+    - DIG_SPEED:3
+    item_flags:
+    - HIDE_ENCHANTS
+    durability:
+      custom_durability: 75
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: YELLOW
+  gold_axe:
+    display_name: display-name-maj-gold_axe
+    resource:
+      generate: true
+      material: GOLD_AXE
+      textures:
+      - item/tools/gold_axe.png
+    enchants:
+    - DIG_SPEED:3
+    item_flags:
+    - HIDE_ENCHANTS
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: YELLOW
+  
+  diamond_shears:
+    display_name: display-name-maj-diamond_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/diamond_shears.png
+    durability:
+      custom_durability: 1500
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: CYAN
+  diamond_axe:
+    display_name: display-name-maj-diamond_axe
+    resource:
+      generate: true
+      material: DIAMOND_AXE
+      textures:
+      - item/tools/diamond_axe.png
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: CYAN
+  
+  emerald_shears:
+    display_name: display-name-maj-emerald_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/emerald_shears.png
+    durability:
+      custom_durability: 2000
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: LIME
+  emerald_axe:
+    display_name: display-name-maj-emerald_axe
+    resource:
+      generate: true
+      material: DIAMOND_AXE
+      textures:
+      - item/tools/emerald_axe.png
+    durability:
+      custom_durability: 1800
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: LIME
+  emerald_pickaxe:
+    display_name: display-name-maj-emerald_pickaxe
+    resource:
+      generate: true
+      material: DIAMOND_PICKAXE
+      textures:
+      - item/tools/emerald_pickaxe.png
+    durability:
+      custom_durability: 1750
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: LIME
+  
+  mithril_shears:
+    display_name: display-name-maj-mithril_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/mithril_shears.png
+    durability:
+      custom_durability: 2300
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: BLUE
+  mithril_axe:
+    display_name: display-name-maj-mithril_axe
+    resource:
+      generate: true
+      material: DIAMOND_AXE
+      textures:
+      - item/tools/mithril_axe.png
+    durability:
+      custom_durability: 2200
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: BLUE
+  mithril_pickaxe:
+    display_name: display-name-maj-mithril_pickaxe
+    resource:
+      generate: true
+      material: DIAMOND_PICKAXE
+      textures:
+      - item/tools/mithril_pickaxe.png
+    durability:
+      custom_durability: 2100
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: BLUE
+  
+  sapphire_shears:
+    display_name: display-name-maj-sapphire_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/sapphire_shears.png
+    durability:
+      custom_durability: 2800
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: DARK_BLUE
+  sapphire_axe:
+    display_name: display-name-maj-sapphire_axe
+    resource:
+      generate: true
+      material: DIAMOND_AXE
+      textures:
+      - item/tools/sapphire_axe.png
+    durability:
+      custom_durability: 2700
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: DARK_BLUE
+  sapphire_pickaxe:
+    display_name: display-name-maj-sapphire_pickaxe
+    resource:
+      generate: true
+      material: DIAMOND_PICKAXE
+      textures:
+      - item/tools/sapphire_pickaxe.png
+    durability:
+      custom_durability: 2600
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: DARK_BLUE
+  
+  ruby_shears:
+    display_name: display-name-maj-ruby_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/ruby_shears.png
+    durability:
+      custom_durability: 3300
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: DARK_RED
+  ruby_axe:
+    display_name: display-name-maj-ruby_axe
+    resource:
+      generate: true
+      material: DIAMOND_AXE
+      textures:
+      - item/tools/ruby_axe.png
+    durability:
+      custom_durability: 3200
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: DARK_RED
+  ruby_pickaxe:
+    display_name: display-name-maj-ruby_pickaxe
+    resource:
+      generate: true
+      material: DIAMOND_PICKAXE
+      textures:
+      - item/tools/ruby_pickaxe.png
+    durability:
+      custom_durability: 3100
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: DARK_RED
+  
+  topaz_shears:
+    display_name: display-name-maj-topaz_shears
+    resource:
+      generate: true
+      material: SHEARS
+      textures:
+      - item/tools/topaz_shears.png
+    durability:
+      custom_durability: 4500
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: GOLD
+  topaz_axe:
+    display_name: display-name-maj-topaz_axe
+    resource:
+      generate: true
+      material: DIAMOND_AXE
+      textures:
+      - item/tools/topaz_axe.png
+    durability:
+      custom_durability: 4400
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: GOLD
+  topaz_pickaxe:
+    display_name: display-name-maj-topaz_pickaxe
+    resource:
+      generate: true
+      material: DIAMOND_PICKAXE
+      textures:
+      - item/tools/topaz_pickaxe.png
+    durability:
+      custom_durability: 4300
+    blocked_enchants:
+    - SILK_TOUCH
+    drop:
+      glow:
+        enabled: true
+        color: GOLD

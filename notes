@@ -1,4 +1,5 @@
 Craft des pousses :
+
 dirt sapling + 8 bûches de chêne = oak sapling
 oak sapling + 8 mud dirt = stone sapling
 oak sapling + 4 hardened cobblestone + 4 dirt = iron sapling
@@ -36,8 +37,6 @@ Ces minerais seront obtenables à hauteur d'un certain % une fois débloqué.
 Pour les obtenir, le joueur devra créer des "minerals upgrade".
 
 Crafts :
-x1 machine core + x2 <minerals upgrade> + x2 émeraudes = <minerals> upgrade
-
 x4 renforced glass + x4 stone bricks + x1 bloc de fer = x1 minerals iron upgrade
 x4 renforced glass + x4 stone bricks + x1 bloc de lapis = x1 minerals lapis upgrade
 x4 renforced glass + x4 stone bricks + x1 bloc de redstone = x1 minerals redstone upgrade
@@ -66,7 +65,7 @@ x1 no colored rainbow sapling + x1 liquid rainbow = 1 rainbow sapling
 
 x5 rainbow resins + x4 rainbow acorns = x1 rainbow ingot
 x9 rainbow ingots = x1 rainbow blocks
-x3 rainbow blocks + x3 enderpearl + x2 mithrils + x1 rubis = x1 rainbow star
+x3 rainbow blocks + x3 eye of ender + x2 mithrils + x1 rubis = x1 rainbow star
 
 Loots des nouveaux arbres :
 Arbre de sable = comme les autres

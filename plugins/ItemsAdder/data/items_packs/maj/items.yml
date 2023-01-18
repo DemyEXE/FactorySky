@@ -445,3 +445,505 @@ items:
       generate: true
       textures:
       - item/sign/cancel.png
+
+  bone_sapling:
+    display_name: display-name-maj-bone_sapling
+    permission: maj.bone_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/bone/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: bone_tree
+  bone_resin:
+    display_name: display-name-maj-bone_resin
+    permission: maj.bone_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/bone/resin.png
+  bone_acorn:
+    display_name: display-name-maj-bone_acorn
+    permission: maj.bone_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/bone/acorn.png
+    
+  sand_sapling:
+    display_name: display-name-maj-sand_sapling
+    permission: maj.sand_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/sand/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: sand_tree
+  sand_resin:
+    display_name: display-name-maj-sand_resin
+    permission: maj.sand_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/sand/resin.png
+  sand_acorn:
+    display_name: display-name-maj-sand_acorn
+    permission: maj.sand_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/sand/acorn.png
+
+  dimension_sapling:
+    display_name: display-name-maj-dimension_sapling
+    permission: maj.dimension_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/dimension/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: dimension_tree
+  dimension_resin:
+    display_name: display-name-maj-dimension_resin
+    permission: maj.dimension_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/dimension/resin.png
+  dimension_acorn:
+    display_name: display-name-maj-dimension_acorn
+    permission: maj.dimension_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/dimension/acorn.png
+
+  no_colored_sapling:
+    display_name: display-name-maj-no_colored_sapling
+    permission: maj.no_colored_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/no_colored/sapling.png
+
+  rainbow_sapling:
+    display_name: display-name-maj-rainbow_sapling
+    permission: maj.rainbow_sapling
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/rainbow/sapling.png
+    behaviours:
+      sapling:
+        tree_populator: rainbow_tree
+  rainbow_resin:
+    display_name: display-name-maj-rainbow_resin
+    permission: maj.rainbow_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/rainbow/resin.png
+  rainbow_acorn:
+    display_name: display-name-maj-rainbow_acorn
+    permission: maj.rainbow_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/rainbow/acorn.png
+
+  mud_bucket:
+    display_name: display-name-maj-mud_bucket
+    permission: maj.mud_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/mud.png
+  red_mud_bucket:
+    display_name: display-name-maj-red_mud_bucket
+    permission: maj.red_mud_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/red_mud.png
+  iron_bucket:
+    display_name: display-name-maj-iron_bucket
+    permission: maj.iron_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/iron.png
+  lapis_bucket:
+    display_name: display-name-maj-lapis_bucket
+    permission: maj.lapis_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/lapis.png
+  redstone_bucket:
+    display_name: display-name-maj-redstone_bucket
+    permission: maj.redstone_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/redstone.png
+  gold_bucket:
+    display_name: display-name-maj-gold_bucket
+    permission: maj.gold_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/gold.png
+  diamond_bucket:
+    display_name: display-name-maj-diamond_bucket
+    permission: maj.diamond_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/diamond.png
+  emerald_bucket:
+    display_name: display-name-maj-emerald_bucket
+    permission: maj.emerald_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/emerald.png
+  mithril_bucket:
+    display_name: display-name-maj-mithril_bucket
+    permission: maj.mithril_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/mithril.png
+  topaz_bucket:
+    display_name: display-name-maj-topaz_bucket
+    permission: maj.topaz_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/topaz.png
+  sapphire_bucket:
+    display_name: display-name-maj-sapphire_bucket
+    permission: maj.sapphire_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/sapphire.png
+  ruby_bucket:
+    display_name: display-name-maj-ruby_bucket
+    permission: maj.ruby_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/ruby.png
+  rainbow_bucket:
+    display_name: display-name-maj-rainbow_bucket
+    permission: maj.rainbow_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/bucket/rainbow.png
+
+  iron_molten_bucket:
+    display_name: display-name-maj-iron_molten_bucket
+    permission: maj.iron_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/iron.png
+  lapis_molten_bucket:
+    display_name: display-name-maj-lapis_molten_bucket
+    permission: maj.lapis_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/lapis.png
+  redstone_molten_bucket:
+    display_name: display-name-maj-redstone_molten_bucket
+    permission: maj.redstone_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/redstone.png
+  gold_molten_bucket:
+    display_name: display-name-maj-gold_molten_bucket
+    permission: maj.gold_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/gold.png
+  diamond_molten_bucket:
+    display_name: display-name-maj-diamond_molten_bucket
+    permission: maj.diamond_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/diamond.png
+  emerald_molten_bucket:
+    display_name: display-name-maj-emerald_molten_bucket
+    permission: maj.emerald_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/emerald.png
+  mithril_molten_bucket:
+    display_name: display-name-maj-mithril_molten_bucket
+    permission: maj.mithril_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/mithril.png
+  topaz_molten_bucket:
+    display_name: display-name-maj-topaz_molten_bucket
+    permission: maj.topaz_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/topaz.png
+  sapphire_molten_bucket:
+    display_name: display-name-maj-sapphire_molten_bucket
+    permission: maj.sapphire_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/sapphire.png
+  ruby_molten_bucket:
+    display_name: display-name-maj-ruby_molten_bucket
+    permission: maj.ruby_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/ruby.png
+  rainbow_molten_bucket:
+    display_name: display-name-maj-rainbow_molten_bucket
+    permission: maj.rainbow_molten_bucket
+    resource:
+      material: BUCKET
+      generate: true
+      textures:
+      - item/molten_bucket/rainbow.png
+
+  machine_core:
+    display_name: display-name-maj-machine_core
+    permission: maj.machine_core
+    resource:
+      material: QUARTZ
+      generate: true
+      textures:
+      - item/machine/core.png
+  superior_machine_core:
+    display_name: display-name-maj-superior_machine_core
+    permission: maj.superior_machine_core
+    resource:
+      material: QUARTZ
+      generate: true
+      textures:
+      - item/machine/superior_core.png
+
+  blaze_rod_fragment:
+    display_name: display-name-maj-blaze_rod_fragment
+    permission: maj.blaze_rod_fragment
+    resource:
+      material: PRISMARINE_SHARD
+      generate: true
+      textures:
+      - item/fragment/blaze_rod.png
+  ender_pearl_fragment:
+    display_name: display-name-maj-ender_pearl_fragment
+    permission: maj.ender_pearl_fragment
+    resource:
+      material: PRISMARINE_SHARD
+      generate: true
+      textures:
+      - item/fragment/ender_pearl.png
+
+  mineral_iron_upgrade:
+    display_name: display-name-maj-mineral_iron_upgrade
+    permission: maj.mineral_iron_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/iron.png
+  mineral_lapis_upgrade:
+    display_name: display-name-maj-mineral_lapis_upgrade
+    permission: maj.mineral_lapis_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/lapis.png
+  mineral_redstone_upgrade:
+    display_name: display-name-maj-mineral_redstone_upgrade
+    permission: maj.mineral_redstone_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/redstone.png
+  mineral_gold_upgrade:
+    display_name: display-name-maj-mineral_gold_upgrade
+    permission: maj.mineral_gold_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/gold.png
+  mineral_diamond_upgrade:
+    display_name: display-name-maj-mineral_diamond_upgrade
+    permission: maj.mineral_diamond_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/diamond.png
+  mineral_emerald_upgrade:
+    display_name: display-name-maj-mineral_emerald_upgrade
+    permission: maj.mineral_emerald_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/emerald.png
+  mineral_mithril_upgrade:
+    display_name: display-name-maj-mineral_mithril_upgrade
+    permission: maj.mineral_mithril_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/mithril.png
+  mineral_sapphire_upgrade:
+    display_name: display-name-maj-mineral_sapphire_upgrade
+    permission: maj.mineral_sapphire_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/sapphire.png
+  mineral_ruby_upgrade:
+    display_name: display-name-maj-mineral_ruby_upgrade
+    permission: maj.mineral_ruby_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/ruby.png
+  mineral_topaz_upgrade:
+    display_name: display-name-maj-mineral_topaz_upgrade
+    permission: maj.mineral_topaz_upgrade
+    resource:
+      material: AMETHYST_SHARD
+      generate: true
+      textures:
+      - item/mineral_upgrade/topaz.png
+
+  rainbow_ingot:
+    display_name: display-name-maj-rainbow_ingot
+    permission: maj.rainbow_ingot
+    resource:
+      material: NETHERITE_SCRAP
+      generate: true
+      textures:
+      - item/rainbow/ingot.png
+      drop:
+        glow:
+          enabled: true
+          color: WHITE
+  rainbow_block:
+    display_name: display-name-maj-rainbow_block
+    permission: maj.rainbow_block
+    resource:
+      material: NETHERITE_SCRAP
+      generate: true
+      textures:
+      - item/rainbow/block.png
+      drop:
+        glow:
+          enabled: true
+          color: WHITE
+  rainbow_star:
+    display_name: display-name-maj-rainbow_star
+    permission: maj.rainbow_star
+    resource:
+      material: NETHER_STAR
+      generate: true
+      textures:
+      - item/rainbow/star.png
+      drop:
+        glow:
+          enabled: true
+          color: WHITE
+          
+  mithril_ingot:
+    display_name: display-name-maj-mithril_ingot
+    permission: maj.mithril_ingot
+    resource:
+      material: NETHERITE_SCRAP
+      generate: true
+      textures:
+      - item/mithril/ingot.png
+  sapphire_ingot:
+    display_name: display-name-maj-sapphire_ingot
+    permission: maj.sapphire_ingot
+    resource:
+      material: NETHERITE_SCRAP
+      generate: true
+      textures:
+      - item/sapphire/ingot.png
+  ruby_ingot:
+    display_name: display-name-maj-ruby_ingot
+    permission: maj.ruby_ingot
+    resource:
+      material: NETHERITE_SCRAP
+      generate: true
+      textures:
+      - item/ruby/ingot.png
+  topaz_ingot:
+    display_name: display-name-maj-topaz_ingot
+    permission: maj.topaz_ingot
+    resource:
+      material: NETHERITE_SCRAP
+      generate: true
+      textures:
+      - item/topaz/ingot.png
+  
+  
