@@ -630,6 +630,8 @@ BUCKET:
   maj:topaz_molten_bucket: 10019
   maj:sapphire_molten_bucket: 10020
   maj:rainbow_molten_bucket: 10021
+  maj:ruby_bucket: 10022
+  maj:ruby_molten_bucket: 10023
 QUARTZ:
   maj:machine_core: 10000
   maj:superior_machine_core: 10001

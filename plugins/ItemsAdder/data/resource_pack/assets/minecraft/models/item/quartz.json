@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/quartz"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"maj:auto_generated/machine_core"},{"predicate":{"custom_model_data":10001},"model":"maj:auto_generated/superior_machine_core"},{"predicate":{"custom_model_data":10002},"model":"minecraft:item/quartz"}]}

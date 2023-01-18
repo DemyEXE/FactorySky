@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/gold_block","overrides":[{"predicate":{"custom_model_data":10000},"model":"maj:auto_generated/reinforced_gold"},{"predicate":{"custom_model_data":10001},"model":"minecraft:item/gold_block"}]}

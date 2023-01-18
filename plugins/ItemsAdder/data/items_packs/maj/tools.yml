@@ -10,6 +10,7 @@ items:
       - item/tools/wooden_shears.png
     durability:
       custom_durability: 200
+      max_custom_durability: 200
     blocked_enchants:
     - SILK_TOUCH
   wooden_axe:
@@ -31,6 +32,7 @@ items:
       - item/tools/stone_shears.png
     durability:
       custom_durability: 500
+      max_custom_durability: 500
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -64,6 +66,7 @@ items:
     - HIDE_ENCHANTS
     durability:
       custom_durability: 75
+      max_custom_durability: 75
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -97,6 +100,7 @@ items:
       - item/tools/diamond_shears.png
     durability:
       custom_durability: 1500
+      max_custom_durability: 1500
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -126,6 +130,7 @@ items:
       - item/tools/emerald_shears.png
     durability:
       custom_durability: 2000
+      max_custom_durability: 2000
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -141,6 +146,7 @@ items:
       - item/tools/emerald_axe.png
     durability:
       custom_durability: 1800
+      max_custom_durability: 1800
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -156,6 +162,7 @@ items:
       - item/tools/emerald_pickaxe.png
     durability:
       custom_durability: 1750
+      max_custom_durability: 1750
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -172,6 +179,7 @@ items:
       - item/tools/mithril_shears.png
     durability:
       custom_durability: 2300
+      max_custom_durability: 2300
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -187,6 +195,7 @@ items:
       - item/tools/mithril_axe.png
     durability:
       custom_durability: 2200
+      max_custom_durability: 2200
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -202,6 +211,7 @@ items:
       - item/tools/mithril_pickaxe.png
     durability:
       custom_durability: 2100
+      max_custom_durability: 2100
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -218,6 +228,7 @@ items:
       - item/tools/sapphire_shears.png
     durability:
       custom_durability: 2800
+      max_custom_durability: 2800
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -233,6 +244,7 @@ items:
       - item/tools/sapphire_axe.png
     durability:
       custom_durability: 2700
+      max_custom_durability: 2700
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -248,6 +260,7 @@ items:
       - item/tools/sapphire_pickaxe.png
     durability:
       custom_durability: 2600
+      max_custom_durability: 2600
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -264,6 +277,7 @@ items:
       - item/tools/ruby_shears.png
     durability:
       custom_durability: 3300
+      max_custom_durability: 3300
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -279,6 +293,7 @@ items:
       - item/tools/ruby_axe.png
     durability:
       custom_durability: 3200
+      max_custom_durability: 3200
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -294,6 +309,7 @@ items:
       - item/tools/ruby_pickaxe.png
     durability:
       custom_durability: 3100
+      max_custom_durability: 3100
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -310,6 +326,7 @@ items:
       - item/tools/topaz_shears.png
     durability:
       custom_durability: 4500
+      max_custom_durability: 4500
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -325,6 +342,7 @@ items:
       - item/tools/topaz_axe.png
     durability:
       custom_durability: 4400
+      max_custom_durability: 4400
     blocked_enchants:
     - SILK_TOUCH
     drop:
@@ -340,6 +358,7 @@ items:
       - item/tools/topaz_pickaxe.png
     durability:
       custom_durability: 4300
+      max_custom_durability: 4300
     blocked_enchants:
     - SILK_TOUCH
     drop:

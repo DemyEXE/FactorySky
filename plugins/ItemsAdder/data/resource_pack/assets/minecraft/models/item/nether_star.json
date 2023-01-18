@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/nether_star"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"maj:auto_generated/rainbow_star"},{"predicate":{"custom_model_data":10001},"model":"minecraft:item/nether_star"}]}

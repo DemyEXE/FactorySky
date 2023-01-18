@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/redstone_block","overrides":[{"predicate":{"custom_model_data":10000},"model":"maj:auto_generated/reinforced_redstone"},{"predicate":{"custom_model_data":10001},"model":"minecraft:item/redstone_block"}]}

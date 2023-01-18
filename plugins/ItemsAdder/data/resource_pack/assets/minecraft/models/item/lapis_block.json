@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/lapis_block","overrides":[{"predicate":{"custom_model_data":10000},"model":"maj:auto_generated/reinforced_lapis"},{"predicate":{"custom_model_data":10001},"model":"minecraft:item/lapis_block"}]}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/nether_wart_block","overrides":[{"predicate":{"custom_model_data":10000},"model":"maj:auto_generated/mineral_upgrader"},{"predicate":{"custom_model_data":10001},"model":"minecraft:item/nether_wart_block"}]}

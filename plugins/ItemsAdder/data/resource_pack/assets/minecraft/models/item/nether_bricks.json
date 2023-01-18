@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/nether_bricks","overrides":[{"predicate":{"custom_model_data":10000},"model":"maj:auto_generated/hardened_stone"},{"predicate":{"custom_model_data":10001},"model":"maj:auto_generated/hardened_cobblestone"},{"predicate":{"custom_model_data":10002},"model":"minecraft:item/nether_bricks"}]}
