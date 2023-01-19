@@ -533,3 +533,11 @@
 2023 18-01 at 06:59:55 AM (mer:
   ): 'Mistake in Config: ''INCONNU2'' is not a valid ''custommodeldata''. It needs
     to be a number like ''1'', ''12'' or ''64''.'
+2023 19-01 at 08:53:20 a:
+   m:
+    ' (jue)': 'Mistake in Config: ''BUCKET'' is not a valid ''custommodeldata''. It
+      needs to be a number like ''1'', ''12'' or ''64''.'
+2023 19-01 at 08:53:21 a:
+   m:
+    ' (jue)': 'Mistake in Config: ''JSP'' is not a valid ''custommodeldata''. It needs
+      to be a number like ''1'', ''12'' or ''64''.'

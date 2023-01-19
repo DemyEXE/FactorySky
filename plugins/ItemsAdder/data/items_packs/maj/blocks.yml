@@ -325,4 +325,35 @@ items:
       textures:
       - block/hardened/cobblestone.png
 
-  
+  mithril_ore:
+    display_name: display-name-maj-mithril_ore
+    permission: maj.mithril_ore
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/mithril/ore.png
+  sapphire_ore:
+    display_name: display-name-maj-sapphire_ore
+    permission: maj.sapphire_ore
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/sapphire/ore.png
+  ruby_ore:
+    display_name: display-name-maj-ruby_ore
+    permission: maj.ruby_ore
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/ruby/ore.png
+  topaz_ore:
+    display_name: display-name-maj-topaz_ore
+    permission: maj.topaz_ore
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/topaz/ore.png

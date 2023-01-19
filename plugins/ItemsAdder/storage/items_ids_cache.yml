@@ -530,6 +530,10 @@ END_STONE:
   maj:gold_mud: 10005
   maj:diamond_mud: 10006
   maj:emerald_mud: 10007
+  maj:mithril_ore: 10008
+  maj:sapphire_ore: 10009
+  maj:ruby_ore: 10010
+  maj:topaz_ore: 10011
 APPLE:
   customcrops:corn: 10000
   customcrops:corn_silver_star: 10001
