@@ -607,6 +607,7 @@ SHEARS:
   maj:sapphire_shears: 10006
   maj:ruby_shears: 10007
   maj:topaz_shears: 10008
+  maj:shears: 10009
 WOODEN_AXE:
   maj:wooden_axe: 10000
 STONE_AXE:
@@ -662,3 +663,5 @@ NETHERITE_SCRAP:
   maj:topaz_ingot: 10005
 NETHER_STAR:
   maj:rainbow_star: 10000
+IRON_AXE:
+  maj:iron_axe: 10000

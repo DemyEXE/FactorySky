@@ -60,7 +60,7 @@ shop:
     InventoryLocation: 41
   RESULTAT_CUISSON:
     MenuItem:
-    - name:&f&lWater Bucket
+    - name:&fWater Bucket
     - amount:1
     - type:WATER_BUCKET
     RewardType: NOTHING

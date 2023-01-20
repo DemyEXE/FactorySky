@@ -408,13 +408,13 @@ shop:
     MenuItem:
     - name:&e&lPage précédente (Page 7)
     - id:PAPER
-    - CustomModelData:10055
+    - CustomModelData:10054
     - amount:1
     InventoryLocation: 47
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: factoryskycpousse5
+    Reward: factoryskycpousse7
   48:
     ExtraPermission: ''
     MenuItem:
@@ -476,10 +476,10 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: factoryskycpousse7
+    Reward: factoryskycpousse9
 
 
-    13:
+  13:
     MenuItem:
     - name:&7&l
     - amount:1

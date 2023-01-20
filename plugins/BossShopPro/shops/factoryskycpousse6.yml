@@ -463,13 +463,13 @@ shop:
     MenuItem:
     - name:&e&lPage précédente (Page 5)
     - id:PAPER
-    - CustomModelData:10055
+    - CustomModelData:10054
     - amount:1
     InventoryLocation: 47
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: factoryskycpousse4
+    Reward: factoryskycpousse5
   48:
     ExtraPermission: ''
     MenuItem:
@@ -531,10 +531,10 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: factoryskycpousse6
+    Reward: factoryskycpousse7
 
 
-    13:
+  13:
     MenuItem:
     - name:&7&l
     - amount:1

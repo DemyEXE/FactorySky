@@ -530,7 +530,7 @@ shop:
     Reward: factoryskycmachine3
 
 
-    13:
+  13:
     MenuItem:
     - name:&7&l
     - amount:1

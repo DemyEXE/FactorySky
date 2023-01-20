@@ -463,7 +463,7 @@ shop:
     MenuItem:
     - name:&e&lPage précédente (Page 3)
     - id:PAPER
-    - CustomModelData:10055
+    - CustomModelData:10054
     - amount:1
     InventoryLocation: 47
     Message: ''
@@ -534,7 +534,7 @@ shop:
     Reward: factoryskycmachine5
 
 
-    13:
+  13:
     MenuItem:
     - name:&7&l
     - amount:1

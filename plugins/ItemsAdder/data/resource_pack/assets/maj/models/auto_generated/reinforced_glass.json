@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/glass","textures":{}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/reinforced/glass","east":"maj:block/reinforced/glass","north":"maj:block/reinforced/glass","south":"maj:block/reinforced/glass","up":"maj:block/reinforced/glass","west":"maj:block/reinforced/glass","particle":"maj:block/reinforced/glass"}}

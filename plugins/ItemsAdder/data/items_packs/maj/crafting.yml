@@ -180,3 +180,59 @@ recipes:
         item: maj:emerald_hardened_acorn
         amount: 1
     
+#CRAFT DES POUSSES
+
+    oak_sapling:
+      permission: maj.oak_sapling_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: oak_log
+        B: dirt_sapling
+      result:
+        item: oak_sapling
+        amount: 1
+    stone_sapling:
+      permission: maj.stone_sapling_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: dirt_mud
+        B: oak_sapling
+      result:
+        item: stone_sapling
+        amount: 1
+    iron_sapling:
+      permission: maj.iron_sapling_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: hardened_cobblestone
+        B: dirt_mud
+        C: oak_sapling
+      result:
+        item: iron_sapling
+        amount: 1
+    lapis_sapling:
+      permission: maj.lapis_sapling_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: iron_block
+        B: hardened_cobblestone
+        C: oak_sapling
+      result:
+      item: lapis_sapling
+      amount: 1

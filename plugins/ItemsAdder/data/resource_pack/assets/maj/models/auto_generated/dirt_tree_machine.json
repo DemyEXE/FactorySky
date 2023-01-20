@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/iron_block","textures":{}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/treemachine/machine_top","east":"maj:block/treemachine/dirt","north":"maj:block/treemachine/dirt","south":"maj:block/treemachine/dirt","up":"maj:block/treemachine/machine_top","west":"maj:block/treemachine/dirt","particle":"maj:block/treemachine/machine_top"}}

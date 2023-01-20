@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/nether_wart_block","textures":{}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/mineralupgrader/machine_top","east":"maj:block/mineralupgrader/mineral","north":"maj:block/mineralupgrader/mineral","south":"maj:block/mineralupgrader/mineral","up":"maj:block/mineralupgrader/machine_top","west":"maj:block/mineralupgrader/mineral","particle":"maj:block/mineralupgrader/machine_top"}}

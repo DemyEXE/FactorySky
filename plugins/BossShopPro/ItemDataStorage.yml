@@ -247,3 +247,45 @@ Demy___:
     - durability:0
     - name:&fDirt Resin
     - CustomModelData:10011
+  2023 19-01 at 04:25:32 PM (jeu:
+    ):
+    - type:OAK_LEAVES
+    - amount:1
+    - durability:0
+    - name:&fDirt Leaves
+    - CustomModelData:10036
+  2023 19-01 at 09:41:50 PM (jeu:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fRight Arrow
+    - CustomModelData:10055
+  2023 19-01 at 10:02:23 PM (jeu:
+    ):
+    - type:BUCKET
+    - amount:1
+    - durability:0
+    - name:&fIron Bucket
+    - CustomModelData:10002
+  2023 19-01 at 10:03:59 PM (jeu:
+    ):
+    - type:BUCKET
+    - amount:1
+    - durability:0
+    - name:&fMolten Iron Bucket
+    - CustomModelData:10012
+  2023 19-01 at 10:04:42 PM (jeu:
+    ):
+    - type:BUCKET
+    - amount:1
+    - durability:0
+    - name:&fMolten Iron Bucket
+    - CustomModelData:10012
+  2023 19-01 at 10:11:42 PM (jeu:
+    ):
+    - type:PAPER
+    - amount:1
+    - durability:0
+    - name:&fBone Sapling
+    - CustomModelData:10166

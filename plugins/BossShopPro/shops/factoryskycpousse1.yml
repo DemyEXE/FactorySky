@@ -528,7 +528,7 @@ shop:
     Reward: factoryskycpousse2
 
 
-    13:
+  13:
     MenuItem:
     - name:&7&l
     - amount:1

@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/iron_block","textures":{}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/reinforced/iron","east":"maj:block/reinforced/iron","north":"maj:block/reinforced/iron","south":"maj:block/reinforced/iron","up":"maj:block/reinforced/iron","west":"maj:block/reinforced/iron","particle":"maj:block/reinforced/iron"}}

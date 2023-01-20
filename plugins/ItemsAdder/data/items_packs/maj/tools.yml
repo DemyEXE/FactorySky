@@ -13,15 +13,6 @@ items:
       max_custom_durability: 200
     blocked_enchants:
     - SILK_TOUCH
-  wooden_axe:
-    display_name: display-name-maj-wooden_axe
-    resource:
-      generate: true
-      material: WOODEN_AXE
-      textures:
-      - item/tools/wooden_shears.png
-    blocked_enchants:
-    - SILK_TOUCH
 
   stone_shears:
     display_name: display-name-maj-stone_shears
@@ -35,23 +26,6 @@ items:
       max_custom_durability: 500
     blocked_enchants:
     - SILK_TOUCH
-    drop:
-      glow:
-        enabled: true
-        color: gray
-  stone_axe:
-    display_name: display-name-maj-stone_axe
-    resource:
-      generate: true
-      material: STONE_AXE
-      textures:
-      - item/tools/stone_axe.png
-    blocked_enchants:
-    - SILK_TOUCH
-    drop:
-      glow:
-        enabled: true
-        color: gray
 
   gold_shears:
     display_name: display-name-maj-gold_shears
@@ -69,27 +43,6 @@ items:
       max_custom_durability: 75
     blocked_enchants:
     - SILK_TOUCH
-    drop:
-      glow:
-        enabled: true
-        color: YELLOW
-  gold_axe:
-    display_name: display-name-maj-gold_axe
-    resource:
-      generate: true
-      material: GOLD_AXE
-      textures:
-      - item/tools/gold_axe.png
-    enchants:
-    - DIG_SPEED:3
-    item_flags:
-    - HIDE_ENCHANTS
-    blocked_enchants:
-    - SILK_TOUCH
-    drop:
-      glow:
-        enabled: true
-        color: YELLOW
   
   diamond_shears:
     display_name: display-name-maj-diamond_shears
@@ -103,23 +56,6 @@ items:
       max_custom_durability: 1500
     blocked_enchants:
     - SILK_TOUCH
-    drop:
-      glow:
-        enabled: true
-        color: CYAN
-  diamond_axe:
-    display_name: display-name-maj-diamond_axe
-    resource:
-      generate: true
-      material: DIAMOND_AXE
-      textures:
-      - item/tools/diamond_axe.png
-    blocked_enchants:
-    - SILK_TOUCH
-    drop:
-      glow:
-        enabled: true
-        color: CYAN
   
   emerald_shears:
     display_name: display-name-maj-emerald_shears

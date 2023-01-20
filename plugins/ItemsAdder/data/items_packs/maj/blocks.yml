@@ -192,7 +192,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/tree.png
+      - block/treemachine/tree.png
+      - block/treemachine/tree.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/tree.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   dirt_tree_machine:
     display_name: display-name-maj-dirt_tree_machine
     permission: maj.dirt_tree_machine
@@ -200,7 +215,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/dirt_tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/dirt.png
+      - block/treemachine/dirt.png
+      - block/treemachine/dirt.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/dirt.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   stone_tree_machine:
     display_name: display-name-maj-stone_tree_machine
     permission: maj.stone_tree_machine
@@ -208,7 +238,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/stone_tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/stone.png
+      - block/treemachine/stone.png
+      - block/treemachine/stone.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/stone.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   iron_tree_machine:
     display_name: display-name-maj-iron_tree_machine
     permission: maj.iron_tree_machine
@@ -216,7 +261,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/iron_tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/iron.png
+      - block/treemachine/iron.png
+      - block/treemachine/iron.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/iron.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   lapis_tree_machine:
     display_name: display-name-maj-lapis_tree_machine
     permission: maj.lapis_tree_machine
@@ -224,7 +284,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/lapis_tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/lapis.png
+      - block/treemachine/lapis.png
+      - block/treemachine/lapis.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/lapis.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   redstone_tree_machine:
     display_name: display-name-maj-redstone_tree_machine
     permission: maj.redstone_tree_machine
@@ -232,7 +307,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/redstone_tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/redstone.png
+      - block/treemachine/redstone.png
+      - block/treemachine/redstone.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/redstone.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   gold_tree_machine:
     display_name: display-name-maj-gold_tree_machine
     permission: maj.gold_tree_machine
@@ -240,7 +330,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/gold_tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/gold.png
+      - block/treemachine/gold.png
+      - block/treemachine/gold.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/gold.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   diamond_tree_machine:
     display_name: display-name-maj-diamond_tree_machine
     permission: maj.diamond_tree_machine
@@ -248,7 +353,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/diamond_tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/diamond.png
+      - block/treemachine/diamond.png
+      - block/treemachine/diamond.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/diamond.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   emerald_tree_machine:
     display_name: display-name-maj-emerald_tree_machine
     permission: maj.emerald_tree_machine
@@ -256,7 +376,22 @@ items:
       material: IRON_BLOCK
       generate: true
       textures:
-      - block/machine/emerald_tree_machine.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/emerald.png
+      - block/treemachine/emerald.png
+      - block/treemachine/emerald.png
+      - block/treemachine/machine_top.png
+      - block/treemachine/emerald.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
 
   mineral_upgrader:
     display_name: display-name-maj-mineral_upgrader
@@ -265,7 +400,22 @@ items:
       material: NETHER_WART_BLOCK
       generate: true
       textures:
-      - block/machine/mineral_upgrader.png
+      - block/mineralupgrader/machine_top.png
+      - block/mineralupgrader/mineral.png
+      - block/mineralupgrader/mineral.png
+      - block/mineralupgrader/mineral.png
+      - block/mineralupgrader/machine_top.png
+      - block/mineralupgrader/mineral.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
 
   reinforced_glass:
     display_name: display-name-maj-reinforced_glass
@@ -275,6 +425,19 @@ items:
       generate: true
       textures:
       - block/reinforced/glass.png
+      - block/reinforced/glass.png
+      - block/reinforced/glass.png
+      - block/reinforced/glass.png
+      - block/reinforced/glass.png
+      - block/reinforced/glass.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL_TRANSPARENT
+          break_particles: ITEM
+          
   reinforced_iron:
     display_name: display-name-maj-reinforced_iron
     permission: maj.reinforced_iron
@@ -283,6 +446,21 @@ items:
       generate: true
       textures:
       - block/reinforced/iron.png
+      - block/reinforced/iron.png
+      - block/reinforced/iron.png
+      - block/reinforced/iron.png
+      - block/reinforced/iron.png
+      - block/reinforced/iron.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   reinforced_lapis:
     display_name: display-name-maj-reinforced_lapis
     permission: maj.reinforced_lapis
@@ -291,6 +469,21 @@ items:
       generate: true
       textures:
       - block/reinforced/lapis.png
+      - block/reinforced/lapis.png
+      - block/reinforced/lapis.png
+      - block/reinforced/lapis.png
+      - block/reinforced/lapis.png
+      - block/reinforced/lapis.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   reinforced_redstone:
     display_name: display-name-maj-reinforced_redstone
     permission: maj.reinforced_redstone
@@ -299,6 +492,21 @@ items:
       generate: true
       textures:
       - block/reinforced/redstone.png
+      - block/reinforced/redstone.png
+      - block/reinforced/redstone.png
+      - block/reinforced/redstone.png
+      - block/reinforced/redstone.png
+      - block/reinforced/redstone.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   reinforced_gold:
     display_name: display-name-maj-reinforced_gold
     permission: maj.reinforced_gold
@@ -307,6 +515,21 @@ items:
       generate: true
       textures:
       - block/reinforced/gold.png
+      - block/reinforced/gold.png
+      - block/reinforced/gold.png
+      - block/reinforced/gold.png
+      - block/reinforced/gold.png
+      - block/reinforced/gold.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
 
   hardened_stone:
     display_name: display-name-maj-hardened_stone
@@ -316,6 +539,21 @@ items:
       generate: true
       textures:
       - block/hardened/stone.png
+      - block/hardened/stone.png
+      - block/hardened/stone.png
+      - block/hardened/stone.png
+      - block/hardened/stone.png
+      - block/hardened/stone.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   hardened_cobblestone:
     display_name: display-name-maj-hardened_cobblestone
     permission: maj.hardened_cobblestone
@@ -324,6 +562,21 @@ items:
       generate: true
       textures:
       - block/hardened/cobblestone.png
+      - block/hardened/cobblestone.png
+      - block/hardened/cobblestone.png
+      - block/hardened/cobblestone.png
+      - block/hardened/cobblestone.png
+      - block/hardened/cobblestone.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
 
   mithril_ore:
     display_name: display-name-maj-mithril_ore
@@ -333,6 +586,21 @@ items:
       generate: true
       textures:
       - block/mithril/ore.png
+      - block/mithril/ore.png
+      - block/mithril/ore.png
+      - block/mithril/ore.png
+      - block/mithril/ore.png
+      - block/mithril/ore.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   sapphire_ore:
     display_name: display-name-maj-sapphire_ore
     permission: maj.sapphire_ore
@@ -341,6 +609,21 @@ items:
       generate: true
       textures:
       - block/sapphire/ore.png
+      - block/sapphire/ore.png
+      - block/sapphire/ore.png
+      - block/sapphire/ore.png
+      - block/sapphire/ore.png
+      - block/sapphire/ore.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   ruby_ore:
     display_name: display-name-maj-ruby_ore
     permission: maj.ruby_ore
@@ -349,6 +632,21 @@ items:
       generate: true
       textures:
       - block/ruby/ore.png
+      - block/ruby/ore.png
+      - block/ruby/ore.png
+      - block/ruby/ore.png
+      - block/ruby/ore.png
+      - block/ruby/ore.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe
   topaz_ore:
     display_name: display-name-maj-topaz_ore
     permission: maj.topaz_ore
@@ -357,3 +655,18 @@ items:
       generate: true
       textures:
       - block/topaz/ore.png
+      - block/topaz/ore.png
+      - block/topaz/ore.png
+      - block/topaz/ore.png
+      - block/topaz/ore.png
+      - block/topaz/ore.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe

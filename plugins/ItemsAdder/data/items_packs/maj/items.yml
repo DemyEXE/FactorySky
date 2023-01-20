@@ -663,14 +663,6 @@ items:
       generate: true
       textures:
       - item/bucket/ruby.png
-  rainbow_bucket:
-    display_name: display-name-maj-rainbow_bucket
-    permission: maj.rainbow_bucket
-    resource:
-      material: BUCKET
-      generate: true
-      textures:
-      - item/bucket/rainbow.png
 
   iron_molten_bucket:
     display_name: display-name-maj-iron_molten_bucket

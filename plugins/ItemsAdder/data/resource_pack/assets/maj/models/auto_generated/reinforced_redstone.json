@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/redstone_block","textures":{}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/reinforced/redstone","east":"maj:block/reinforced/redstone","north":"maj:block/reinforced/redstone","south":"maj:block/reinforced/redstone","up":"maj:block/reinforced/redstone","west":"maj:block/reinforced/redstone","particle":"maj:block/reinforced/redstone"}}

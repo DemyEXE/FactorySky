@@ -9,7 +9,7 @@ shop:
     - name:&fBone Sapling
     - amount:1
     - type:PAPER
-    - CustomModelData:JSP
+    - CustomModelData:10166
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -459,13 +459,13 @@ shop:
     MenuItem:
     - name:&e&lPage précédente (Page 4)
     - id:PAPER
-    - CustomModelData:10055
+    - CustomModelData:10054
     - amount:1
     InventoryLocation: 47
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: factoryskycpousse3
+    Reward: factoryskycpousse4
   48:
     ExtraPermission: ''
     MenuItem:
@@ -527,10 +527,10 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: factoryskycpousse5
+    Reward: factoryskycpousse6
 
 
-    13:
+  13:
     MenuItem:
     - name:&7&l
     - amount:1

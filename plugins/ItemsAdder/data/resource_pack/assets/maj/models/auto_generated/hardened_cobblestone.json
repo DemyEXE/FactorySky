@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/nether_bricks","textures":{}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/hardened/cobblestone","east":"maj:block/hardened/cobblestone","north":"maj:block/hardened/cobblestone","south":"maj:block/hardened/cobblestone","up":"maj:block/hardened/cobblestone","west":"maj:block/hardened/cobblestone","particle":"maj:block/hardened/cobblestone"}}

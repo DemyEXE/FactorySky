@@ -31,7 +31,7 @@ shop:
     MenuItem:
     - name:&fDirt Mud
     - amount:1
-    - type:OAK_LOG
+    - type:END_STONE
     - CustomModelData:10000
     RewardType: NOTHING
     Reward:
@@ -43,7 +43,7 @@ shop:
     MenuItem:
     - name:&fDirt Mud
     - amount:1
-    - type:OAK_LOG
+    - type:END_STONE
     - CustomModelData:10000
     RewardType: NOTHING
     Reward:
@@ -55,7 +55,7 @@ shop:
     MenuItem:
     - name:&fDirt Mud
     - amount:1
-    - type:OAK_LOG
+    - type:END_STONE
     - CustomModelData:10000
     RewardType: NOTHING
     Reward:
@@ -67,7 +67,7 @@ shop:
     MenuItem:
     - name:&fDirt Mud
     - amount:1
-    - type:OAK_LOG
+    - type:END_STONE
     - CustomModelData:10000
     RewardType: NOTHING
     Reward:
@@ -90,7 +90,7 @@ shop:
     MenuItem:
     - name:&fDirt Mud
     - amount:1
-    - type:OAK_LOG
+    - type:END_STONE
     - CustomModelData:10000
     RewardType: NOTHING
     Reward:
@@ -102,7 +102,7 @@ shop:
     MenuItem:
     - name:&fDirt Mud
     - amount:1
-    - type:OAK_LOG
+    - type:END_STONE
     - CustomModelData:10000
     RewardType: NOTHING
     Reward:
@@ -114,7 +114,7 @@ shop:
     MenuItem:
     - name:&fDirt Mud
     - amount:1
-    - type:OAK_LOG
+    - type:END_STONE
     - CustomModelData:10000
     RewardType: NOTHING
     Reward:
@@ -126,7 +126,7 @@ shop:
     MenuItem:
     - name:&fDirt Mud
     - amount:1
-    - type:OAK_LOG
+    - type:END_STONE
     - CustomModelData:10000
     RewardType: NOTHING
     Reward:
@@ -467,7 +467,7 @@ shop:
     MenuItem:
     - name:&e&lPage précédente (Page 1)
     - id:PAPER
-    - CustomModelData:10055
+    - CustomModelData:10054
     - amount:1
     InventoryLocation: 47
     Message: ''
@@ -538,7 +538,7 @@ shop:
     Reward: factoryskycpousse3
 
 
-    13:
+  13:
     MenuItem:
     - name:&7&l
     - amount:1

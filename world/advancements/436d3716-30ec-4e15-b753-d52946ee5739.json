@@ -11,6 +11,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/gi_geode": {
+    "criteria": {
+      "amethyst_shard": "2023-01-20 06:25:42 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2023-01-13 23:26:07 +0100"
@@ -59,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
   "blazeandcave:biomes/one_with_the_forest": {
     "criteria": {
       "plains": "2023-01-15 20:58:21 +0100"
@@ -74,6 +92,18 @@
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2023-01-12 08:24:27 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:adventure/do_you_want_to_trade": {
+    "criteria": {
+      "village": "2023-01-19 16:39:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
     },
     "done": true
   },
@@ -155,9 +185,21 @@
     },
     "done": true
   },
+  "blazeandcave:enchanting/pick_like_silk": {
+    "criteria": {
+      "diamond_ore": "2023-01-19 20:29:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2023-01-12 08:24:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
     },
     "done": true
   },
@@ -206,7 +248,8 @@
   "blazeandcave:bacap/nether_milestone": {
     "criteria": {
       "anchorman": "2023-01-15 21:35:24 +0100",
-      "who_is_cutting_onions": "2023-01-15 21:35:24 +0100"
+      "who_is_cutting_onions": "2023-01-15 21:35:24 +0100",
+      "holy_scrap": "2023-01-19 21:22:35 +0100"
     },
     "done": false
   },
@@ -306,9 +349,21 @@
     },
     "done": true
   },
+  "blazeandcave:mining/iconic_merchandising_prop": {
+    "criteria": {
+      "diamond_pickaxe": "2023-01-19 21:19:22 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2023-01-14 00:26:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-01-20 06:25:42 +0100"
     },
     "done": true
   },
@@ -342,6 +397,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-01-15 20:34:06 +0100"
@@ -350,10 +411,16 @@
   },
   "blazeandcave:challenges/all_the_blocks": {
     "criteria": {
+      "diamond_ore": "2023-01-19 20:29:12 +0100",
+      "gold_block": "2023-01-19 21:21:25 +0100",
+      "end_stone": "2023-01-19 16:21:47 +0100",
+      "nether_wart_block": "2023-01-19 20:24:59 +0100",
+      "glass": "2023-01-19 19:45:01 +0100",
       "iron_block": "2023-01-18 07:15:58 +0100",
       "crying_obsidian": "2023-01-15 21:35:24 +0100",
       "pink_bed": "2023-01-15 20:58:21 +0100",
       "anvil": "2023-01-18 07:15:58 +0100",
+      "oak_leaves": "2023-01-19 16:25:29 +0100",
       "respawn_anchor": "2023-01-15 20:58:21 +0100"
     },
     "done": false
@@ -364,8 +431,15 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-01-20 06:25:42 +0100"
+    },
+    "done": true
+  },
   "blazeandcave:mining/even_moar_tools": {
     "criteria": {
+      "diamond_pickaxe": "2023-01-19 21:19:22 +0100",
       "diamond_axe": "2023-01-18 07:14:23 +0100"
     },
     "done": false
@@ -394,6 +468,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2023-01-20 06:26:13 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2023-01-15 16:50:23 +0100"
@@ -409,6 +489,12 @@
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2023-01-12 04:21:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
     },
     "done": true
   },
@@ -479,9 +565,27 @@
     },
     "done": true
   },
+  "blazeandcave:bacap/time_to_mine": {
+    "criteria": {
+      "diamond_pickaxe": "2023-01-19 21:19:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2023-01-12 04:07:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2023-01-19 20:29:12 +0100"
     },
     "done": true
   },
@@ -490,6 +594,12 @@
       "trigger": "2023-01-15 21:35:48 +0100"
     },
     "done": true
+  },
+  "blazeandcave:adventure/raidin_master": {
+    "criteria": {
+      "village_plains": "2023-01-19 16:39:14 +0100"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
@@ -505,20 +615,29 @@
   },
   "blazeandcave:bacap/advancement_legend": {
     "criteria": {
+      "time_to_mine": "2023-01-19 21:19:23 +0100",
       "time_to_chop": "2023-01-18 07:14:10 +0100",
       "acquire_hardware": "2023-01-15 20:58:21 +0100",
       "monster_hunter": "2023-01-15 20:58:21 +0100",
+      "do_you_want_to_trade": "2023-01-19 16:39:15 +0100",
       "who_is_cutting_onions": "2023-01-15 21:35:24 +0100",
       "benchmarking": "2023-01-15 20:58:21 +0100",
       "insomniac": "2023-01-15 20:58:22 +0100",
+      "classy_glassy": "2023-01-19 19:45:02 +0100",
+      "mining_root": "2023-01-19 21:19:23 +0100",
       "heavy_metal": "2023-01-18 07:15:59 +0100",
+      "holy_scrap": "2023-01-19 21:22:35 +0100",
       "diamonds": "2023-01-15 20:58:21 +0100",
+      "gi_geode": "2023-01-20 06:25:43 +0100",
       "change_of_sheets": "2023-01-15 20:58:22 +0100",
       "statistics_root": "2023-01-15 21:35:49 +0100",
+      "pick_like_silk": "2023-01-19 20:29:12 +0100",
+      "trimming_the_treetops": "2023-01-19 16:25:30 +0100",
       "the_first_night": "2023-01-15 21:35:49 +0100",
       "diam_oh_wait_no": "2023-01-18 07:16:52 +0100",
       "super_efficient": "2023-01-18 07:16:52 +0100",
       "anchorman": "2023-01-15 21:35:24 +0100",
+      "iconic_merchandising_prop": "2023-01-19 21:19:23 +0100",
       "bacap_root": "2023-01-15 20:58:22 +0100",
       "adventure_root": "2023-01-15 20:58:21 +0100"
     },
@@ -561,6 +680,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
       "has_planks": "2023-01-12 08:24:27 +0100"
@@ -571,6 +696,7 @@
     "criteria": {
       "efficiency": "2023-01-18 07:17:01 +0100",
       "silk_touch_book": "2023-01-18 07:14:02 +0100",
+      "silk_touch": "2023-01-19 20:43:12 +0100",
       "efficiency_book": "2023-01-18 07:16:51 +0100"
     },
     "done": false
@@ -599,9 +725,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2023-01-14 00:26:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
     },
     "done": true
   },
@@ -635,9 +773,27 @@
     },
     "done": true
   },
+  "blazeandcave:bacap/farming_milestone": {
+    "criteria": {
+      "trimming_the_treetops": "2023-01-19 16:25:30 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2023-01-18 07:15:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2023-01-19 21:21:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
     },
     "done": true
   },
@@ -656,17 +812,38 @@
   "blazeandcave:challenges/all_the_items": {
     "criteria": {
       "phantom_membrane": "2023-01-15 20:58:21 +0100",
+      "bucket": "2023-01-19 22:01:21 +0100",
+      "netherite_scrap": "2023-01-19 21:22:34 +0100",
+      "amethyst_shard": "2023-01-20 06:25:42 +0100",
       "book": "2023-01-15 21:34:30 +0100",
       "diamond_axe": "2023-01-18 07:14:23 +0100",
+      "diamond_pickaxe": "2023-01-19 21:19:22 +0100",
+      "nether_star": "2023-01-20 06:26:13 +0100",
       "lapis_lazuli": "2023-01-18 07:16:51 +0100",
       "wooden_axe": "2023-01-18 07:14:09 +0100",
-      "enchanted_book": "2023-01-18 07:14:02 +0100"
+      "shears": "2023-01-19 20:37:25 +0100",
+      "enchanted_book": "2023-01-18 07:14:02 +0100",
+      "golden_pickaxe": "2023-01-19 21:19:38 +0100",
+      "paper": "2023-01-19 21:41:47 +0100",
+      "diamond": "2023-01-19 20:29:12 +0100"
     },
     "done": false
   },
+  "blazeandcave:building/classy_glassy": {
+    "criteria": {
+      "glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
   "factorysky:root": {
     "criteria": {
-      "Mud": "2023-01-15 20:42:32 +0100"
+      "Mud": "2023-01-19 20:39:10 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:nether/holy_scrap": {
+    "criteria": {
+      "netherite_scrap": "2023-01-19 21:22:34 +0100"
     },
     "done": true
   },
@@ -714,6 +891,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2023-01-19 20:29:12 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2023-01-14 03:07:22 +0100"
@@ -740,11 +929,20 @@
   },
   "blazeandcave:bacap/mining_milestone": {
     "criteria": {
+      "gi_geode": "2023-01-20 06:25:43 +0100",
+      "iconic_merchandising_prop": "2023-01-19 21:19:23 +0100",
       "diam_oh_wait_no": "2023-01-18 07:16:52 +0100",
       "diamonds": "2023-01-15 20:58:21 +0100",
-      "acquire_hardware": "2023-01-15 20:58:21 +0100"
+      "acquire_hardware": "2023-01-15 20:58:21 +0100",
+      "root": "2023-01-19 21:19:23 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
   },
   "blazeandcave:enchanting/super_efficient": {
     "criteria": {
@@ -770,6 +968,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2023-01-20 06:25:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2023-01-19 21:19:38 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2023-01-12 08:23:50 +0100"
@@ -788,6 +1004,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2023-01-13 04:50:08 +0100"
@@ -800,11 +1022,18 @@
     },
     "done": true
   },
+  "factorysky:stone_mud": {
+    "criteria": {
+      "stonemud": "2023-01-19 20:39:21 +0100"
+    },
+    "done": true
+  },
   "blazeandcave:enchanting/complete_enchanter": {
     "criteria": {
       "unbreaking": "2023-01-15 20:58:21 +0100",
       "efficiency": "2023-01-18 07:17:01 +0100",
       "silk_touch_book": "2023-01-18 07:14:02 +0100",
+      "silk_touch": "2023-01-19 20:43:12 +0100",
       "efficiency_book": "2023-01-18 07:16:51 +0100"
     },
     "done": false
@@ -866,6 +1095,7 @@
   "blazeandcave:bacap/enchanting_milestone": {
     "criteria": {
       "heavy_metal": "2023-01-18 07:15:59 +0100",
+      "pick_like_silk": "2023-01-19 20:29:12 +0100",
       "super_efficient": "2023-01-18 07:16:52 +0100"
     },
     "done": false
@@ -902,12 +1132,14 @@
   },
   "blazeandcave:bacap/adventure_milestone": {
     "criteria": {
+      "do_you_want_to_trade": "2023-01-19 16:39:15 +0100",
       "root": "2023-01-15 20:58:21 +0100"
     },
     "done": false
   },
   "blazeandcave:challenges/ultimate_enchanter": {
     "criteria": {
+      "silk_touch": "2023-01-19 20:43:12 +0100",
       "efficiency5_book": "2023-01-18 07:16:51 +0100",
       "efficiency5": "2023-01-18 07:17:01 +0100",
       "unbreaking1": "2023-01-15 20:58:21 +0100",
@@ -930,7 +1162,8 @@
   "blazeandcave:bacap/building_milestone": {
     "criteria": {
       "change_of_sheets": "2023-01-15 20:58:22 +0100",
-      "insomniac": "2023-01-15 20:58:22 +0100"
+      "insomniac": "2023-01-15 20:58:22 +0100",
+      "classy_glassy": "2023-01-19 19:45:02 +0100"
     },
     "done": false
   },
@@ -943,6 +1176,12 @@
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2023-01-12 08:24:27 +0100"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/root": {
+    "criteria": {
+      "pickaxe": "2023-01-19 21:19:22 +0100"
     },
     "done": true
   },
@@ -970,6 +1209,12 @@
     },
     "done": true
   },
+  "blazeandcave:farming/trimming_the_treetops": {
+    "criteria": {
+      "leaves": "2023-01-19 16:25:29 +0100"
+    },
+    "done": true
+  },
   "blazeandcave:building/change_of_sheets": {
     "criteria": {
       "pink_bed": "2023-01-15 20:58:21 +0100"
@@ -978,7 +1223,8 @@
   },
   "blazeandcave:mining/mineral_collection": {
     "criteria": {
-      "iron_block": "2023-01-18 07:15:58 +0100"
+      "iron_block": "2023-01-18 07:15:58 +0100",
+      "gold_block": "2023-01-19 21:21:25 +0100"
     },
     "done": false
   },
@@ -1020,6 +1266,7 @@
   },
   "blazeandcave:challenges/stack_all_the_blocks": {
     "criteria": {
+      "glass": "2023-01-19 21:14:46 +0100",
       "pink_bed": "2023-01-15 20:58:21 +0100"
     },
     "done": false
@@ -1027,6 +1274,12 @@
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2023-01-15 20:34:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
     },
     "done": true
   },
@@ -1042,11 +1295,20 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2023-01-19 21:22:34 +0100"
+    },
+    "done": true
+  },
   "blazeandcave:challenges/stack_all_the_items": {
     "criteria": {
       "diamond_axe": "2023-01-18 07:14:23 +0100",
+      "diamond_pickaxe": "2023-01-19 21:19:22 +0100",
       "wooden_axe": "2023-01-18 07:14:09 +0100",
-      "enchanted_book": "2023-01-18 07:14:02 +0100"
+      "shears": "2023-01-19 20:37:25 +0100",
+      "enchanted_book": "2023-01-18 07:14:02 +0100",
+      "golden_pickaxe": "2023-01-19 21:19:38 +0100"
     },
     "done": false
   },
@@ -1065,6 +1327,12 @@
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2023-01-12 21:05:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
     },
     "done": true
   },
@@ -1118,31 +1386,31 @@
   },
   "factorysky:test6": {
     "criteria": {
-      "e": "2023-01-15 20:42:32 +0100"
+      "e": "2023-01-19 20:39:10 +0100"
     },
     "done": true
   },
   "factorysky:test5": {
     "criteria": {
-      "c": "2023-01-15 20:42:32 +0100"
+      "c": "2023-01-19 20:39:10 +0100"
     },
     "done": true
   },
   "factorysky:test4": {
     "criteria": {
-      "b": "2023-01-15 20:42:32 +0100"
+      "b": "2023-01-19 20:39:10 +0100"
     },
     "done": true
   },
   "factorysky:test3": {
     "criteria": {
-      "g": "2023-01-15 20:42:32 +0100"
+      "g": "2023-01-19 20:39:10 +0100"
     },
     "done": true
   },
   "factorysky:test2": {
     "criteria": {
-      "a": "2023-01-15 20:42:32 +0100"
+      "a": "2023-01-19 20:39:10 +0100"
     },
     "done": true
   },
@@ -1167,6 +1435,12 @@
   "minecraft:recipes/decorations/dark_oak_fence": {
     "criteria": {
       "has_planks": "2023-01-12 08:24:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2023-01-19 21:19:38 +0100"
     },
     "done": true
   },
@@ -1203,6 +1477,12 @@
   "blazeandcave:bacap/time_to_chop": {
     "criteria": {
       "wooden_axe": "2023-01-18 07:14:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-01-19 19:45:01 +0100"
     },
     "done": true
   },

@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/lapis_block","textures":{}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/reinforced/lapis","east":"maj:block/reinforced/lapis","north":"maj:block/reinforced/lapis","south":"maj:block/reinforced/lapis","up":"maj:block/reinforced/lapis","west":"maj:block/reinforced/lapis","particle":"maj:block/reinforced/lapis"}}

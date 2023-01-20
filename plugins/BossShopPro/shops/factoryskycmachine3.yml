@@ -7,6 +7,7 @@ shop:
   Craft_ITEM:
     MenuItem:
     - name:&fOre Tree Machine
+    - 'lore:#&e» &7&l&nMinerais:&a Dirt, Stone, Iron, Lapis, Redstone, Gold, Diamond, Emerald'
     - amount:1
     - type:IRON_BLOCK
     - CustomModelData:10003
@@ -29,7 +30,8 @@ shop:
   
   Craft_SLOT_2:
     MenuItem:
-    - name:&fOre &7(&aDirt, Stone, Iron, Lapis, Redstone, Gold, Diamond, Emerald&7)
+    - name:&fOre
+    - 'lore:#&e» &7&l&nMinerais:&a Dirt, Stone, Iron, Lapis, Redstone, Gold, Diamond, Emerald'
     - amount:1
     - type:IRON_INGOT
     RewardType: NOTHING
@@ -454,7 +456,7 @@ shop:
     Reward: factoryskycmachine4
 
 
-    13:
+  13:
     MenuItem:
     - name:&7&l
     - amount:1

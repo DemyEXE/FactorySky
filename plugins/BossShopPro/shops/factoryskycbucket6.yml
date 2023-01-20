@@ -60,7 +60,7 @@ shop:
     InventoryLocation: 41
   RESULTAT_CUISSON:
     MenuItem:
-    - name:&f&lLava Bucket
+    - name:&fLava Bucket
     - amount:1
     - type:LAVA_BUCKET
     RewardType: NOTHING

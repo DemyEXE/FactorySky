@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/gold_block","textures":{}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/reinforced/gold","east":"maj:block/reinforced/gold","north":"maj:block/reinforced/gold","south":"maj:block/reinforced/gold","up":"maj:block/reinforced/gold","west":"maj:block/reinforced/gold","particle":"maj:block/reinforced/gold"}}
