@@ -1,521 +1,80 @@
-[06:20:51] [ServerMain/INFO]: Building unoptimized datafixer
-[06:20:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06:21:02] [ServerMain/INFO]: Loaded 7 recipes
-[06:21:06] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[06:21:06] [Server thread/INFO]: Loading properties
-[06:21:06] [Server thread/INFO]: This server is running CraftBukkit version 3610-Spigot-6198b5a-19df23a (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
-[06:21:06] [Server thread/INFO]: Debug logging is disabled
-[06:21:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:21:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:21:06] [Server thread/INFO]: Default game type: SURVIVAL
-[06:21:06] [Server thread/INFO]: Generating keypair
-[06:21:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:21:06] [Server thread/INFO]: Using default channel type
-[06:21:08] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.58
-[06:21:09] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
-[06:21:09] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.5.14
-[06:21:09] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[06:21:09] [Server thread/INFO]: [LoneLibs] Loading LoneLibs v1.0.21
-[06:21:09] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[06:21:09] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b600
-[06:21:09] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
-[06:21:11] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.2
-[06:21:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.7
-[06:21:11] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.0
-[06:21:11] [Server thread/INFO]: [TAB] Loading TAB v3.2.1
-[06:21:11] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v5.2.5-RELEASE-b850
-[06:21:11] [Server thread/INFO]: [ItemsAdder] Loading ItemsAdder v3.2.5-beta5
-[06:21:11] [Server thread/INFO]: [SCore] Loading SCore v3.9.15
-[06:21:11] [Server thread/INFO]: [BossShopPro] Loading BossShopPro v2.1.0-SNAPSHOT
-[06:21:11] [Server thread/INFO]: [BlockSounds] Loading BlockSounds v1.3
-[06:21:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
-[06:21:12] [Server thread/WARN]: [LuckPerms] Loaded class net.kyori.adventure.text.Component from SCore v3.9.15 which is not a depend or softdepend of this plugin.
-[06:21:13] [Server thread/INFO]:         __    
-[06:21:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
-[06:21:13] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
-[06:21:13] [Server thread/INFO]: 
-[06:21:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[06:21:13] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[06:21:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[06:21:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[06:21:14] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3006ms)
-[06:21:14] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[06:21:14] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.7 which is not a depend or softdepend of this plugin.
-[06:21:14] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[06:21:14] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[06:21:15] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[06:21:15] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[06:21:15] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.21
-[06:21:15] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b600
-[06:21:15] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v5.2.5-RELEASE-b850
-[06:21:15] [Server thread/INFO]: Preparing level "world"
-[06:21:15] [Server thread/INFO]: -------- World Settings For [world] --------
-[06:21:15] [Server thread/INFO]: Mob Spawn Range: 6
-[06:21:15] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:21:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[06:21:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:21:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[06:21:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[06:21:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[06:21:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:21:15] [Server thread/INFO]: Max TNT Explosions: 100
-[06:21:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:21:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:21:15] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:21:15] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:21:15] [Server thread/INFO]: View Distance: 10
-[06:21:15] [Server thread/INFO]: Simulation Distance: 10
-[06:21:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:21:15] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[06:21:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[06:21:16] [Server thread/INFO]: Mob Spawn Range: 6
-[06:21:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:21:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:21:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[06:21:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[06:21:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[06:21:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:21:16] [Server thread/INFO]: Max TNT Explosions: 100
-[06:21:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:21:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:21:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:21:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:21:16] [Server thread/INFO]: View Distance: 10
-[06:21:16] [Server thread/INFO]: Simulation Distance: 10
-[06:21:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:21:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[06:21:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[06:21:16] [Server thread/INFO]: Mob Spawn Range: 6
-[06:21:16] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:21:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[06:21:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:21:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[06:21:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[06:21:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[06:21:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:21:16] [Server thread/INFO]: Max TNT Explosions: 100
-[06:21:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:21:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:21:16] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:21:16] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:21:16] [Server thread/INFO]: View Distance: 10
-[06:21:16] [Server thread/INFO]: Simulation Distance: 10
-[06:21:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:21:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[06:21:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:21:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[06:21:20] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[06:21:20] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[06:21:21] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:21:21] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:22] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[06:21:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[06:21:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[06:21:23] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[06:21:24] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:24] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[06:21:25] [Worker-Main-7/INFO]: Preparing spawn area: 23%
-[06:21:25] [Worker-Main-3/INFO]: Preparing spawn area: 55%
-[06:21:26] [Worker-Main-7/INFO]: Preparing spawn area: 87%
-[06:21:26] [Server thread/INFO]: Time elapsed: 9738 ms
-[06:21:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[06:21:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[06:21:30] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[06:21:31] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[06:21:32] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:21:32] [Worker-Main-4/INFO]: Preparing spawn area: 10%
-[06:21:33] [Worker-Main-2/INFO]: Preparing spawn area: 62%
-[06:21:33] [Server thread/INFO]: Time elapsed: 7400 ms
-[06:21:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[06:21:38] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:38] [Worker-Main-5/INFO]: Preparing spawn area: 15%
-[06:21:39] [Worker-Main-7/INFO]: Preparing spawn area: 68%
-[06:21:39] [Server thread/INFO]: Time elapsed: 5836 ms
-[06:21:39] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[06:21:39] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.kyori.adventure.text.Component from SCore v3.9.15 which is not a depend or softdepend of this plugin.
-[06:21:39] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[06:21:39] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.14
-[06:21:39] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_19_R1
-[06:21:39] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
-[06:21:40] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[06:21:40] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[06:21:40] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[06:21:40] [Server thread/INFO]: -------- World Settings For [Superflat] --------
-[06:21:40] [Server thread/INFO]: Mob Spawn Range: 6
-[06:21:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[06:21:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Potato Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Vine Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[06:21:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[06:21:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[06:21:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[06:21:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[06:21:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[06:21:40] [Server thread/INFO]: Max TNT Explosions: 100
-[06:21:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[06:21:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[06:21:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[06:21:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[06:21:40] [Server thread/INFO]: View Distance: 10
-[06:21:40] [Server thread/INFO]: Simulation Distance: 10
-[06:21:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[06:21:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[06:21:40] [Server thread/INFO]: Preparing start region for dimension minecraft:superflat
-[06:21:43] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[06:21:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[06:21:43] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:21:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:21:43] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[06:21:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[06:21:44] [Worker-Main-6/INFO]: Preparing spawn area: 23%
-[06:21:44] [Worker-Main-4/INFO]: Preparing spawn area: 79%
-[06:21:45] [Server thread/INFO]: Time elapsed: 4764 ms
-[06:21:45] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[06:21:45] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[06:21:45] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[06:21:45] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
-[06:21:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SimpleScore [3.12.2]
-[06:21:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
-[06:21:45] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[06:21:45] [Server thread/WARN]: §4Version mismatch! Please update EssentialsChat to the same version.
-[06:21:46] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[06:21:46] [Server thread/INFO]: No kits found to migrate.
-[06:21:47] [Server thread/INFO]: Loaded 38132 items from items.json.
-[06:21:47] [Server thread/INFO]: Using locale fr_FR
-[06:21:47] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[06:21:47] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[06:21:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[06:21:47] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
-[06:21:47] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.0
-[06:21:47] [Server thread/WARN]: [EssentialsChat] §4Versions différentes ! Veuillez mettre à jour tous les jars Essentials à la même version.
-[06:21:47] [Server thread/ERROR]: Error occurred while enabling EssentialsChat v2.17.0.0 (Is it up to date?)
-java.lang.NoClassDefFoundError: com/earth2me/essentials/metrics/Metrics
-	at com.earth2me.essentials.chat.EssentialsChat.onEnable(EssentialsChat.java:43) ~[?:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugin(CraftServer.java:525) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.enablePlugins(CraftServer.java:439) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:584) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:403) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:255) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:968) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.ClassNotFoundException: com.earth2me.essentials.metrics.Metrics
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	... 12 more
-[06:21:47] [Server thread/INFO]: [TAB] Enabling TAB v3.2.1
-[06:21:47] [Server thread/INFO]: [TAB] Server version: 1.19.2 (v1_19_R1)
-[06:21:47] [Server thread/INFO]: [TAB] Loaded NMS hook in 47ms
-[06:21:47] [Server thread/WARN]: [TAB] Loaded class net.kyori.adventure.text.minimessage.MiniMessage from SCore v3.9.15 which is not a depend or softdepend of this plugin.
-[06:21:47] [Server thread/INFO]: [TAB] Enabled in 180ms
-[06:21:47] [Server thread/INFO]: [ItemsAdder] Enabling ItemsAdder v3.2.5-beta5
-[06:21:47] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_19_R1! Trying to find NMS support
-[06:21:47] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_19_R1' loaded!
-[06:21:47] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
-[06:21:48] [Server thread/WARN]: [LoneLibs] Loaded class net.kyori.adventure.text.Component from SCore v3.9.15 which is not a depend or softdepend of this plugin.
-[06:21:48] [Server thread/INFO]: [ItemsAdder] [0m[38;5;51m
-[38;5;51m  ___  ___        __        __   __   ___  __  [38;5;2m    ItemsAdder[38;5;246m 3.2.5-beta5
-[38;5;51m|  |  |__   |\/| /__`  /\  |  \ |  \ |__  |__) [38;5;2m    LoneLibs[38;5;246m 1.0.21
-[38;5;51m|  |  |___  |  | .__/ /--\ |__/ |__/ |___ |  \ [38;5;8m    CraftBukkit 3610-Spigot-6198b5a-19df23a (MC: 1.19.2)
-[38;5;51m                                               [0m
-[06:21:48] [Server thread/INFO]: [ItemsAdder] [0m[38;5;11mLightAPI not installed, please install it to see blocks emitting light: [38;5;51mhttps://a.devs.beer/lightapi-new[0m
-[06:21:49] [Server thread/INFO]: [SCore] Enabling SCore v3.9.15
-[06:21:49] [Server thread/INFO]: ================ SCore ================
-[06:21:49] [Server thread/INFO]: SCore Version of the server 3610-Spigot-6198b5a-19df23a (MC: 1.19.2) !
-[06:21:49] [Server thread/INFO]: SCore PlaceholderAPI hooked !
-[06:21:49] [Server thread/INFO]: SCore Vault hooked !
-[06:21:49] [Server thread/INFO]: SCore Multiverse-Core hooked !
-[06:21:49] [Server thread/INFO]: SCore ProtocolLib hooked !
-[06:21:49] [Server thread/INFO]: SCore ItemsAdder hooked !
-[06:21:49] [Server thread/INFO]: SCore Locale setup: EN
-[06:21:49] [Server thread/INFO]: SCore Language setup on EN
-[06:21:49] [Server thread/INFO]: SCore onnection to the db...
-[06:21:49] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
-[06:21:49] [Server thread/INFO]: SCore Creating table Commands if not exists...
-[06:21:49] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
-[06:21:49] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
-[06:21:49] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
-[06:21:49] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
-[06:21:49] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
-[06:21:51] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
-[06:21:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SCore [1.0.0]
-[06:21:51] [Server thread/INFO]: ================ SCore ================
-[06:21:51] [Server thread/INFO]: [BossShopPro] Enabling BossShopPro v2.1.0-SNAPSHOT
-[06:21:51] [Server thread/INFO]: [BossShopPro] Loading data...
-[06:21:51] [Server thread/INFO]: [BossShopPro] Hooked into PlaceholderAPI.
-[06:21:52] [Server thread/INFO]: [BlockSounds] Enabling BlockSounds v1.3
-[06:21:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:21:52] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[06:21:52] [Server thread/INFO]: Done (36.948s)! For help, type "help"
-[06:21:52] [Craft Scheduler Thread - 1/INFO]: [ItemJoin] Hooked into { Multiverse-Core, PlaceholderAPI, ProtocolLib, Vault }
-[06:21:52] [Craft Scheduler Thread - 1/INFO]: [ItemJoin] 1 Custom item(s) loaded!
-[06:21:52] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[06:21:52] [Craft Scheduler Thread - 6/INFO]: §6Récupération des informations de version...
-[06:21:52] [Server thread/INFO]: [ItemsAdder] [0m[38;5;51m[Pack] Extracting utility resource_pack assets from .jar[0m
-[06:21:52] [Craft Scheduler Thread - 8/INFO]: [ItemsAdder] [0m
-[0m
-[ItemsAdder] [38;5;10mUPDATE available: [38;5;51mhttps://www.spigotmc.org/resources/73355/[0m
-[ItemsAdder] [38;5;8mCurrent version: 3.2.5-beta5[38;5;8m | Online version: 3.3.0b-r5
-[0m
-[06:21:52] [Craft Scheduler Thread - 7/INFO]: [ItemsAdder] [0m[38;5;10m[License] Spigot product licensed to: [38;5;51mluluxe (244044)[0m
-[06:21:52] [Server thread/INFO]: [ItemsAdder] [0m[38;5;10m[Pack] DONE extracting utility resource_pack assets from .jar[0m
-[06:21:52] [Craft Scheduler Thread - 2/INFO]: [ItemJoin] You are up to date!
-[06:21:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Advancements [1.7]
-[06:21:53] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.58 which is not a depend or softdepend of this plugin.
-[06:21:53] [Craft Scheduler Thread - 2/INFO]: [Vault] Checking for Updates ... 
-[06:21:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.4-R2]
-[06:21:53] [Server thread/INFO]: 2 placeholder hook(s) registered!
-[06:21:53] [Craft Scheduler Thread - 2/INFO]: [Vault] No new version available
-[06:21:53] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;11mResult item 'null' not found in crafting recipe 'recipes.crafting_table.lapis_sapling'. File \data\items_packs\maj\crafting.yml[0m
-[06:21:55] [Craft Scheduler Thread - 6/INFO]: [BossShopPro] Loaded 27 Shops!
-[06:21:55] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;11mLoaded [38;5;51m185[38;5;11m items[0m
-[06:21:55] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m48[38;5;11m/[38;5;51m188[38;5;11m REAL block IDs[0m
-[06:21:55] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m110[38;5;11m/[38;5;51m750[38;5;11m REAL_NOTE block IDs[0m
-[06:21:55] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m61[38;5;11m/[38;5;51m63[38;5;11m REAL_TRANSPARENT block IDs[0m
-[06:21:55] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m0[38;5;11m/[38;5;51m127[38;5;11m REAL_WIRE block IDs[0m
-[06:21:55] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m0[38;5;11m/[38;5;51m14[38;5;11m FIRE block IDs[0m
-[06:21:55] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m5[38;5;11m/[38;5;51m6608[38;5;11m font_images[0m
-[06:21:57] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;10m[Init] Loaded [38;5;51m2[38;5;11m categories[0m
-[06:21:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: img [1.0.1]
-[06:21:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: iaplayerstat [1.0.1]
-[06:21:57] [Server thread/INFO]: [BlockSounds - ItemsAdder] BlockSounds have been enabled!
-[06:21:57] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;10m[Init] Loaded [38;5;51m185[38;5;10m items and stuff in [38;5;51m5720ms[0m
-[06:21:58] [Craft Scheduler Thread - 5/INFO]: [ItemsAdder] [0m[38;5;51m[Pack] Checking resourcepack url... [0m
-[06:21:58] [Craft Scheduler Thread - 1/INFO]: [ItemsAdder] [0m[38;5;10m[Pack] Resourcepack URL (self-host): http://127.0.0.1:8163/pack.zip[0m
-[06:23:14] [User Authenticator #1/INFO]: UUID of player Demy___ is 436d3716-30ec-4e15-b753-d52946ee5739
-[06:23:15] [Server thread/WARN]: [ProtocolLib] Loaded class net.kyori.adventure.text.Component from SCore v3.9.15 which is not a depend or softdepend of this plugin.
-[06:23:18] [Server thread/INFO]: Demy___ joined the game
-[06:23:18] [Server thread/INFO]: Demy___[/127.0.0.1:50194] logged in with entity id 282 at ([Superflat]124.57320878016492, -53.0, 23.39383605089367)
-[06:23:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7196ms or 143 ticks behind
-[06:23:47] [Server thread/ERROR]: [ItemsAdder] [0m[38;5;9mCorrupted region data! Copying it into '_corrupted' folder. Unexpected end of ZLIB input stream[0m
-[06:23:47] [Server thread/ERROR]: Could not pass event GenericGameEvent to BlockSounds v1.3
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.level.WorldServer.a(WorldServer.java:1147) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.entity.Entity.a(Entity.java:882) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.entity.EntityLiving.a(EntityLiving.java:2761) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.entity.EntityLiving.g(EntityLiving.java:2716) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.entity.EntityLiving.w_(EntityLiving.java:3179) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.entity.EntityInsentient.w_(EntityInsentient.java:627) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.entity.EntityLiving.k(EntityLiving.java:2867) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.entity.EntityInsentient.k(EntityInsentient.java:389) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.entity.ambient.EntityBat.k(EntityBat.java:117) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.level.WorldServer.a(WorldServer.java:827) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.level.World.a(World.java:658) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.level.WorldServer.lambda$9(WorldServer.java:422) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.world.level.entity.EntityTickList.a(SourceFile:54) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.level.WorldServer.a(WorldServer.java:402) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1290) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "dev.lone.itemsadder.main.dC.b(org.bukkit.block.Block)" because "<local1>" is null
-	at dev.lone.itemsadder.api.CustomBlock.byAlreadyPlaced(SourceFile:97) ~[?:?]
-	at com.boy0000.blocksounds.CustomBlockListener.onCustomBlockStep(CustomBlockListener.java:26) ~[?:?]
-	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 23 more
-[06:24:02] [Server thread/INFO]: Demy___ issued server command: /ia
-[06:24:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12408ms or 248 ticks behind
-[06:24:18] [Server thread/INFO]: Demy___ issued server command: /iareload
-[06:24:18] [Server thread/INFO]: [ItemsAdder] [0m[38;5;11mReloading...[0m
-[06:24:18] [Craft Scheduler Thread - 9/INFO]: [ItemsAdder] [0m[38;5;51m[Host] Started self-host webserver on port: 8163[0m
-[06:24:18] [Server thread/INFO]: [ItemsAdder] [0m[38;5;51m[Pack] Extracting utility resource_pack assets from .jar[0m
-[06:24:19] [Server thread/INFO]: [ItemsAdder] [0m[38;5;10m[Pack] DONE extracting utility resource_pack assets from .jar[0m
-[06:24:21] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;11mResult item 'null' not found in crafting recipe 'recipes.crafting_table.lapis_sapling'. File \data\items_packs\maj\crafting.yml[0m
-[06:24:21] [Server thread/INFO]: Demy___ issued server command: /ia
-[06:24:21] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;11mLoaded [38;5;51m185[38;5;11m items[0m
-[06:24:22] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m48[38;5;11m/[38;5;51m188[38;5;11m REAL block IDs[0m
-[06:24:22] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m110[38;5;11m/[38;5;51m750[38;5;11m REAL_NOTE block IDs[0m
-[06:24:22] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m61[38;5;11m/[38;5;51m63[38;5;11m REAL_TRANSPARENT block IDs[0m
-[06:24:22] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m0[38;5;11m/[38;5;51m127[38;5;11m REAL_WIRE block IDs[0m
-[06:24:22] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m0[38;5;11m/[38;5;51m14[38;5;11m FIRE block IDs[0m
-[06:24:22] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m5[38;5;11m/[38;5;51m6608[38;5;11m font_images[0m
-[06:24:23] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;10m[Init] Loaded [38;5;51m2[38;5;11m categories[0m
-[06:24:23] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;10m[Init] Loaded [38;5;51m185[38;5;10m items and stuff in [38;5;51m4160ms[0m
-[06:24:23] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;51m[Pack] Checking resourcepack url... [0m
-[06:24:23] [Server thread/INFO]: Demy___ issued server command: /ia
-[06:24:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: img [1.0.1]
-[06:24:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: iaplayerstat [1.0.1]
-[06:24:23] [Craft Scheduler Thread - 14/INFO]: [ItemsAdder] [0m[38;5;10m[Pack] Resourcepack URL (self-host): http://127.0.0.1:8163/pack.zip[0m
-[06:24:23] [Server thread/INFO]: [BlockSounds - ItemsAdder] BlockSounds have been reloaded!
-[06:24:49] [Server thread/INFO]: Demy___ issued server command: /clear
-[06:24:50] [Server thread/INFO]: Demy___ issued server command: /iazip
-[06:24:50] [Craft Scheduler Thread - 8/INFO]: [ItemsAdder] [0m[38;5;51m[Host] Started self-host webserver on port: 8163[0m
-[06:24:50] [Server thread/INFO]: [ItemsAdder] [0m[38;5;51m[Pack] Extracting utility resource_pack assets from .jar[0m
-[06:24:51] [Server thread/INFO]: [ItemsAdder] [0m[38;5;10m[Pack] DONE extracting utility resource_pack assets from .jar[0m
-[06:24:52] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;11mResult item 'null' not found in crafting recipe 'recipes.crafting_table.lapis_sapling'. File \data\items_packs\maj\crafting.yml[0m
-[06:24:54] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;11mLoaded [38;5;51m185[38;5;11m items[0m
-[06:24:54] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m48[38;5;11m/[38;5;51m188[38;5;11m REAL block IDs[0m
-[06:24:54] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m110[38;5;11m/[38;5;51m750[38;5;11m REAL_NOTE block IDs[0m
-[06:24:54] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m61[38;5;11m/[38;5;51m63[38;5;11m REAL_TRANSPARENT block IDs[0m
-[06:24:54] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m0[38;5;11m/[38;5;51m127[38;5;11m REAL_WIRE block IDs[0m
-[06:24:54] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m0[38;5;11m/[38;5;51m14[38;5;11m FIRE block IDs[0m
-[06:24:54] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;11mUsed [38;5;51m5[38;5;11m/[38;5;51m6608[38;5;11m font_images[0m
-[06:24:56] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;10m[Init] Loaded [38;5;51m2[38;5;11m categories[0m
-[06:24:56] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;10m[Init] Loaded [38;5;51m185[38;5;10m items and stuff in [38;5;51m5160ms[0m
-[06:24:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: img [1.0.1]
-[06:24:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: iaplayerstat [1.0.1]
-[06:24:56] [Server thread/INFO]: [BlockSounds - ItemsAdder] BlockSounds have been reloaded!
-[06:25:03] [Server thread/INFO]: Demy___ issued server command: /clear
-[06:25:23] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;10mCompressed 37 PNGs in 2720ms. 71,3 kB->70,9 kB[0m
-[06:25:23] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;10m[OK] Your zip file will be protected from unzip (as set in config.yml)[0m
-[06:25:23] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;51m[Pack] Compressing resource_pack ... [0m
-[06:25:25] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;10m[Pack] Resourcepack successfully compressed: [38;5;51m\plugins\ItemsAdder\data\resource_pack\pack.zip[0m
-[06:25:25] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;51mApplying pack to every player... [0m
-[06:25:25] [Craft Scheduler Thread - 15/INFO]: [ItemsAdder] [0m[38;5;10mApplied pack to [38;5;11m1[38;5;10m players[0m
-[06:25:36] [Server thread/INFO]: Demy___ issued server command: /ia
-[06:25:42] [Server thread/INFO]: Demy___ has made the advancement [G.I. Geode]
-[06:25:47] [Server thread/INFO]: Demy___ issued server command: /clear
-[06:25:47] [Server thread/INFO]: Demy___ issued server command: /ia
-[06:26:16] [Server thread/INFO]: Demy___ issued server command: /clear
-[06:26:16] [Server thread/INFO]: Demy___ issued server command: /ia
-[06:26:24] [Server thread/INFO]: Demy___ issued server command: /ia
-[06:26:59] [Server thread/INFO]: Demy___ issued server command: /save-all
-[06:27:00] [Server thread/INFO]: [Demy___: Saved the game]
-[06:27:01] [Server thread/INFO]: Demy___ issued server command: /stop
-[06:27:01] [Server thread/INFO]: [Demy___: Stopping the server]
-[06:27:01] [Server thread/INFO]: Stopping server
-[06:27:01] [Server thread/INFO]: [BlockSounds] Disabling BlockSounds v1.3
-[06:27:01] [Server thread/INFO]: [BossShopPro] Disabling BossShopPro v2.1.0-SNAPSHOT
-[06:27:01] [Server thread/INFO]: [BossShopPro] Disabling... bye!
-[06:27:01] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v3.2.5-beta5
-[06:27:01] [Craft Scheduler Thread - 1/INFO]: [ItemsAdder] [0m[38;5;51m[Host] Started self-host webserver on port: 8163[0m
-[06:27:01] [Server thread/INFO]: [ItemJoin] Disabling ItemJoin v5.2.5-RELEASE-b850
-[06:27:01] [Server thread/INFO]: [TAB] Disabling TAB v3.2.1
-[06:27:01] [Server thread/INFO]: [TAB] Disabled in 3ms
-[06:27:01] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
-[06:27:01] [Server thread/INFO]: Disabling Essentials v2.19.7
-[06:27:01] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[06:27:01] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.2
-[06:27:01] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b600
-[06:27:01] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[06:27:01] [Server thread/INFO]: [LoneLibs] Disabling LoneLibs v1.0.21
-[06:27:01] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[06:27:01] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.14
-[06:27:01] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[06:27:01] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
-[06:27:01] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[06:27:01] [Server thread/INFO]: [LuckPerms] Closing storage...
-[06:27:01] [Server thread/INFO]: [LuckPerms] Goodbye!
-[06:27:01] [Server thread/INFO]: Saving players
-[06:27:01] [Server thread/INFO]: Demy___ lost connection: Server closed
-[06:27:01] [Server thread/INFO]: Demy___ left the game.
-[06:27:01] [Server thread/INFO]: Saving worlds
-[06:27:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:27:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[06:27:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[06:27:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Superflat]'/minecraft:superflat
-[06:27:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:27:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:27:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:27:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (Superflat): All chunks are saved
-[06:27:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:15] [Server thread/INFO]: Demy___ issued server command: /datapack disable "file/factorysky"
+[00:00:15] [Server thread/INFO]: [Demy___: Disabling data pack [file/factorysky (world)]]
+[00:00:16] [Server thread/INFO]: Loaded 7 recipes
+[00:00:16] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: blazeandcave:ch_acacia_saplings, blazeandcave:ch_bamboos, blazeandcave:ch_birch_saplings, blazeandcave:ch_cave_vines, blazeandcave:ch_crimson_fungus, blazeandcave:ch_dark_oak_saplings, blazeandcave:ch_dripleaves, blazeandcave:ch_jungle_saplings, blazeandcave:ch_kelps, blazeandcave:ch_melon_stems, blazeandcave:ch_oak_saplings, blazeandcave:ch_pumpkin_stems, blazeandcave:ch_spruce_saplings, blazeandcave:ch_twisting_vines, blazeandcave:ch_warped_fungus, blazeandcave:ch_weeping_vines, blazeandcave:waxed_copper_blocks, minecraft:non_underwater_blocks, minecraft:stripped_logs, minecraft:stripped_wood, minecraft:underwater_blocks
+[00:00:16] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: blazeandcave:boats, blazeandcave:cj_rideables, blazeandcave:horses, blazeandcave:llamas, blazeandcave:overworld_zombies, blazeandcave:piglins, blazeandcave:player_rideables, blazeandcave:spiders, minecraft:boats, minecraft:zombies
+[00:00:16] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: blazeandcave:axes, blazeandcave:axolotl_feedable, blazeandcave:candle_lightables, blazeandcave:dolphin_feedable, blazeandcave:master_axes, blazeandcave:master_boots, blazeandcave:master_chestplates, blazeandcave:master_helmets, blazeandcave:master_hoes, blazeandcave:master_leggings, blazeandcave:master_pickaxes, blazeandcave:master_shovels, blazeandcave:master_swords, blazeandcave:ocelot_feedable, blazeandcave:poison_cures, blazeandcave:waxed_copper_blocks, minecraft:axes, minecraft:hoes, minecraft:leather_armor, minecraft:nether_fungus, minecraft:nether_roots, minecraft:nether_stems, minecraft:pickaxes, minecraft:shovels, minecraft:shulker_boxes, minecraft:swords
+[00:00:27] [Server thread/INFO]: Demy___ issued server command: /datapack enable "file/factorysky"
+[00:00:27] [Server thread/INFO]: [Demy___: Enabling data pack [file/factorysky (world)]]
+[00:00:27] [Server thread/ERROR]: Failed to get filter section from pack factorysky
+[00:00:28] [Server thread/INFO]: Loaded 7 recipes
+[00:00:28] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: blazeandcave:ch_acacia_saplings, blazeandcave:ch_bamboos, blazeandcave:ch_birch_saplings, blazeandcave:ch_cave_vines, blazeandcave:ch_crimson_fungus, blazeandcave:ch_dark_oak_saplings, blazeandcave:ch_dripleaves, blazeandcave:ch_jungle_saplings, blazeandcave:ch_kelps, blazeandcave:ch_melon_stems, blazeandcave:ch_oak_saplings, blazeandcave:ch_pumpkin_stems, blazeandcave:ch_spruce_saplings, blazeandcave:ch_twisting_vines, blazeandcave:ch_warped_fungus, blazeandcave:ch_weeping_vines, blazeandcave:waxed_copper_blocks, minecraft:non_underwater_blocks, minecraft:stripped_logs, minecraft:stripped_wood, minecraft:underwater_blocks
+[00:00:28] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: blazeandcave:boats, blazeandcave:cj_rideables, blazeandcave:horses, blazeandcave:llamas, blazeandcave:overworld_zombies, blazeandcave:piglins, blazeandcave:player_rideables, blazeandcave:spiders, minecraft:boats, minecraft:zombies
+[00:00:28] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: blazeandcave:axes, blazeandcave:axolotl_feedable, blazeandcave:candle_lightables, blazeandcave:dolphin_feedable, blazeandcave:master_axes, blazeandcave:master_boots, blazeandcave:master_chestplates, blazeandcave:master_helmets, blazeandcave:master_hoes, blazeandcave:master_leggings, blazeandcave:master_pickaxes, blazeandcave:master_shovels, blazeandcave:master_swords, blazeandcave:ocelot_feedable, blazeandcave:poison_cures, blazeandcave:waxed_copper_blocks, minecraft:axes, minecraft:hoes, minecraft:leather_armor, minecraft:nether_fungus, minecraft:nether_roots, minecraft:nether_stems, minecraft:pickaxes, minecraft:shovels, minecraft:shulker_boxes, minecraft:swords
+[00:00:46] [Server thread/INFO]: Demy___ issued server command: /clear
+[00:02:03] [Server thread/INFO]: Demy___ issued server command: /datapack disable "file/factorysky"
+[00:02:03] [Server thread/INFO]: [Demy___: Disabling data pack [file/factorysky (world)]]
+[00:02:04] [Server thread/INFO]: Loaded 7 recipes
+[00:02:04] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: blazeandcave:ch_acacia_saplings, blazeandcave:ch_bamboos, blazeandcave:ch_birch_saplings, blazeandcave:ch_cave_vines, blazeandcave:ch_crimson_fungus, blazeandcave:ch_dark_oak_saplings, blazeandcave:ch_dripleaves, blazeandcave:ch_jungle_saplings, blazeandcave:ch_kelps, blazeandcave:ch_melon_stems, blazeandcave:ch_oak_saplings, blazeandcave:ch_pumpkin_stems, blazeandcave:ch_spruce_saplings, blazeandcave:ch_twisting_vines, blazeandcave:ch_warped_fungus, blazeandcave:ch_weeping_vines, blazeandcave:waxed_copper_blocks, minecraft:non_underwater_blocks, minecraft:stripped_logs, minecraft:stripped_wood, minecraft:underwater_blocks
+[00:02:04] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: blazeandcave:boats, blazeandcave:cj_rideables, blazeandcave:horses, blazeandcave:llamas, blazeandcave:overworld_zombies, blazeandcave:piglins, blazeandcave:player_rideables, blazeandcave:spiders, minecraft:boats, minecraft:zombies
+[00:02:04] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: blazeandcave:axes, blazeandcave:axolotl_feedable, blazeandcave:candle_lightables, blazeandcave:dolphin_feedable, blazeandcave:master_axes, blazeandcave:master_boots, blazeandcave:master_chestplates, blazeandcave:master_helmets, blazeandcave:master_hoes, blazeandcave:master_leggings, blazeandcave:master_pickaxes, blazeandcave:master_shovels, blazeandcave:master_swords, blazeandcave:ocelot_feedable, blazeandcave:poison_cures, blazeandcave:waxed_copper_blocks, minecraft:axes, minecraft:hoes, minecraft:leather_armor, minecraft:nether_fungus, minecraft:nether_roots, minecraft:nether_stems, minecraft:pickaxes, minecraft:shovels, minecraft:shulker_boxes, minecraft:swords
+[00:02:07] [Server thread/INFO]: Demy___ issued server command: /datapack enable "file/factorysky"
+[00:02:07] [Server thread/INFO]: [Demy___: Enabling data pack [file/factorysky (world)]]
+[00:02:07] [Server thread/ERROR]: Failed to get filter section from pack factorysky
+[00:02:07] [Server thread/INFO]: Loaded 7 recipes
+[00:02:08] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: blazeandcave:ch_acacia_saplings, blazeandcave:ch_bamboos, blazeandcave:ch_birch_saplings, blazeandcave:ch_cave_vines, blazeandcave:ch_crimson_fungus, blazeandcave:ch_dark_oak_saplings, blazeandcave:ch_dripleaves, blazeandcave:ch_jungle_saplings, blazeandcave:ch_kelps, blazeandcave:ch_melon_stems, blazeandcave:ch_oak_saplings, blazeandcave:ch_pumpkin_stems, blazeandcave:ch_spruce_saplings, blazeandcave:ch_twisting_vines, blazeandcave:ch_warped_fungus, blazeandcave:ch_weeping_vines, blazeandcave:waxed_copper_blocks, minecraft:non_underwater_blocks, minecraft:stripped_logs, minecraft:stripped_wood, minecraft:underwater_blocks
+[00:02:08] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: blazeandcave:boats, blazeandcave:cj_rideables, blazeandcave:horses, blazeandcave:llamas, blazeandcave:overworld_zombies, blazeandcave:piglins, blazeandcave:player_rideables, blazeandcave:spiders, minecraft:boats, minecraft:zombies
+[00:02:08] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: blazeandcave:axes, blazeandcave:axolotl_feedable, blazeandcave:candle_lightables, blazeandcave:dolphin_feedable, blazeandcave:master_axes, blazeandcave:master_boots, blazeandcave:master_chestplates, blazeandcave:master_helmets, blazeandcave:master_hoes, blazeandcave:master_leggings, blazeandcave:master_pickaxes, blazeandcave:master_shovels, blazeandcave:master_swords, blazeandcave:ocelot_feedable, blazeandcave:poison_cures, blazeandcave:waxed_copper_blocks, minecraft:axes, minecraft:hoes, minecraft:leather_armor, minecraft:nether_fungus, minecraft:nether_roots, minecraft:nether_stems, minecraft:pickaxes, minecraft:shovels, minecraft:shulker_boxes, minecraft:swords
+[00:02:38] [Server thread/INFO]: Demy___ issued server command: /datapack disable "file/factorysky"
+[00:02:38] [Server thread/INFO]: [Demy___: Disabling data pack [file/factorysky (world)]]
+[00:02:38] [Server thread/INFO]: Demy___ issued server command: /datapack enable "file/factorysky"
+[00:02:39] [Server thread/INFO]: Loaded 7 recipes
+[00:02:39] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: blazeandcave:ch_acacia_saplings, blazeandcave:ch_bamboos, blazeandcave:ch_birch_saplings, blazeandcave:ch_cave_vines, blazeandcave:ch_crimson_fungus, blazeandcave:ch_dark_oak_saplings, blazeandcave:ch_dripleaves, blazeandcave:ch_jungle_saplings, blazeandcave:ch_kelps, blazeandcave:ch_melon_stems, blazeandcave:ch_oak_saplings, blazeandcave:ch_pumpkin_stems, blazeandcave:ch_spruce_saplings, blazeandcave:ch_twisting_vines, blazeandcave:ch_warped_fungus, blazeandcave:ch_weeping_vines, blazeandcave:waxed_copper_blocks, minecraft:non_underwater_blocks, minecraft:stripped_logs, minecraft:stripped_wood, minecraft:underwater_blocks
+[00:02:39] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: blazeandcave:boats, blazeandcave:cj_rideables, blazeandcave:horses, blazeandcave:llamas, blazeandcave:overworld_zombies, blazeandcave:piglins, blazeandcave:player_rideables, blazeandcave:spiders, minecraft:boats, minecraft:zombies
+[00:02:39] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: blazeandcave:axes, blazeandcave:axolotl_feedable, blazeandcave:candle_lightables, blazeandcave:dolphin_feedable, blazeandcave:master_axes, blazeandcave:master_boots, blazeandcave:master_chestplates, blazeandcave:master_helmets, blazeandcave:master_hoes, blazeandcave:master_leggings, blazeandcave:master_pickaxes, blazeandcave:master_shovels, blazeandcave:master_swords, blazeandcave:ocelot_feedable, blazeandcave:poison_cures, blazeandcave:waxed_copper_blocks, minecraft:axes, minecraft:hoes, minecraft:leather_armor, minecraft:nether_fungus, minecraft:nether_roots, minecraft:nether_stems, minecraft:pickaxes, minecraft:shovels, minecraft:shulker_boxes, minecraft:swords
+[00:02:41] [Server thread/INFO]: Demy___ issued server command: /datapack enable "file/factorysky"
+[00:02:41] [Server thread/INFO]: [Demy___: Enabling data pack [file/factorysky (world)]]
+[00:02:42] [Server thread/INFO]: Loaded 7 recipes
+[00:02:42] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: blazeandcave:ch_acacia_saplings, blazeandcave:ch_bamboos, blazeandcave:ch_birch_saplings, blazeandcave:ch_cave_vines, blazeandcave:ch_crimson_fungus, blazeandcave:ch_dark_oak_saplings, blazeandcave:ch_dripleaves, blazeandcave:ch_jungle_saplings, blazeandcave:ch_kelps, blazeandcave:ch_melon_stems, blazeandcave:ch_oak_saplings, blazeandcave:ch_pumpkin_stems, blazeandcave:ch_spruce_saplings, blazeandcave:ch_twisting_vines, blazeandcave:ch_warped_fungus, blazeandcave:ch_weeping_vines, blazeandcave:waxed_copper_blocks, minecraft:non_underwater_blocks, minecraft:stripped_logs, minecraft:stripped_wood, minecraft:underwater_blocks
+[00:02:42] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: blazeandcave:boats, blazeandcave:cj_rideables, blazeandcave:horses, blazeandcave:llamas, blazeandcave:overworld_zombies, blazeandcave:piglins, blazeandcave:player_rideables, blazeandcave:spiders, minecraft:boats, minecraft:zombies
+[00:02:42] [Server thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: blazeandcave:axes, blazeandcave:axolotl_feedable, blazeandcave:candle_lightables, blazeandcave:dolphin_feedable, blazeandcave:master_axes, blazeandcave:master_boots, blazeandcave:master_chestplates, blazeandcave:master_helmets, blazeandcave:master_hoes, blazeandcave:master_leggings, blazeandcave:master_pickaxes, blazeandcave:master_shovels, blazeandcave:master_swords, blazeandcave:ocelot_feedable, blazeandcave:poison_cures, blazeandcave:waxed_copper_blocks, minecraft:axes, minecraft:hoes, minecraft:leather_armor, minecraft:nether_fungus, minecraft:nether_roots, minecraft:nether_stems, minecraft:pickaxes, minecraft:shovels, minecraft:shulker_boxes, minecraft:swords
+[00:03:02] [Server thread/INFO]: Demy___ issued server command: /advancement grant Demy___ from factorysky:get_dirt_acorn
+[00:03:02] [Server thread/INFO]: [Demy___: Granted 3 advancements to Demy___]
+[00:03:34] [Server thread/INFO]: Demy___ issued server command: /clear
+[00:41:49] [Server thread/INFO]: Demy___ lost connection: Disconnected
+[00:41:49] [Server thread/INFO]: Demy___ left the game
+[00:41:53] [Server thread/INFO]: Stopping the server
+[00:41:53] [Server thread/INFO]: Stopping server
+[00:41:53] [Server thread/INFO]: [BlockSounds] Disabling BlockSounds v1.3
+[00:41:53] [Server thread/INFO]: [BossShopPro] Disabling BossShopPro v2.1.0-SNAPSHOT
+[00:41:53] [Server thread/INFO]: [BossShopPro] Disabling... bye!
+[00:41:53] [Server thread/INFO]: [ItemsAdder] Disabling ItemsAdder v3.2.5-beta5
+[00:41:53] [Craft Scheduler Thread - 9/INFO]: [ItemsAdder] [0m[38;5;51m[Host] Started self-host webserver on port: 8163[0m
+[00:41:53] [Server thread/INFO]: [ItemJoin] Disabling ItemJoin v5.2.5-RELEASE-b850
+[00:41:53] [Server thread/INFO]: [TAB] Disabling TAB v3.2.1
+[00:41:53] [Server thread/INFO]: [TAB] Disabled in 4ms
+[00:41:53] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.0.0
+[00:41:53] [Server thread/INFO]: Disabling Essentials v2.19.7
+[00:41:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[00:41:53] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.2
+[00:41:53] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b600
+[00:41:53] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[00:41:53] [Server thread/INFO]: [LoneLibs] Disabling LoneLibs v1.0.21
+[00:41:53] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[00:41:53] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.14
+[00:41:53] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[00:41:53] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
+[00:41:53] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[00:41:53] [Server thread/INFO]: [LuckPerms] Closing storage...
+[00:41:54] [Server thread/INFO]: [LuckPerms] Goodbye!
+[00:41:54] [Server thread/INFO]: Saving players
+[00:41:54] [Server thread/INFO]: Saving worlds
+[00:42:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:42:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Superflat]'/minecraft:superflat
+[00:42:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:42:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:42:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:42:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (Superflat): All chunks are saved
+[00:42:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

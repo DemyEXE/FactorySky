@@ -534,6 +534,7 @@ END_STONE:
   maj:sapphire_ore: 10009
   maj:ruby_ore: 10010
   maj:topaz_ore: 10011
+  maj:rainbow_block: 10012
 APPLE:
   customcrops:corn: 10000
   customcrops:corn_silver_star: 10001

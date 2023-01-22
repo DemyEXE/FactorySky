@@ -2,24 +2,26 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "Boue en pierre",
+            "text": "De la résine de terre.",
             "bold": true,
-            "color": "gray"
+            "color": "white"
         },
         "description": {
-            "text": "Vous avez obtenu de la boue en pierre !",
-            "italic": true
+            "text": "Casse les bûches de l'arbre en terre et obtiens de la Dirt Resin !",
+            "color": "green",
+            "italic": false
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:spruce_log",
+            "nbt": "{CustomModelData:10002}"
         },
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "stonemud": {
+        "getdirtresin": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -28,8 +30,8 @@
                             "min": 1,
                             "max": 1
                         },
-                        "item": "minecraft:end_stone",
-                        "nbt": "{CustomModelData:10001}"
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:10011}"
                     }
                 ]
             }

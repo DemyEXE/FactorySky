@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"maj:item/rainbow/block"}}
+{"parent":"block/base/block_real","textures":{"down":"maj:block/rainbow/block","east":"maj:block/rainbow/block","north":"maj:block/rainbow/block","south":"maj:block/rainbow/block","up":"maj:block/rainbow/block","west":"maj:block/rainbow/block","particle":"maj:block/rainbow/block"}}

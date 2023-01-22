@@ -2,21 +2,26 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "mnop"
+            "text": "L'ère de la bouse...!",
+            "color": "white",
+            "bold": true
         },
         "description": {
-            "text": "tamere4849"
+            "text": "Casse les feuilles de l'arbre de terre afin d'obtenir une Dirt Sapling !",
+            "color": "green",
+            "italic": false
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:10010}"
         },
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "c": {
+        "getdirtsapling": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -25,11 +30,12 @@
                             "min": 1,
                             "max": 1
                         },
-                        "item": "minecraft:stone"
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:10010}"
                     }
                 ]
             }
         }
     },
-    "parent": "factorysky:test4"
+    "parent": "factorysky:get_dirt_resin"
 }

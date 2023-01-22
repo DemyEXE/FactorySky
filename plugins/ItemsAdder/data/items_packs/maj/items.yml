@@ -880,18 +880,6 @@ items:
         glow:
           enabled: true
           color: WHITE
-  rainbow_block:
-    display_name: display-name-maj-rainbow_block
-    permission: maj.rainbow_block
-    resource:
-      material: NETHERITE_SCRAP
-      generate: true
-      textures:
-      - item/rainbow/block.png
-      drop:
-        glow:
-          enabled: true
-          color: WHITE
   rainbow_star:
     display_name: display-name-maj-rainbow_star
     permission: maj.rainbow_star

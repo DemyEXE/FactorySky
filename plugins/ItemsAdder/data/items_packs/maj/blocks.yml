@@ -670,3 +670,27 @@ items:
         break_tools_whitelist:
         - _PICKAXE
         - _pickaxe
+
+  rainbow_block:
+    display_name: display-name-maj-rainbow_block
+    permission: maj.rainbow_block
+    resource:
+      material: END_STONE
+      generate: true
+      textures:
+      - block/rainbow/block.png
+      - block/rainbow/block.png
+      - block/rainbow/block.png
+      - block/rainbow/block.png
+      - block/rainbow/block.png
+      - block/rainbow/block.png
+    specific_properties:
+      block:
+        hardness: 1.7
+        cancel_drop: true
+        placed_model:
+          type: REAL
+          break_particles: ITEM
+        break_tools_whitelist:
+        - _PICKAXE
+        - _pickaxe

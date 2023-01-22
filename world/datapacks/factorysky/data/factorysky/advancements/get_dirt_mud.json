@@ -2,21 +2,26 @@
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
-            "text": "abcd"
+            "text": "De la vraie bouse.",
+            "color": "white",
+            "bold": true
         },
         "description": {
-            "text": "tamere1"
+            "text": "Assemble 4 \"Dirt Acorn\" et 5 \"Dirt Resin\" (voir page X de la liste des crafts) !",
+            "italic": false,
+            "color": "green"
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:end_stone",
+            "nbt": "{CustomModelData:10000}"
         },
         "frame": "task",
         "show_toast": true,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "a": {
+        "getdirtmud": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -25,11 +30,12 @@
                             "min": 1,
                             "max": 1
                         },
-                        "item": "minecraft:stone"
+                        "item": "minecraft:end_stone",
+                        "nbt": "{CustomModelData:10000}"
                     }
                 ]
             }
         }
     },
-    "parent": "factorysky:root"
+    "parent": "factorysky:get_dirt_acorn"
 }
