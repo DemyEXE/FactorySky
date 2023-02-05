@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Faire du fer ! (2/4)",
+            "bold": true,
+            "color": "white"
+        },
+        "description": {
+            "text": "Casse les feuilles de l'Arbre en fer afin d'obtenir de l'Iron Acorn !",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:oak_leaves",
+            "nbt": "{CustomModelData:10038}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getironacorn": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:10022}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:get_stone_acorn"
+}

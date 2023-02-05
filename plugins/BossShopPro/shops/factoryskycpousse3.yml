@@ -646,6 +646,6 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: menu
+    Reward: menucraftsapling
 
 

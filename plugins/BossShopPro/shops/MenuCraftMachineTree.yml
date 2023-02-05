@@ -1,0 +1,205 @@
+ShopName: menucraftmachinetree
+DisplayName: '        &f&lListe des CRAFTS'
+signs:
+  text: '[menucraftmachinetree]'
+  NeedPermissionToCreateSign: true
+shop:
+  1:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lTree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10000
+    RewardType: shop
+    Reward: factoryskycmachinetree1
+    ExtraPermission: ''
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lDirt Tree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10001
+    RewardType: shop
+    Reward: factoryskycmachinetree2
+    ExtraPermission: ''
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lStone Tree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10002
+    RewardType: shop
+    Reward: factoryskycmachinetree3
+    ExtraPermission: ''
+    InventoryLocation: 3
+  4:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lIron Tree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10003
+    RewardType: shop
+    Reward: factoryskycmachinetree4
+    ExtraPermission: ''
+    InventoryLocation: 4
+  5:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lLapis Tree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10004
+    RewardType: shop
+    Reward: factoryskycmachinetree5
+    ExtraPermission: ''
+    InventoryLocation: 5
+  6:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lRedstone Tree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10005
+    RewardType: shop
+    Reward: factoryskycmachinetree6
+    ExtraPermission: ''
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lGold Tree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10006
+    RewardType: shop
+    Reward: factoryskycmachinetree7
+    ExtraPermission: ''
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lDiamond Tree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10007
+    RewardType: shop
+    Reward: factoryskycmachinetree8
+    ExtraPermission: ''
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - name:&x&0&8&f&2&6&e&lEmerald Tree Machine
+    - 'lore:&6» &6Cliquez &7pour afficher le &6craft&7.'
+    - amount:1
+    - type:IRON_BLOCK
+    - CustomModelData:10008
+    RewardType: shop
+    Reward: factoryskycmachinetree9
+    ExtraPermission: ''
+    InventoryLocation: 9
+
+
+
+
+
+  10:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&0
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 10
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  11:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&1
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 11
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  12:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&2
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 12
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  13:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&3
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 13
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  14:
+    ExtraPermission: ''
+    MenuItem:
+    - 'name:&e&l&nInformation'
+    - 'lore:#&e» &7Dans cette interface, vous retrouverez toute la liste des crafts relatifs à l''événement FactorySky.'
+    - id:PLAYER_HEAD
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNkYzBmZWI3MDAxZTJjMTBmZDUwNjZlNTAxYjg3ZTNkNjQ3OTMwOTJiODVhNTBjODU2ZDk2MmY4YmU5MmM3OCJ9fX0=
+    - amount:1
+    InventoryLocation: 14
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  15:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&5
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 15
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  16:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&6
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 16
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  17:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&7
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 17
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  Retour:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&f&l✦ &c&lRetour &f&l✦
+    - id:paper
+    - CustomModelData:10003
+    - amount:1
+    InventoryLocation: 18
+    Message: ''
+    RewardType: shop
+    Reward: menucraftmachine
+
+

@@ -35,5 +35,5 @@
             }
         }
     },
-    "parent": "factorysky:get_dirt_mud"
+    "parent": "factorysky:root"
 }

@@ -6,10 +6,10 @@ signs:
 shop:
   Craft_ITEM:
     MenuItem:
-    - name:&fRed Mud Bucket
+    - name:&fLapis Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:10001
+    - CustomModelData:10003
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -27,30 +27,40 @@ shop:
     ExtraPermission: ''
     InventoryLocation: 14
   
-  Craft_SLOT_2:
+  Craft_SLOT_1:
     MenuItem:
-    - name:&fRed Dye
+    - name:&fLapis-lazuli
     - amount:1
-    - type:RED_DYE
+    - type:LAPIS_LAZULI
     RewardType: NOTHING
     Reward:
     - NOTHING
     PriceType: NOTHING
     ExtraPermission: ''
-    InventoryLocation: 23
+    InventoryLocation: 22
+  Craft_SLOT_3:
+    MenuItem:
+    - name:&fLapis-lazuli
+    - amount:1
+    - type:LAPIS_LAZULI
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 24
+  Craft_SLOT_4:
+    MenuItem:
+    - name:&fLapis-lazuli
+    - amount:1
+    - type:LAPIS_LAZULI
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 31
   Craft_SLOT_5:
-    MenuItem:
-    - name:&fDirt Mud
-    - amount:1
-    - type:END_STONE
-    - CustomModelData:10000
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 32
-  Craft_SLOT_8:
     MenuItem:
     - name:&fBucket
     - amount:1
@@ -60,7 +70,17 @@ shop:
     - NOTHING
     PriceType: NOTHING
     ExtraPermission: ''
-    InventoryLocation: 41
+    InventoryLocation: 32
+  Craft_SLOT_6:
+    MenuItem:
+    - name:&fLapis-lazuli
+    - amount:1
+    - type:LAPIS_LAZULI
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 33
 
   1:
     MenuItem:
@@ -573,6 +593,6 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: menu
+    Reward: menucraftbucketore
 
 

@@ -20,25 +20,6 @@ items:
       generate: true
       textures:
       - item/dirt/resin.png
-    furniture:
-      entity: item_frame # you can also use item_frame (works better on 1.16+)
-      small: true
-      gravity: true
-      fixed_rotation: false
-      light_level: 7  
-      solid: false
-      opposite_direction: false #makes the model rotate 180 when placed
-      hitbox:
-        length: 2
-        width: 2.3
-        height: 1
-        length_offset: 0.5
-        width_offset: 0.5
-        height_offset: 0.5
-      placeable_on:
-        walls: false
-        ceiling: false
-        floor: true
   dirt_acorn:
     display_name: display-name-maj-dirt_acorn
     permission: maj.dirt_acorn
@@ -529,6 +510,38 @@ items:
       generate: true
       textures:
       - item/dimension/acorn.png
+  end_resin:
+    display_name: display-name-maj-end_resin
+    permission: maj.end_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/end/resin.png
+  end_acorn:
+    display_name: display-name-maj-end_acorn
+    permission: maj.end_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/end/acorn.png
+  nether_resin:
+    display_name: display-name-maj-nether_resin
+    permission: maj.nether_resin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/nether/resin.png
+  nether_acorn:
+    display_name: display-name-maj-nether_acorn
+    permission: maj.nether_acorn
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/nether/acorn.png
 
   no_colored_sapling:
     display_name: display-name-maj-no_colored_sapling

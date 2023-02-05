@@ -107,6 +107,8 @@ recipes:
         item: maj:emerald_mud
         amount: 1
 
+#HARDENED RESIN
+
     gold_hardened_resin_craft:
       permission: maj.gold_hardened_resin_craft
       enabled: true
@@ -234,5 +236,1378 @@ recipes:
         B: hardened_cobblestone
         C: oak_sapling
       result:
-      item: lapis_sapling
-      amount: 1
+        item: lapis_sapling
+        amount: 1
+    redstone_sapling:
+      permission: maj.redstone_sapling_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: iron_block
+        B: hardened_stone
+        C: oak_sapling
+      result:
+        item: redstone_sapling
+        amount: 1
+    gold_sapling:
+      permission: maj.gold_sapling_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: redstone_block
+        B: lapis_block
+        C: gold_sapling
+      result:
+        item: gold_sapling
+        amount: 1
+    diamond_sapling:
+      permission: maj.diamond_sapling_craft
+      enabled: true
+      pattern:
+      - XAX
+      - BCD
+      - XXX
+      ingredients:
+        A: lapis_molten_bucket
+        B: redstone_molten_bucket
+        C: gold_sapling
+        D: iron_molten_bucket
+      result:
+        item: diamond_sapling
+        amount: 1
+    emerald_sapling:
+      permission: maj.emerald_sapling_craft
+      enabled: true
+      pattern:
+      - AXB
+      - CDE
+      - XXX
+      ingredients:
+        A: iron_block
+        B: gold_block
+        C: lapis_block
+        D: diamond_block
+        E: redstone_block
+      result:
+        item: emerald_sapling
+        amount: 1
+    sand_sapling:
+      permission: maj.sand_sapling_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: gold_molten_bucket
+        B: oak_sapling
+      result:
+        item: sand_sapling
+        amount: 1
+    bone_sapling:
+      permission: maj.bone_sapling_craft
+      enabled: true
+      pattern:
+      - ABA
+      - CDC
+      - ABA
+      ingredients:
+        A: cobblestone
+        B: iron_ingot
+        C: lapis_lazuli
+        D: oak_sapling
+      result:
+        item: bone_sapling
+        amount: 1
+    dimension_sapling:
+      permission: maj.dimension_sapling_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: redstone_molten_bucket
+        B: oak_sapling
+      result:
+        item: dimension_sapling
+        amount: 1
+    no_colored_sapling:
+      permission: maj.no_colored_sapling_craft
+      enabled: true
+      pattern:
+      - AAA
+      - BCB
+      - DDD
+      ingredients:
+        A: end_stone
+        B: dimension_sapling
+        C: oak_sapling
+        D: netherrack
+      result:
+        item: no_colored_sapling
+        amount: 1
+    rainbow_sapling:
+      permission: maj.rainbow_sapling_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: rainbow_molten_bucket
+        B: no_colored_sapling
+      result:
+        item: rainbow_sapling
+        amount: 1
+
+
+#HARDENED BLOCKS
+
+    hardened_cobblestone:
+      permission: maj.hardened_cobblestone_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: cobblestone
+      result:
+        item: hardened_cobblestone
+        amount: 1
+    hardened_stone:
+      permission: maj.hardened_stone_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: stone
+      result:
+        item: hardened_stone
+        amount: 1
+  
+#BONE BLOCKS & SAND
+
+    bone_block:
+      permission: maj.bone_block_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: bone_resin
+        B: bone_acorn
+      result:
+        item: bone_block
+        amount: 3
+    sand:
+      permission: maj.sand_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: sand_resin
+        B: sand_acorn
+      result:
+        item: sand
+        amount: 1
+
+#SEAUX DE MINERAIS NORMAUX
+
+    mud_bucket:
+      permission: maj.mud_bucket_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: dirt_mud
+        B: bucket
+      result:
+        item: mud_bucket
+        amount: 1
+    red_mud_bucket:
+      permission: maj.red_mud_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - ACA
+      ingredients:
+        A: red_dye
+        B: dirt_mud
+        C: bucket
+      result:
+        item: red_mud_bucket
+        amount: 1
+    iron_bucket:
+      permission: maj.iron_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: iron_ingot
+        B: bucket
+      result:
+        item: iron_bucket
+        amount: 1
+    lapis_bucket:
+      permission: maj.lapis_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: lapis_lazuli
+        B: bucket
+      result:
+        item: lapis_bucket
+        amount: 1
+    redstone_bucket:
+      permission: maj.redstone_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: redstone
+        B: bucket
+      result:
+        item: redstone_bucket
+        amount: 1
+    gold_bucket:
+      permission: maj.gold_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: gold_ingot
+        B: bucket
+      result:
+        item: gold_bucket
+        amount: 1
+    diamond_bucket:
+      permission: maj.diamond_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: diamond
+        B: bucket
+      result:
+        item: diamond_bucket
+        amount: 1
+    emerald_bucket:
+      permission: maj.emerald_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: emerald
+        B: bucket
+      result:
+        item: emerald_bucket
+        amount: 1
+    mithril_bucket:
+      permission: maj.mithril_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: mithril_ingot
+        B: bucket
+      result:
+        item: mithril_bucket
+        amount: 1
+    sapphire_bucket:
+      permission: maj.sapphire_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: sapphire_ingot
+        B: bucket
+      result:
+        item: sapphire_bucket
+        amount: 1
+    ruby_bucket:
+      permission: maj.ruby_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: ruby_ingot
+        B: bucket
+      result:
+        item: ruby_bucket
+        amount: 1
+    topaz_bucket:
+      permission: maj.topaz_bucket_craft
+      enabled: true
+      pattern:
+      - AXA
+      - ABA
+      - XXX
+      ingredients:
+        A: topaz_ingot
+        B: bucket
+      result:
+        item: topaz_bucket
+        amount: 1
+
+#CRAFTS MACHINES
+
+    tree_machine:
+      permission: maj.tree_machine_craft
+      enabled: true
+      pattern:
+      - ABA
+      - CDC
+      - ABA
+      ingredients:
+        A: iron_ingot
+        B: gold_ingot
+        C: redstone
+        D: machine_core
+      result:
+        item: tree_machine
+        amount: 1
+    dirt_tree_machine:
+      permission: maj.dirt_tree_machine_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: dirt
+        B: tree_machine
+      result:
+        item: dirt_tree_machine
+        amount: 1
+    stone_tree_machine:
+      permission: maj.stone_tree_machine_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: stone
+        B: tree_machine
+      result:
+        item: stone_tree_machine
+        amount: 1
+    iron_tree_machine:
+      permission: maj.iron_tree_machine_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: iron_ingot
+        B: tree_machine
+      result:
+        item: iron_tree_machine
+        amount: 1
+    lapis_tree_machine:
+      permission: maj.lapis_tree_machine_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: lapis_lazuli
+        B: tree_machine
+      result:
+        item: lapis_tree_machine
+        amount: 1
+    redstone_tree_machine:
+      permission: maj.redstone_tree_machine_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: redstone
+        B: tree_machine
+      result:
+        item: redstone_tree_machine
+        amount: 1
+    gold_tree_machine:
+      permission: maj.gold_tree_machine_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: gold_ingot
+        B: tree_machine
+      result:
+        item: gold_tree_machine
+        amount: 1
+    diamond_tree_machine:
+      permission: maj.diamond_tree_machine_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: diamond
+        B: tree_machine
+      result:
+        item: diamond_tree_machine
+        amount: 1
+    emerald_tree_machine:
+      permission: maj.emerald_tree_machine_craft
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XXX
+      ingredients:
+        A: emerald
+        B: tree_machine
+      result:
+        item: emerald_tree_machine
+        amount: 1
+    
+    machine_core:
+      permission: maj.machine_core_craft
+      enabled: true
+      pattern:
+      - ABA 
+      - CDC
+      - ABA
+      ingredients:
+        A: cobblestone
+        B: gold_ingot
+        C: redstone_molten_bucket
+        D: iron_block
+      result:
+        item: machine_core
+        amount: 1
+
+#MINERALS UPGRADE
+
+    mineral_upgrader:
+      permission: maj.mineral_upgrader_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: machine_core
+        B: iron_block
+        C: diamond
+      result:
+        item: mineral_upgrader
+        amount: 1
+    mineral_iron_upgrade:
+      permission: maj.mineral_iron_upgrade_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: stone_bricks
+        B: reinforced_glass
+        C: iron_block
+      result:
+        item: mineral_iron_upgrade
+        amount: 1
+    mineral_lapis_upgrade:
+      permission: maj.mineral_lapis_upgrade_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: stone_bricks
+        B: reinforced_glass
+        C: lapis_block
+      result:
+        item: mineral_lapis_upgrade
+        amount: 1
+    mineral_redstone_upgrade:
+      permission: maj.mineral_redstone_upgrade_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: stone_bricks
+        B: reinforced_glass
+        C: redstone_block
+      result:
+        item: mineral_redstone_upgrade
+        amount: 1
+    mineral_gold_upgrade:
+      permission: maj.mineral_gold_upgrade_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: stone_bricks
+        B: reinforced_glass
+        C: gold_block
+      result:
+        item: mineral_gold_upgrade
+        amount: 1
+    mineral_diamond_upgrade:
+      permission: maj.mineral_diamond_upgrade_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: stone_bricks
+        B: reinforced_glass
+        C: diamond_block
+      result:
+        item: mineral_diamond_upgrade
+        amount: 1
+    mineral_emerald_upgrade:
+      permission: maj.mineral_emerald_upgrade_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BCB
+      - ABA
+      ingredients:
+        A: stone_bricks
+        B: reinforced_glass
+        C: emerald_block
+      result:
+        item: mineral_emerald_upgrade
+        amount: 1
+    mineral_mithril_upgrade:
+      permission: maj.mineral_mithril_upgrade_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: reinforced_iron
+        B: iron_molten_bucket
+      result:
+        item: mineral_mithril_upgrade
+        amount: 1
+    mineral_sapphire_upgrade:
+      permission: maj.mineral_sapphire_upgrade_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: reinforced_lapis
+        B: lapis_molten_bucket
+      result:
+        item: mineral_sapphire_upgrade
+        amount: 1
+    mineral_ruby_upgrade:
+      permission: maj.mineral_ruby_upgrade_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: reinforced_redstone
+        B: redstone_molten_bucket
+      result:
+        item: mineral_ruby_upgrade
+        amount: 1
+    mineral_topaz_upgrade:
+      permission: maj.mineral_topaz_upgrade_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: reinforced_gold
+        B: gold_molten_bucket
+      result:
+        item: mineral_topaz_upgrade
+        amount: 1
+    
+#REINFORCED BLOCKS
+
+    reinforced_glass:
+      permission: maj.reinforced_glass_craft
+      enabled: true
+      pattern: 
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: glass
+      result:
+        item: reinforced_glass
+        amount: 2
+    reinforced_iron:
+      permission: maj.reinforced_iron_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: iron_ingot
+        B: iron_block
+      result:
+        item: reinforced_iron
+        amount: 1
+    reinforced_lapis:
+      permission: maj.reinforced_lapis_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: lapis_lazuli
+        B: lapis_block
+      result:
+        item: reinforced_lapis
+        amount: 1
+    reinforced_redstone:
+      permission: maj.reinforced_redstone_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: redstone
+        B: redstone_block
+      result:
+        item: reinforced_redstone
+        amount: 1
+    reinforced_gold:
+      permission: maj.reinforced_gold_craft
+      enabled: true
+      pattern:
+      - AAA
+      - ABA
+      - AAA
+      ingredients:
+        A: gold_ingot
+        B: gold_block
+      result:
+        item: reinforced_gold
+        amount: 1
+    
+    
+#FRAGMENT BLAZE ROD/ENDER PEARL
+    blaze_rod_fragment:
+      permission: maj.blaze_rod_fragment_craft
+      enabled: true
+      pattern: 
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: dimension_resin
+        B: dimension_acorn
+      result:
+        item: blaze_rod_fragment
+        amount: 1
+    ender_pearl_fragment:
+      permission: maj.ender_pearl_fragment_craft
+      enabled: true
+      pattern: 
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: dimension_acorn
+        B: dimension_resin
+      result:
+        item: ender_pearl_fragment
+        amount: 1
+
+#RAINBOW ITEMS
+
+    rainbow_molten_bucket:
+      permission: maj.rainbow_molten_bucket_craft
+      enabled: true
+      shapeless: true
+      ingredients:
+        A: topaz_molten_bucket
+        B: mithril_molten_bucket
+        C: emerald_molten_bucket
+        D: ruby_molten_bucket
+        E: diamond_molten_bucket
+        F: sapphire_molten_bucket
+        G: gold_molten_bucket
+        H: lapis_molten_bucket
+        I: redstone_molten_bucket
+      result:
+        item: rainbow_molten_bucket
+        amount: 1
+    rainbow_ingot:
+      permission: maj.rainbow_ingot_craft
+      enabled: true
+      pattern:
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: rainbow_resin
+        B: rainbow_acorn
+      result:
+        item: rainbow_ingot
+        amount: 1
+    rainbow_block:
+      permission: maj.rainbow_block_craft
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: rainbow_ingot
+      result:
+        item: rainbow_block
+        amount: 1
+    rainbow_star:
+      permission: maj.rainbow_star_craft
+      enabled: true
+      pattern:
+      - AAA
+      - BCB
+      - DDD
+      ingredients:
+        A: ender_eye
+        B: mithril_ingot
+        C: ruby_ingot
+        D: rainbow_block
+      result:
+        item: rainbow_star
+        amount: 1
+#END STONE & NETHERRACK
+
+    netherrack:
+      permission: maj.netherrack_craft
+      enabled: true
+      pattern: 
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: nether_resin
+        B: nether_acorn
+      result:
+        item: netherrack
+        amount: 1
+    end_stone:
+      permission: maj.end_stone_craft
+      enabled: true
+      pattern: 
+      - ABA
+      - BAB
+      - ABA
+      ingredients:
+        A: end_resin
+        B: end_acorn
+      result:
+        item: end_stone
+        amount: 1
+      
+#OUTILS
+
+    wooden_shears:
+      permission: maj.wooden_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: oak_planks
+      result:
+        item: wooden_shears
+        amount: 1  
+    stone_shears:
+      permission: maj.stone_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: cobblestone
+      result:
+        item: stone_shears
+        amount: 1  
+    iron_shears:
+      permission: maj.iron_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: iron_ingot
+      result:
+        item: iron_shears
+        amount: 1  
+    gold_shears:
+      permission: maj.gold_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: gold_ingot
+      result:
+        item: gold_shears
+        amount: 1  
+    diamond_shears:
+      permission: maj.diamond_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: diamond
+      result:
+        item: diamond_shears
+        amount: 1  
+    emerald_shears:
+      permission: maj.emerald_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: emerald
+      result:
+        item: emerald_shears
+        amount: 1  
+    emerald_axe:
+      permission: maj.emerald_axe_craft
+      enabled: true
+      pattern: 
+      - XAA
+      - XBA
+      - XBX
+      pattern_2:
+      - AAX
+      - ABX
+      - XBX
+      ingredients:
+        A: emerald
+        B: stick
+      result:
+        item: emerald_axe
+        amount: 1  
+    emerald_pickaxe:
+      permission: maj.emerald_pickaxe_craft
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: emerald
+        B: stick
+      result:
+        item: emerald_pickaxe
+        amount: 1
+    mithril_shears:
+      permission: maj.mithril_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: mithril_ingot
+      result:
+        item: mithril_shears
+        amount: 1  
+    mithril_axe:
+      permission: maj.mithril_axe_craft
+      enabled: true
+      pattern: 
+      - XAA
+      - XBA
+      - XBX
+      pattern_2:
+      - AAX
+      - ABX
+      - XBX
+      ingredients:
+        A: mithril_ingot
+        B: stick
+      result:
+        item: mithril_axe
+        amount: 1  
+    mithril_pickaxe:
+      permission: maj.mithril_pickaxe_craft
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: mithril_ingot
+        B: stick
+      result:
+        item: mithril_pickaxe
+        amount: 1
+    sapphire_shears:
+      permission: maj.sapphire_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: sapphire_ingot
+      result:
+        item: sapphire_shears
+        amount: 1  
+    sapphire_axe:
+      permission: maj.sapphire_axe_craft
+      enabled: true
+      pattern: 
+      - XAA
+      - XBA
+      - XBX
+      pattern_2:
+      - AAX
+      - ABX
+      - XBX
+      ingredients:
+        A: sapphire_ingot
+        B: stick
+      result:
+        item: sapphire_axe
+        amount: 1  
+    sapphire_pickaxe:
+      permission: maj.sapphire_pickaxe_craft
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: sapphire_ingot
+        B: stick
+      result:
+        item: sapphire_pickaxe
+        amount: 1
+    ruby_shears:
+      permission: maj.ruby_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: ruby_ingot
+      result:
+        item: ruby_shears
+        amount: 1  
+    ruby_axe:
+      permission: maj.ruby_axe_craft
+      enabled: true
+      pattern: 
+      - XAA
+      - XBA
+      - XBX
+      pattern_2:
+      - AAX
+      - ABX
+      - XBX
+      ingredients:
+        A: ruby_ingot
+        B: stick
+      result:
+        item: ruby_axe
+        amount: 1  
+    ruby_pickaxe:
+      permission: maj.ruby_pickaxe_craft
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: ruby_ingot
+        B: stick
+      result:
+        item: ruby_pickaxe
+        amount: 1
+    topaz_shears:
+      permission: maj.topaz_shears_craft
+      enabled: true
+      pattern: 
+      - XAX
+      - AXX
+      - XXX
+      pattern_2:
+      - XXA
+      - XAX
+      - XXX
+      pattern_3:
+      - XXX
+      - XAX
+      - AXX
+      pattern_4:
+      - XXX
+      - XXA
+      - XAX
+      pattern_5:
+      - AXX
+      - XAX
+      - XXX
+      pattern_6:
+      - XAX
+      - XXA
+      - XXX
+      pattern_7:
+      - XXX
+      - AXX
+      - XAX
+      pattern_8:
+      - XXX
+      - XAX
+      - XXA
+      ingredients:
+        A: topaz_ingot
+      result:
+        item: topaz_shears
+        amount: 1  
+    topaz_axe:
+      permission: maj.topaz_axe_craft
+      enabled: true
+      pattern: 
+      - XAA
+      - XBA
+      - XBX
+      pattern_2:
+      - AAX
+      - ABX
+      - XBX
+      ingredients:
+        A: topaz_ingot
+        B: stick
+      result:
+        item: topaz_axe
+        amount: 1  
+    topaz_pickaxe:
+      permission: maj.topaz_pickaxe_craft
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: topaz_ingot
+        B: stick
+      result:
+        item: topaz_pickaxe
+        amount: 1

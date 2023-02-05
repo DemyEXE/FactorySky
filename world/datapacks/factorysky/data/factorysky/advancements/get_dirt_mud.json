@@ -7,7 +7,7 @@
             "bold": true
         },
         "description": {
-            "text": "Assemble 4 \"Dirt Acorn\" et 5 \"Dirt Resin\" (voir page X de la liste des crafts) !",
+            "text": "Assemble 4 \"Dirt Acorn\" et 5 \"Dirt Resin\" (voir le /bs craft, catégorie \"Blocs\") !",
             "italic": false,
             "color": "green"
         },
@@ -37,5 +37,5 @@
             }
         }
     },
-    "parent": "factorysky:get_dirt_acorn"
+    "parent": "factorysky:root"
 }

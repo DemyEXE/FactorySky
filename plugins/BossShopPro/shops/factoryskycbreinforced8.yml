@@ -1,0 +1,643 @@
+ShopName: factoryskycbreinforced8
+DisplayName: '      &f&lCrafts FACTORYSKY'
+signs:
+  text: '[factoryskycbreinforced8]'
+  NeedPermissionToCreateSign: true
+shop:
+  Craft_ITEM:
+    MenuItem:
+    - name:&fReinforced Cobblestone
+    - type:NETHER_BRICKS
+    - CustomModelData:10001
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  ARROW:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:PAPER
+    - CustomModelData:10052
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  
+  Craft_SLOT_1:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 22
+  Craft_SLOT_2:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 23
+  Craft_SLOT_3:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 24
+  Craft_SLOT_4:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 31
+  Craft_SLOT_5:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 32
+  Craft_SLOT_6:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 33
+  Craft_SLOT_7:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 40
+  Craft_SLOT_8:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 41
+  Craft_SLOT_9:
+    MenuItem:
+    - name:&fCobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 42
+
+  1:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  2:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  3:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  4:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  6:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  7:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:BLACK_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  8:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  9:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:GRAY_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  10:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  11:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  12:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+
+  16:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  17:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  18:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+
+  19:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 19
+  20:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+
+  26:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
+  27:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+  28:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  29:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 29
+
+  35:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+  36:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+  37:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 37
+  38:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 38
+  44:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 44
+  45:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+
+  46:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&0
+    - id:gray_stained_glass_pane
+    - amount:1
+    InventoryLocation: 46
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  47:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&e&lPage précédente (Page 7)
+    - id:PAPER
+    - CustomModelData:10054
+    - amount:1
+    InventoryLocation: 47
+    Message: ''
+    PriceType: nothing
+    RewardType: shop
+    Reward: factoryskycbreinforced7
+  48:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&2
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 48
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  49:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&3
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 49
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  50:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 50
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  51:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&5
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 51
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  52:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&7&l&1&6
+    - id:black_stained_glass_pane
+    - amount:1
+    InventoryLocation: 52
+    Message: ''
+    PriceType: nothing
+    RewardType: unknown
+  53:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&e&lPage suivante (Page 9)
+    - id:PAPER
+    - CustomModelData:10055
+    - amount:1
+    InventoryLocation: 53
+    Message: ''
+    PriceType: nothing
+    RewardType: shop
+    Reward: factoryskycbreinforced9
+
+
+  13:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  15:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  21:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 21
+  25:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 25
+  30:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 30
+  34:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 34
+  39:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 39
+  43:
+    MenuItem:
+    - name:&7&l
+    - amount:1
+    - type:RED_STAINED_GLASS_PANE
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+  
+
+  Retour:
+    ExtraPermission: ''
+    MenuItem:
+    - name:&f&l✦ &c&lRetour &f&l✦
+    - id:paper
+    - CustomModelData:10003
+    - amount:1
+    InventoryLocation: 54
+    Message: ''
+    PriceType: nothing
+    RewardType: shop
+    Reward: menucraftblockreinforced
+
+

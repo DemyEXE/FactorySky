@@ -16,6 +16,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -43,6 +47,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -62,6 +70,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -89,6 +101,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -108,6 +124,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -135,6 +155,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -154,6 +178,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -181,6 +209,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -200,6 +232,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -227,6 +263,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -246,6 +286,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -273,6 +317,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -292,6 +340,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -319,6 +371,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -338,6 +394,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -365,6 +425,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -383,6 +447,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -410,6 +478,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -428,6 +500,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -455,6 +531,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -473,6 +553,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -500,6 +584,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -518,6 +606,10 @@ items:
         placed_model:
           type: REAL_TRANSPARENT
           break_particles: ITEM
+        break_tools_whitelist:
+        - _SHEARS
+        - _shears
+        - HAND
         sound:
           break:
             name: block.grass.break
@@ -545,6 +637,10 @@ items:
         - _AXE
         - _axe
         - HAND
+        break_tools_blacklist:
+        - SHEARS
+        - _SHEARS
+        - _shears
         sound:
           break:
             name: block.wood.break
@@ -939,6 +1035,24 @@ loots:
           min_amount: 2
           max_amount: 3
           chance: 50
+    dimension_log3:
+      enabled: true
+      type: dimension_log
+      items:
+        end_resin:
+          item: end_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
+    dimension_log4:
+      enabled: true
+      type: dimension_log
+      items:
+        nether_resin:
+          item: nether_resin
+          min_amount: 2
+          max_amount: 3
+          chance: 50
     dimension_leaves:
       enabled: true
       type: dimension_leaves
@@ -957,6 +1071,24 @@ loots:
           min_amount: 1
           max_amount: 1
           chance: 10
+    dimension_leaves3:
+      enabled: true
+      type: dimension_leaves
+      items:
+        end_acorn:
+          item: end_acorn
+          min_amount: 1
+          max_amount: 1
+          chance: 12.5
+    dimension_leaves4:
+      enabled: true
+      type: dimension_leaves
+      items:
+        nether_acorn:
+          item: nether_acorn
+          min_amount: 1
+          max_amount: 1
+          chance: 12.5
     
     rainbow_log:
       enabled: true

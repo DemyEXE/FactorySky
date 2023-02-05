@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Des glands en pierre !",
+            "bold": true,
+            "color": "white"
+        },
+        "description": {
+            "text": "Casse les feuilles de l'Arbre en pierre afin d'obtenir de la Stone Acorn !",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:oak_leaves",
+            "nbt": "{CustomModelData:10037}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getstoneacorn": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:10015}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:get_dirt_acorn"
+}

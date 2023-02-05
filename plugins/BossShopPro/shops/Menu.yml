@@ -46,11 +46,11 @@ shop:
   CRAFTS:
     MenuItem:
     - name:&f&l&nListe des CRAFTS
-    - 'lore:#&e» &eCliquez &7pour afficher &7la liste #&7des &fcrafts personnalisés.'
+    - 'lore:#&6» &6Cliquez &7pour afficher &7la liste des &6crafts personnalisés.'
     - amount:1
     - type:CRAFTING_TABLE
     RewardType: shop
-    Reward: factoryskycrafts
+    Reward: menucraft
     ExtraPermission: ''
     InventoryLocation: 23
 

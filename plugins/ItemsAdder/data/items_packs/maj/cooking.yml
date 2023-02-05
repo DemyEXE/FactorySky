@@ -98,3 +98,150 @@ recipes:
       result:
         item: EMERALD
         amount: 1
+    
+#CUISSON BUCKET EN MOLTEN BUCKET & LAVA/WATER
+
+    waterbucket:
+      permission: maj.water_bucket
+      ingredient:
+        item: maj:mud_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: WATER_BUCKET
+        amount: 1
+    lavabucket:
+      permission: maj.lava_bucket
+      ingredient:
+        item: maj:red_mud_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: LAVA_BUCKET
+        amount: 1
+    iron_molten_bucket:
+      permission: maj.iron_molten_bucket
+      ingredient:
+        item: maj:iron_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: iron_molten_bucket
+        amount: 1
+    redstone_molten_bucket:
+      permission: maj.redstone_molten_bucket
+      ingredient:
+        item: maj:redstone_molten_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: redstone_molten_bucket
+        amount: 1
+    lapis_molten_bucket:
+      permission: maj.lapis_molten_bucket
+      ingredient:
+        item: maj:lapis_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: lapis_molten_bucket
+        amount: 1
+    gold_molten_bucket:
+      permission: maj.gold_molten_bucket
+      ingredient:
+        item: maj:gold_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: gold_molten_bucket
+        amount: 1
+    diamond_molten_bucket:
+      permission: maj.diamond_molten_bucket
+      ingredient:
+        item: maj:diamond_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: diamond_molten_bucket
+        amount: 1
+    emerald_molten_bucket:
+      permission: maj.emerald_molten_bucket
+      ingredient:
+        item: maj:emerald_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: emerald_molten_bucket
+        amount: 1
+    mithril_molten_bucket:
+      permission: maj.mithril_molten_bucket
+      ingredient:
+        item: maj:mithril_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: mithril_molten_bucket
+        amount: 1
+    sapphire_molten_bucket:
+      permission: maj.sapphire_molten_bucket
+      ingredient:
+        item: maj:sapphire_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: sapphire_molten_bucket
+        amount: 1
+    ruby_molten_bucket:
+      permission: maj.ruby_molten_bucket
+      ingredient:
+        item: maj:ruby_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: ruby_molten_bucket
+        amount: 1
+    topaz_molten_bucket:
+      permission: maj.topaz_molten_bucket
+      ingredient:
+        item: maj:topaz_bucket
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: topaz_molten_bucket
+        amount: 1

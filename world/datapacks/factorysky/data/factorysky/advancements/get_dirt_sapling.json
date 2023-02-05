@@ -37,5 +37,5 @@
             }
         }
     },
-    "parent": "factorysky:get_dirt_resin"
+    "parent": "factorysky:root"
 }

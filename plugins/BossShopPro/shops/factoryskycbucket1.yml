@@ -6,11 +6,10 @@ signs:
 shop:
   Craft_ITEM:
     MenuItem:
-    - name:&fOre Bucket
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
+    - name:&fMud Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:10002
+    - CustomModelData:10000
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -28,42 +27,18 @@ shop:
     ExtraPermission: ''
     InventoryLocation: 14
   
-  Craft_SLOT_1:
+  Craft_SLOT_2:
     MenuItem:
-    - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
+    - name:&fDirt Mud
     - amount:1
-    - type:IRON_INGOT
+    - type:END_STONE
+    - CustomModelData:10000
     RewardType: NOTHING
     Reward:
     - NOTHING
     PriceType: NOTHING
     ExtraPermission: ''
-    InventoryLocation: 22
-  Craft_SLOT_3:
-    MenuItem:
-    - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
-    - amount:1
-    - type:IRON_INGOT
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 24
-  Craft_SLOT_4:
-    MenuItem:
-    - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
-    - amount:1
-    - type:IRON_INGOT
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 31
+    InventoryLocation: 23
   Craft_SLOT_5:
     MenuItem:
     - name:&fBucket
@@ -75,18 +50,6 @@ shop:
     PriceType: NOTHING
     ExtraPermission: ''
     InventoryLocation: 32
-  Craft_SLOT_6:
-    MenuItem:
-    - name:&fOre
-    - 'lore:#&e» &7&l&nMinerais:&a Iron, Lapis, Redstone, Gold, Diamond, Emerald, Mithril, Sapphire, Ruby, Topaz, Rainbow'
-    - amount:1
-    - type:IRON_INGOT
-    RewardType: NOTHING
-    Reward:
-    - NOTHING
-    PriceType: NOTHING
-    ExtraPermission: ''
-    InventoryLocation: 33
 
   1:
     MenuItem:
@@ -418,7 +381,7 @@ shop:
   47:
     ExtraPermission: ''
     MenuItem:
-    - name:&7&l&1&1
+    - name:&7&l&1&0
     - id:gray_stained_glass_pane
     - amount:1
     InventoryLocation: 47
@@ -597,6 +560,6 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: menu
+    Reward: menucraftbucketore
 
 

@@ -6,10 +6,10 @@ signs:
 shop:
   Craft_ITEM:
     MenuItem:
-    - name:&fMud Bucket
+    - name:&fIron Bucket
     - amount:1
     - type:BUCKET
-    - CustomModelData:10000
+    - CustomModelData:10002
     RewardType: NOTHING
     PriceType: NOTHING
     Message: ''
@@ -27,18 +27,39 @@ shop:
     ExtraPermission: ''
     InventoryLocation: 14
   
-  Craft_SLOT_2:
+  Craft_SLOT_1:
     MenuItem:
-    - name:&fDirt Mud
+    - name:&fIron Ingot
     - amount:1
-    - type:END_STONE
-    - CustomModelData:10000
+    - type:IRON_INGOT
     RewardType: NOTHING
     Reward:
     - NOTHING
     PriceType: NOTHING
     ExtraPermission: ''
-    InventoryLocation: 23
+    InventoryLocation: 22
+  Craft_SLOT_3:
+    MenuItem:
+    - name:&fIron Ingot
+    - amount:1
+    - type:IRON_INGOT
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 24
+  Craft_SLOT_4:
+    MenuItem:
+    - name:&fIron Ingot
+    - amount:1
+    - type:IRON_INGOT
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 31
   Craft_SLOT_5:
     MenuItem:
     - name:&fBucket
@@ -50,6 +71,17 @@ shop:
     PriceType: NOTHING
     ExtraPermission: ''
     InventoryLocation: 32
+  Craft_SLOT_6:
+    MenuItem:
+    - name:&fIron Ingot
+    - amount:1
+    - type:IRON_INGOT
+    RewardType: NOTHING
+    Reward:
+    - NOTHING
+    PriceType: NOTHING
+    ExtraPermission: ''
+    InventoryLocation: 33
 
   1:
     MenuItem:
@@ -562,6 +594,6 @@ shop:
     Message: ''
     PriceType: nothing
     RewardType: shop
-    Reward: menu
+    Reward: menucraftbucketore
 
 

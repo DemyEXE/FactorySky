@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Un arbre basique.",
+            "bold": true,
+            "color": "white"
+        },
+        "description": {
+            "text": "Cette pousse sera la base de toutes ! Assemble un \"Dirt Sapling\" avec 8 bûches de chêne (Voir le /bs craft, catégorie \"Pousses\")",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getoaksapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:oak_sapling"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:get_dirt_sapling"
+}

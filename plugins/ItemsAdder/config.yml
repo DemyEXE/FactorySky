@@ -40,17 +40,14 @@ resource-pack:
     enabled: false
   zip:
     protect-file-from-unzip:
-      enabled: true
-      extreme: true
+      protection_1: true
+      protection_2: true
     compress-png-files: true
     compress-json-files: true
-    overwrite-vanilla-models: false
-    overwrite-vanilla-lang-json: false
     generate-custom-armors-textures:
       vanilla_1_17: true
       optifine: true
     disable-overwrite-leather-armor-layers-textures: false
-    fix_transparent_noteblocks__disable-for-more-performance: false
     ignore-files-ext:
     - db
     - yml
@@ -63,16 +60,20 @@ resource-pack:
     - 7z
     - bbmodel
     - iaentitymodel
+    fix_transparent_noteblocks: false
+    extract_internal_utility_assets: true
+    contents-folders-priority:
+    - vanilla
+    - _iainternal
   items:
     CustomModelData-starting-value:
       ALL: 10000
       DIAMOND: 11000
+  1_19_3_atlas_support: true
 config_files:
   lang: en
   dictionaries-lang: en
-  extract-default-configs: true
   force-sync-loading: false
-  legacy_pack: false
 blocks:
   light-api: true
   fix-liquids-flow: true
@@ -113,6 +114,7 @@ font_images:
     enabled: true
     doublecheck-permission__disable-for-more-performance: false
     add-hover-suggestion: true
+    tab-autocompletion_1_19_1_plus: true
   command:
     enabled: true
     commandblocks: true
@@ -172,6 +174,8 @@ recipes:
     list:
       DIAMOND_SWORD: false
       IRON_INGOT: false
+  show-no-permission-popup-in-recipebook: true
+  show-no-permission-chat-message: false
 debug:
   items:
     log-files-loading: false
@@ -198,6 +202,7 @@ debug:
     log-save-on-unload: false
     log-mined-unknown-blocks: true
     log-convert-vanilla-blocks: false
+    log-unusual-block-break: false
   worlds-populators:
     log-loading: false
     log-loading-disabled: false
@@ -242,3 +247,4 @@ debug:
     log-files-loading: false
     log-entities-loading: false
     log-entities-loading-disabled: false
+  benchmark: false

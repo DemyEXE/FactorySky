@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Faire un Arbre en fer !",
+            "color": "white",
+            "italic": false,
+            "bold": true
+        },
+        "description": {
+            "text": "Fabriquer un \"iron sapling\" avec une pousse de chêne, 4 blocs de terre et 4 \"hardened cobblestone\" (voir le /bs craft, catégorie \"Pousses\")",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:10020}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getironsapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:10020}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:get_stone_sapling"
+}

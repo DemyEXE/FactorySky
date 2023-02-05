@@ -642,3 +642,30 @@
 2023 19-01 at 10:10:40 PM (jeu:
   ): 'Mistake in Config: ''JSP'' is not a valid ''custommodeldata''. It needs to be
     a number like ''1'', ''12'' or ''64''.'
+2023 04-02 at 12:32:41 PM (sam:
+  ): Two Shops with the same Name (factoryskycboue7) are loaded. When opening a Shop
+    via Name, only one of this Shops will be opened!
+2023 04-02 at 12:35:18 PM (sam:
+  ): Two Shops with the same Name (factoryskycboue7) are loaded. When opening a Shop
+    via Name, only one of this Shops will be opened!
+2023 04-02 at 02:46:13 PM (sam:
+  ): Two Shops with the same Name (factoryskycbdivers2) are loaded. When opening a
+    Shop via Name, only one of this Shops will be opened!
+2023 04-02 at 02:47:07 PM (sam:
+  ): Two Shops with the same Name (factoryskycbdivers2) are loaded. When opening a
+    Shop via Name, only one of this Shops will be opened!
+2023 05-02 at 10:45:50 AM (dim:
+  ): Two Shops with the same Name (factoryskycpousse11) are loaded. When opening a
+    Shop via Name, only one of this Shops will be opened!
+2023 05-02 at 06:09:05 PM (dim:
+  ): Two Shops with the same Name (factoryskycpickaxe4) are loaded. When opening a
+    Shop via Name, only one of this Shops will be opened!
+2023 05-02 at 06:09:21 PM (dim:
+  ): Two Shops with the same Name (factoryskycpickaxe4) are loaded. When opening a
+    Shop via Name, only one of this Shops will be opened!
+2023 05-02 at 06:41:03 PM (dim:
+  ): Two Shops with the same Name (factoryskycifragment1) are loaded. When opening
+    a Shop via Name, only one of this Shops will be opened!
+2023 05-02 at 06:41:18 PM (dim:
+  ): Two Shops with the same Name (factoryskycifragment1) are loaded. When opening
+    a Shop via Name, only one of this Shops will be opened!
