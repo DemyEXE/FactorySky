@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Un Arbre en os, c'est pas un peu dégoûtant ?",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "Fabriquer une \"bone sapling\" avec une pousse de chêne, 4 cobblestone, 2 lingots de fer et 2 lapis-lazuli (voir le /help craft, catégorie \"Pousses\")",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:10166}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getbonesapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:10166}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:get_lapis_sapling"
+}

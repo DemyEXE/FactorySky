@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Automatisation...! (4/5)",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "Créer un \"machine tree\" à l'aide d’un “machine core”, 4 lingots de fer, 2 redstone et 2 lingots d’or (voir le /help craft, catégorie \"Machines\").",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:iron_block",
+            "nbt": "{CustomModelData:10000}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getmachinetree": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:iron_block",
+                        "nbt": "{CustomModelData:10000}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:get_machine_core"
+}

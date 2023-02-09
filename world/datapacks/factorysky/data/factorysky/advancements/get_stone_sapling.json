@@ -7,7 +7,7 @@
             "bold": true
         },
         "description": {
-            "text": "Fabrique un \"Stone Sapling\" avec une pousse de chêne et 8 \"Dirt Mud\" (voir le /bs craft, catégorie \"Pousses\")",
+            "text": "Fabrique une \"Stone Sapling\" avec une pousse de chêne et 8 \"Dirt Mud\" (voir le /help craft, catégorie \"Pousses\")",
             "color": "green"
         },
         "icon": {

@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "L'Arbre en lapis-lazuli !",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "Fabrique une \"lapis sapling\" avec une pousse de chêne, 4 blocs de fer et 4 \"hardened cobblestone\" (voir le /help craft, catégorie \"Pousses\")",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:10030}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getlapissapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:10030}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:get_iron_sapling"
+}

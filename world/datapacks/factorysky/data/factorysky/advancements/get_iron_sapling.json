@@ -8,7 +8,7 @@
             "bold": true
         },
         "description": {
-            "text": "Fabriquer un \"iron sapling\" avec une pousse de chêne, 4 blocs de terre et 4 \"hardened cobblestone\" (voir le /bs craft, catégorie \"Pousses\")",
+            "text": "Fabrique une \"iron sapling\" avec une pousse de chêne, 4 blocs de terre et 4 \"hardened cobblestone\" (voir le /help craft, catégorie \"Pousses\")",
             "color": "green"
         },
         "icon": {

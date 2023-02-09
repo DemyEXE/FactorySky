@@ -1,0 +1,40 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Des grains de sable !",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "Fabriquer une \"sand sapling\" avec une pousse de chêne et 8 \"molten gold bucket\" (voir le /help craft, catégorie \"Pousses\")",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:10169}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getsandsapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:paper",
+                        "nbt": "{CustomModelData:10169}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:get_emerald_sapling"
+}

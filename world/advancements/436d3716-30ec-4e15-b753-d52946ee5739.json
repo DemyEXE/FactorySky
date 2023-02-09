@@ -23,12 +23,6 @@
     },
     "done": true
   },
-  "factorysky:get_iron_mud": {
-    "criteria": {
-      "getironmud": "2023-01-31 21:28:55 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2023-02-01 19:36:43 +0100"
@@ -329,6 +323,12 @@
     },
     "done": true
   },
+  "factorysky:get_water_bucket": {
+    "criteria": {
+      "getwaterbucket": "2023-02-08 21:51:30 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2023-01-12 08:23:48 +0100"
@@ -362,12 +362,6 @@
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2023-01-12 08:24:27 +0100"
-    },
-    "done": true
-  },
-  "factorysky:get_iron_sapling": {
-    "criteria": {
-      "getironsapling": "2023-01-25 16:02:03 +0100"
     },
     "done": true
   },
@@ -463,7 +457,7 @@
   },
   "factorysky:get_cobblestone": {
     "criteria": {
-      "getcobblestone": "2023-01-25 16:00:08 +0100"
+      "getcobblestone": "2023-02-08 21:51:30 +0100"
     },
     "done": true
   },
@@ -593,12 +587,6 @@
     },
     "done": true
   },
-  "factorysky:get_dirt_acorn": {
-    "criteria": {
-      "getdirtacorn": "2023-01-25 16:00:08 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/furnace": {
     "criteria": {
       "has_cobblestone": "2023-01-13 23:26:07 +0100"
@@ -619,7 +607,7 @@
   },
   "factorysky:get_iron_ingot": {
     "criteria": {
-      "getironingot": "2023-01-25 16:00:08 +0100"
+      "getironingot": "2023-02-08 21:51:30 +0100"
     },
     "done": true
   },
@@ -686,12 +674,6 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-01-13 23:26:07 +0100"
-    },
-    "done": true
-  },
-  "factorysky:get_dirt_sapling": {
-    "criteria": {
-      "getdirtsapling": "2023-01-25 16:02:10 +0100"
     },
     "done": true
   },
@@ -1022,7 +1004,7 @@
   },
   "factorysky:root": {
     "criteria": {
-      "base": "2023-01-25 15:48:14 +0100"
+      "base": "2023-02-08 21:51:23 +0100"
     },
     "done": true
   },
@@ -1058,7 +1040,7 @@
   },
   "factorysky:get_hardened_cobblestone": {
     "criteria": {
-      "gethardenedcobblestone": "2023-02-01 19:41:37 +0100"
+      "gethardenedcobblestone": "2023-02-08 22:40:10 +0100"
     },
     "done": true
   },
@@ -1098,12 +1080,6 @@
     },
     "done": true
   },
-  "factorysky:get_iron_acorn": {
-    "criteria": {
-      "getironacorn": "2023-01-31 21:30:31 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2023-01-21 23:35:21 +0100"
@@ -1118,13 +1094,13 @@
   },
   "factorysky:get_oak_sapling": {
     "criteria": {
-      "getoaksapling": "2023-01-25 16:00:08 +0100"
+      "getoaksapling": "2023-02-08 21:51:30 +0100"
     },
     "done": true
   },
   "factorysky:get_stone_mud": {
     "criteria": {
-      "getstonemud": "2023-02-01 19:41:37 +0100"
+      "getstonemud": "2023-02-08 22:40:10 +0100"
     },
     "done": true
   },
@@ -1272,21 +1248,9 @@
     },
     "done": true
   },
-  "factorysky:get_dirt_mud": {
-    "criteria": {
-      "getdirtmud": "2023-01-25 16:04:40 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2023-01-28 15:30:40 +0100"
-    },
-    "done": true
-  },
-  "factorysky:get_stone_acorn": {
-    "criteria": {
-      "getstoneacorn": "2023-02-04 12:08:22 +0100"
     },
     "done": true
   },
@@ -1317,6 +1281,12 @@
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2023-01-15 20:34:06 +0100"
+    },
+    "done": true
+  },
+  "factorysky:get_bucket": {
+    "criteria": {
+      "getbucket": "2023-02-08 21:51:30 +0100"
     },
     "done": true
   },
@@ -1368,12 +1338,6 @@
     },
     "done": true
   },
-  "factorysky:get_dirt_resin": {
-    "criteria": {
-      "getdirtresin": "2023-02-04 11:11:09 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2023-01-21 23:35:21 +0100"
@@ -1410,15 +1374,9 @@
     },
     "done": true
   },
-  "factorysky:get_stone_resin": {
+  "factorysky:get_machine_tree_dirt": {
     "criteria": {
-      "getstoneresin": "2023-02-04 12:08:20 +0100"
-    },
-    "done": true
-  },
-  "factorysky:get_iron_resin": {
-    "criteria": {
-      "getironresin": "2023-01-28 16:27:54 +0100"
+      "getdirtmachinetree": "2023-02-08 22:40:10 +0100"
     },
     "done": true
   },
@@ -1496,7 +1454,7 @@
   },
   "factorysky:get_dirt": {
     "criteria": {
-      "getdirt": "2023-01-25 16:00:08 +0100"
+      "getdirt": "2023-02-08 21:51:30 +0100"
     },
     "done": true
   },
@@ -1509,6 +1467,12 @@
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2023-01-14 00:26:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2023-02-08 22:04:26 +0100"
     },
     "done": true
   },
@@ -1656,12 +1620,6 @@
     },
     "done": true
   },
-  "factorysky:get_stone_sapling": {
-    "criteria": {
-      "getstonesapling": "2023-01-25 16:02:14 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2023-02-01 20:17:33 +0100"
@@ -1722,6 +1680,12 @@
     },
     "done": true
   },
+  "factorysky:get_lapis_lazuli": {
+    "criteria": {
+      "getlapislazuli": "2023-02-08 21:51:30 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_banner": {
     "criteria": {
       "has_blue_wool": "2023-01-12 04:23:30 +0100"
@@ -1743,6 +1707,12 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2023-01-12 19:10:11 +0100"
+    },
+    "done": true
+  },
+  "factorysky:get_lava_bucket": {
+    "criteria": {
+      "getlavabucket": "2023-02-08 21:51:30 +0100"
     },
     "done": true
   },

@@ -1,0 +1,96 @@
+# Material names can be found here:
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# CaSe SeNsItIvE
+disabled_items:
+- PAPER:{CustomModelData:10000}
+- PAPER:{CustomModelData:10001}
+- PAPER:{CustomModelData:10002}
+- PAPER:{CustomModelData:10003}
+- PAPER:{CustomModelData:10004}
+- PAPER:{CustomModelData:10005}
+- PAPER:{CustomModelData:10006}
+- PAPER:{CustomModelData:10010}
+- PAPER:{CustomModelData:10011}
+- PAPER:{CustomModelData:10012}
+- PAPER:{CustomModelData:10013}
+- PAPER:{CustomModelData:10014}
+- PAPER:{CustomModelData:10015}
+- PAPER:{CustomModelData:10016}
+- PAPER:{CustomModelData:10017}
+- PAPER:{CustomModelData:10018}
+- PAPER:{CustomModelData:10019}
+- PAPER:{CustomModelData:10020}
+- PAPER:{CustomModelData:10021}
+- PAPER:{CustomModelData:10022}
+- PAPER:{CustomModelData:10023}
+- PAPER:{CustomModelData:10024}
+- PAPER:{CustomModelData:10025}
+- PAPER:{CustomModelData:10026}
+- PAPER:{CustomModelData:10027}
+- PAPER:{CustomModelData:10028}
+- PAPER:{CustomModelData:10029}
+- PAPER:{CustomModelData:10030}
+- PAPER:{CustomModelData:10031}
+- PAPER:{CustomModelData:10032}
+- PAPER:{CustomModelData:10033}
+- PAPER:{CustomModelData:10034}
+- PAPER:{CustomModelData:10035}
+- PAPER:{CustomModelData:10036}
+- PAPER:{CustomModelData:10037}
+- PAPER:{CustomModelData:10038}
+- PAPER:{CustomModelData:10039}
+- PAPER:{CustomModelData:10040}
+- PAPER:{CustomModelData:10041}
+- PAPER:{CustomModelData:10042}
+- PAPER:{CustomModelData:10043}
+- PAPER:{CustomModelData:10044}
+- PAPER:{CustomModelData:10045}
+- PAPER:{CustomModelData:10046}
+- PAPER:{CustomModelData:10047}
+- PAPER:{CustomModelData:10048}
+- PAPER:{CustomModelData:10049}
+- PAPER:{CustomModelData:10050}
+- PAPER:{CustomModelData:10051}
+- PAPER:{CustomModelData:10052}
+- PAPER:{CustomModelData:10053}
+- PAPER:{CustomModelData:10054}
+- PAPER:{CustomModelData:10055}
+- PAPER:{CustomModelData:10056}
+- PAPER:{CustomModelData:10057}
+- PAPER:{CustomModelData:10058}
+- PAPER:{CustomModelData:10166}
+- PAPER:{CustomModelData:10167}
+- PAPER:{CustomModelData:10168}
+- PAPER:{CustomModelData:10169}
+- PAPER:{CustomModelData:10170}
+- PAPER:{CustomModelData:10171}
+- PAPER:{CustomModelData:10172}
+- PAPER:{CustomModelData:10173}
+- PAPER:{CustomModelData:10174}
+- PAPER:{CustomModelData:10175}
+- PAPER:{CustomModelData:10176}
+- PAPER:{CustomModelData:10177}
+- PAPER:{CustomModelData:10178}
+- PAPER:{CustomModelData:10179}
+- PAPER:{CustomModelData:10180}
+- PAPER:{CustomModelData:10181}
+- PAPER:{CustomModelData:10182}
+- PAPER:{CustomModelData:10183}
+- PAPER:{CustomModelData:10184}
+- PAPER:{CustomModelData:10185}
+- PAPER:{CustomModelData:10186}
+- PAPER:{CustomModelData:10187}
+- PAPER:{CustomModelData:10188}
+- PAPER:{CustomModelData:10189}
+# Enable blacklist mode (false = whitelist)
+blacklist: true
+# Send a message when a player attempts to craft a blocked item
+enable_alert: true
+# Whether or not you want the plugin to
+# Tell you on login when there is an update available
+check_for_updates: true
+# Whether or not you want the plugin to send bStats info.
+# Please consider leaving this true!
+enable_metrics: true
+# Do not change
+config_version: 7

@@ -256,7 +256,7 @@ Comment le réaliser -> Récupérer un "dirt sapling".
 
 4)
 Titre -> De la vraie bouse.
-Lore -> Assemble 4 "dirt acorn" et 5 "dirt resin" (voir page X du /factorysky craft) !
+Lore -> Assemble 4 "dirt acorn" et 5 "dirt resin" (voir le /help craft, catégorie "") !
 Comment le réaliser -> Récupérer un "dirt mud".
 
 5)
@@ -266,12 +266,12 @@ Comment le réaliser -> Récupérer un bloc de terre.
 
 6)
 Titre -> Un arbre basique.
-Lore -> Cette pousse sera la base de toutes ! Assemble un "dirt sapling" avec 8 bûches de chêne (voir page X du /factorysky craft).
+Lore -> Cette pousse sera la base de toutes ! Assemble un "dirt sapling" avec 8 bûches de chêne (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer une pousse de chêne.
 
 7)
 Titre -> L'ère de la pierre ?!
-Lore -> Craft un "stone sapling" avec une pousse de chêne et 8 "mud dirt" (voir page X du /factorysky craft).
+Lore -> Craft un "stone sapling" avec une pousse de chêne et 8 "mud dirt" (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "stone sapling"
 
 8)
@@ -296,7 +296,7 @@ Comment le réaliser -> Récupérer un "hardened cobblestone".
 
 12)
 Titre -> Faire un Arbre en fer !
-Lore -> Craft un "iron sapling" avec une pousse de chêne, 4 blocs de terre et 4 "hardened cobblestone" (voir page X du /factorysky craft).
+Lore -> Craft un "iron sapling" avec une pousse de chêne, 4 blocs de terre et 4 "hardened cobblestone" (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "iron sapling".
 
 13)
@@ -311,7 +311,7 @@ Comment le réaliser -> Récupérer un "iron resin".
 
 15)
 Titre -> Faire du fer ! (3/4)
-Lore -> Assemble 4 "iron acorn" et "5 iron resin" (voir page X du /factorysky craft) !
+Lore -> Assemble 4 "iron acorn" et "5 iron resin" (voir le /help craft, catégorie "") !
 Comment le réaliser -> Récupérer un "iron mud".
 
 16)
@@ -321,17 +321,17 @@ Comment le réaliser -> Récupérer un "iron ingot".
 
 17)
 Titre -> L'Arbre en lapis-lazuli !
-Lore -> Craft un "lapis sapling" avec une pousse de chêne, 4 blocs de fer et 4 "hardened cobblestone" (voir page X du /factorysky craft).
+Lore -> Craft un "lapis sapling" avec une pousse de chêne, 4 blocs de fer et 4 "hardened cobblestone" (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "lapis sapling".
 
 18)
 Titre -> Ce n'est pas censé être qu'un colorant ça...?
-Lore -> Assemble 4 "lapis acorn" et 5 "lapis resin", et fais cuir le "lapis mud" que tu obtiens (voir page X du /factorysky craft) !
+Lore -> Assemble 4 "lapis acorn" et 5 "lapis resin", et fais cuir le "lapis mud" que tu obtiens (voir le /help craft, catégorie "") !
 Comment le réaliser -> Récupérer un "lapis-lazuli".
 
 19)
 Titre -> Un Arbre en os, c'est pas un peu dégoûtant ?
-Lore -> Craft un "bone sapling" avec une pousse de chêne, 4 cobblestone, 2 lingots de fer et 2 lapis-lazuli (voir page X du /factorysky craft).
+Lore -> Craft un "bone sapling" avec une pousse de chêne, 4 cobblestone, 2 lingots de fer et 2 lapis-lazuli (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "bone sapling".
 
 20)
@@ -341,12 +341,12 @@ Comment le réaliser -> Récupérer un "iron bucket".
 
 21)
 Titre -> Un générateur à cobblestone. (2/4)
-Lore -> Créer un seau d'eau en combinant un seau et un "dirt mud" puis en le faisant cuir (voir page X du /factorysky craft).
+Lore -> Créer un seau d'eau en combinant un seau et un "dirt mud" puis en le faisant cuir (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "water bucket".
 
 22)
 Titre -> Un générateur à cobblestone. (3/4)
-Lore -> Récupère de la teinture rouge et fais un seau de boue rouge (voir page X du /factorysky craft).
+Lore -> Récupère de la teinture rouge et fais un seau de boue rouge (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "red mud bucket".
 
 23)
@@ -356,45 +356,45 @@ Comment le réaliser -> Récupérer un "lava bucket".
 
 24)
 Titre -> L'Arbre électrique !
-Lore -> Craft un "redstone sapling" avec une pousse de chêne, 4 "hardened stone" et 4 blocs de fer (voir page X du /factorysky craft). 
+Lore -> Craft un "redstone sapling" avec une pousse de chêne, 4 "hardened stone" et 4 blocs de fer (voir le /help craft, catégorie ""). 
 Comment le réaliser -> Récupérer un "redstone sapling".
 
 25)
 Titre -> De... l'OR !
-Lore -> Craft un "gold sapling" avec un "iron sapling", 4 blocs de lapis et 4 blocs de redstone (voir page X du /factorysky craft).
+Lore -> Craft un "gold sapling" avec un "iron sapling", 4 blocs de lapis et 4 blocs de redstone (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "gold sapling".
 
 26)
 Titre -> Automatisation...! (1/5)
-Lore -> Créer un "machine core" avec 1 bloc de fer, 2 lingots d'or, 2 "liquid redstone bucket" et 4 cobblestone (voir page X du /factorysky craft).
+Lore -> Créer un "machine core" avec 1 bloc de fer, 2 lingots d'or, 2 "liquid redstone bucket" et 4 cobblestone (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "machine core".
 
 27)
 Titre -> Automatisation...! (2/5)
-Lore -> Créer un "redstone bucket" avec un seau et de la redstone (voir page X du /factorysky craft).
+Lore -> Créer un "redstone bucket" avec un seau et de la redstone (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "redstone bucket".
 
 28)
 Titre -> Automatisation...! (3/5)
-Lore -> Créer un "liquid redstone bucket" en faisant cuir ton "redstone bucket" (voir page X du /factorysky craft).
+Lore -> Créer un "liquid redstone bucket" en faisant cuir ton "redstone bucket" (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "liquide redstone bucket".
 
 29)
 Titre -> Automatisation...! (4/5)
-Lore -> Créer un "machine tree" à l'aide d’un “machine core”, 4 lingots de fer, 2 redstone et 2 lingots d’or (voir page X du /factorysky craft).
+Lore -> Créer un "machine tree" à l'aide d’un “machine core”, 4 lingots de fer, 2 redstone et 2 lingots d’or (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "machine tree".
 
 30)
 Titre -> Automatisation...! (5/5)
-Lore -> Créer un "machine tree dirt" en assemblant un "machine tree" avec un bloc de terre. (voir page X du /factorysky craft). 
+Lore -> Créer un "machine tree dirt" en assemblant un "machine tree" avec un bloc de terre. (voir le /help craft, catégorie ""). 
 Comment le réaliser -> Récupérer un "machine tree dirt".
 
 31)
 Titre -> Arbre en Diamant !
-Lore -> Craft un "diamond sapling" avec un "gold sapling", un "liquid lapis bucket", un "liquide redstone bucket" et un "liquid iron bucket" (voir page X du /factorysky craft).
+Lore -> Craft un "diamond sapling" avec un "gold sapling", un "liquid lapis bucket", un "liquide redstone bucket" et un "liquid iron bucket" (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "diamond sapling".
 
 32)
 Titre -> Arbre en Emeraude !
-Lore -> Craft un "emerald sapling" avec un "diamond sapling", un bloc d'or, un bloc de fer, un bloc de lapis et un bloc de redstone (voir page X du /factorysky craft).
+Lore -> Craft un "emerald sapling" avec un "diamond sapling", un bloc d'or, un bloc de fer, un bloc de lapis et un bloc de redstone (voir le /help craft, catégorie "").
 Comment le réaliser -> Récupérer un "emerald sapling". 

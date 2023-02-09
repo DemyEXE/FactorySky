@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Automatisation...! (1/5)",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "Créer un \"redstone bucket\" avec un seau et de la redstone (voir le /help craft, catégorie \"Seaux\").",
+            "color": "green",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:bucket",
+            "nbt": "{CustomModelData:10004}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "getredstonebucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:bucket",
+                        "nbt": "{CustomModelData:10004}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "factorysky:root"
+}
